@@ -1,0 +1,226 @@
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  --font-size: 16px;
+  /* The default background color for the application. */
+  --background: #1c1c1f;
+  /* The default color for elements or text that appears on top of the background. */
+  --foreground: #ffffff;
+  /* The background color for cards, modals, and other containers. */
+  --card: #31313c;
+  /* The default color for text or elements that appear on top of cards, modals and other background containers. */
+  --card-foreground: #ffffff;
+  /* The background color for dropdowns and tooltips. */
+  --popover: #31313c;
+  /* The default color for text or elements that appear on top of dropdowns and tooltips. */
+  --popover-foreground: #ffffff;
+  /* The primary color used for buttons, links, and other interactive elements. */
+  --primary: #907659;
+  /* The default color for text or elements that appear on top of primary colored elements. */
+  --primary-foreground: #ffffff;
+  /* The secondary color used for secondary(but NOT-DESTRUCTIVE) buttons and interactive elements. */
+  --secondary: #282830;
+  /* The default color for text or elements that appear on top of secondary colored elements. */
+  --secondary-foreground: #ffffff;
+  /* The muted color used for less prominent elements, such as disabled buttons or disabled text. */
+  --muted: #424254;
+  /* The default color for text or elements that appear on top of muted colored elements. */
+  --muted-foreground: #7b7a8e;
+  /* The accent color used for highlights, links, and other interactive elements. */
+  --accent: #907659;
+  /* The default color for text or elements that appear on top of accent colored elements. */
+  --accent-foreground: #ffffff;
+  /* The color used for background in destructive actions, such as delete buttons or error messages. */
+  --destructive: #e84057;
+  /* The default color for text or elements that appear on top of destructive colored elements. */
+  --destructive-foreground: #ffffff;
+  /* The default border color for elements such as inputs, buttons, and other containers. */
+  --border: #424254;
+  /* The default background color for input fields once the text has been filled. Should be either transparent or match the input-background. */
+  --input: #424254;
+  /* The default background color for input fields, text areas, and other input elements. */
+  --input-background: #1c1c1f;
+  /* The default font weight for medium text. */
+  --font-weight-medium: 500;
+  /* The default font weight for normal text. */
+  --font-weight-normal: 400;
+  /* The default font weight for bold text. */
+  --font-weight-bold: 700;
+  /* The color for focus rings, outlines, and other focus indicators. */
+  --ring: #907659;
+  /* Shadow for small elevations, such as cards or modals. */
+  --elevation-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  /* The color for chart elements, such as a bar or line in a chart. */
+  --chart-1: rgba(83, 131, 232, 1);
+  /* The color for another chart element, such as a bar or line in a chart. */
+  --chart-2: rgba(129, 172, 255, 1);
+  /* The color for another chart element, such as a bar or line in a chart. */
+  --chart-3: rgba(65, 113, 214, 1);
+  /* The color for another chart element, such as a bar or line in a chart. */
+  --chart-4: rgba(213, 227, 255, 1);
+  /* The color for another chart element, such as a bar or line in a chart. */
+  --chart-5: rgba(179, 205, 255, 1);
+  /* The default border radius for elements such as buttons, tooltip, and other containers. */
+  --radius: 4px;
+  /* The background color for sidebars, navigation menus, and other persistent elements. */
+  --sidebar: #282830;
+  /* The default color for text or elements that appear on top of sidebars, navigation menus, and other persistent elements. */
+  --sidebar-foreground: #ffffff;
+  /* The primary color used for buttons, links, and other interactive elements in sidebars and navigation menus. */
+  --sidebar-primary: #907659;
+  /* The default color for text or elements that appear on top of primary colored elements in sidebars and navigation menus. */
+  --sidebar-primary-foreground: #ffffff;
+  /* The accent color used for highlights, links, and other interactive elements in sidebars and navigation menus. */
+  --sidebar-accent: #907659;
+  /* The default color for text or elements that appear on top of accent colored elements in sidebars and navigation menus. */
+  --sidebar-accent-foreground: #ffffff;
+  /* The default border color for elements in sidebars and navigation menus. */
+  --sidebar-border: #424254;
+  /* The default color for focus rings, outlines, and other focus indicators in sidebars and navigation menus. */
+  --sidebar-ring: #907659;
+
+  /* OP.GG specific colors */
+  --text-secondary: #9e9eb1;
+  --text-muted-opgg: #7b7a8e;
+  --cost-1: #9aa4af;
+  --cost-2: #00ae0a;
+  --cost-3: #0093ff;
+  --cost-4: #e537a2;
+  --cost-5: #eb9c00;
+  --bar-bg: #424254;
+  --bar-fill: #907659;
+  
+  /* Typography variables */
+  --text-h1: 24px;
+  --text-h2: 20px;
+  --text-h3: 15px;
+  --text-h4: 14px;
+  --text-base: 14px;
+  --text-caption: 11px;
+  --font-family-roboto: 'Roboto', sans-serif;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-input-background: var(--input-background);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --radius-sm: calc(var(--radius) - 2px);
+  --radius-md: var(--radius);
+  --radius-lg: calc(var(--radius) + 2px);
+  --radius-xl: calc(var(--radius) + 4px);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: var(--font-family-roboto);
+  }
+}
+
+/**
+ * Base typography. This is not applied to elements which have an ancestor with a Tailwind text class.
+ */
+@layer base {
+  :where(:not(:has([class*=" text-"]), :not(:has([class^="text-"])))) {
+    h1 {
+      font-family: var(--font-family-roboto);
+      font-size: var(--text-h1);
+      font-weight: var(--font-weight-bold);
+      line-height: 1.5;
+    }
+
+    h2 {
+      font-family: var(--font-family-roboto);
+      font-size: var(--text-h2);
+      font-weight: var(--font-weight-bold);
+      line-height: 1.5;
+    }
+
+    h3 {
+      font-family: var(--font-family-roboto);
+      font-size: var(--text-h3);
+      font-weight: var(--font-weight-bold);
+      line-height: 1.5;
+    }
+
+    h4 {
+      font-family: var(--font-family-roboto);
+      font-size: var(--text-h4);
+      font-weight: var(--font-weight-bold);
+      line-height: 1.5;
+    }
+
+    p {
+      font-family: var(--font-family-roboto);
+      font-size: var(--text-base);
+      font-weight: var(--font-weight-normal);
+      line-height: 1.5;
+    }
+
+    label {
+      font-family: var(--font-family-roboto);
+      font-size: var(--text-caption);
+      font-weight: var(--font-weight-normal);
+      line-height: 1.5;
+    }
+
+    button {
+      font-family: var(--font-family-roboto);
+      font-size: var(--text-base);
+      font-weight: var(--font-weight-normal);
+      line-height: 1.5;
+    }
+
+    input {
+      font-family: var(--font-family-roboto);
+      font-size: var(--text-base);
+      font-weight: var(--font-weight-normal);
+      line-height: 1.5;
+    }
+
+    .caption {
+      font-family: var(--font-family-roboto);
+      font-size: var(--text-caption);
+      font-weight: var(--font-weight-bold);
+      line-height: 1.5;
+    }
+  }
+}
+
+html {
+  font-size: var(--font-size);
+}

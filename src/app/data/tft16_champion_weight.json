@@ -1,0 +1,3309 @@
+[
+  {
+    "id": "caitlyn",
+    "apiName": "TFT16_Caitlyn",
+    "name": "케이틀린",
+    "cost": 1,
+    "role": "AD 딜러",
+    "detailRole": "ADCaster",
+    "isHybridRole": false,
+    "traits": [
+      "필트오버",
+      "원거리 사격"
+    ],
+    "imageUrl": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_caitlyn/hud/tft16_caitlyn_square.tft_set16.png",
+    "stats": {
+      "hp": 500,
+      "armor": 15,
+      "magicResist": 15,
+      "damage": 45,
+      "attackSpeed": 0.75,
+      "range": 6,
+      "mana": 80,
+      "initialMana": 0,
+      "classPower": 100
+    },
+    "metrics": {
+      "ehpAvg": 575,
+      "autoDps": 37.12,
+      "tankPct": 40,
+      "dpsPct": 100,
+      "classPowerPct": 100,
+      "classPowerTier": "최상"
+    }
+  },
+  {
+    "id": "briar",
+    "apiName": "TFT16_Briar",
+    "name": "브라이어",
+    "cost": 1,
+    "role": "AD 딜러",
+    "detailRole": "ADReaper",
+    "isHybridRole": false,
+    "traits": [
+      "녹서스",
+      "학살자",
+      "전쟁기계"
+    ],
+    "imageUrl": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_briar/hud/tft16_briar_square.tft_set16.png",
+    "stats": {
+      "hp": 650,
+      "armor": 35,
+      "magicResist": 35,
+      "damage": 42,
+      "attackSpeed": 0.75,
+      "range": 1,
+      "mana": 40,
+      "initialMana": 0,
+      "classPower": 70
+    },
+    "metrics": {
+      "ehpAvg": 877.5,
+      "autoDps": 34.65,
+      "tankPct": 80,
+      "dpsPct": 70,
+      "classPowerPct": 70,
+      "classPowerTier": "상"
+    }
+  },
+  {
+    "id": "qiyana",
+    "apiName": "TFT16_Qiyana",
+    "name": "키아나",
+    "cost": 1,
+    "role": "AD 딜러",
+    "detailRole": "ADFighter",
+    "isHybridRole": false,
+    "traits": [
+      "이쉬탈",
+      "학살자"
+    ],
+    "imageUrl": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_qiyana/hud/tft16_qiyana_square.tft_set16.png",
+    "stats": {
+      "hp": 650,
+      "armor": 35,
+      "magicResist": 35,
+      "damage": 42,
+      "attackSpeed": 0.75,
+      "range": 1,
+      "mana": 30,
+      "initialMana": 0,
+      "classPower": 70
+    },
+    "metrics": {
+      "ehpAvg": 877.5,
+      "autoDps": 34.65,
+      "tankPct": 80,
+      "dpsPct": 70,
+      "classPowerPct": 70,
+      "classPowerTier": "상"
+    }
+  },
+  {
+    "id": "jhin",
+    "apiName": "TFT16_Jhin",
+    "name": "진",
+    "cost": 1,
+    "role": "AD 딜러",
+    "detailRole": "ADCarry",
+    "isHybridRole": false,
+    "traits": [
+      "아이오니아",
+      "총잡이"
+    ],
+    "imageUrl": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_jhin/hud/tft16_jhin_square.tft_set16.png",
+    "stats": {
+      "hp": 444,
+      "armor": 24,
+      "magicResist": 24,
+      "damage": 44,
+      "attackSpeed": 0.7,
+      "range": 4,
+      "mana": 70,
+      "initialMana": 0,
+      "classPower": 40
+    },
+    "metrics": {
+      "ehpAvg": 550.56,
+      "autoDps": 33.88,
+      "tankPct": 20,
+      "dpsPct": 40,
+      "classPowerPct": 40,
+      "classPowerTier": "동"
+    }
+  },
+  {
+    "id": "viego",
+    "apiName": "TFT16_Viego",
+    "name": "비에고",
+    "cost": 1,
+    "role": "AD 딜러",
+    "detailRole": "HFighter",
+    "isHybridRole": true,
+    "traits": [
+      "그림자 군도",
+      "기동타격대"
+    ],
+    "imageUrl": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_viego/hud/tft16_viego_square.tft_set16.png",
+    "stats": {
+      "hp": 650,
+      "armor": 35,
+      "magicResist": 35,
+      "damage": 40,
+      "attackSpeed": 0.75,
+      "range": 1,
+      "mana": 30,
+      "initialMana": 0,
+      "classPower": 20
+    },
+    "metrics": {
+      "ehpAvg": 877.5,
+      "autoDps": 33,
+      "tankPct": 80,
+      "dpsPct": 20,
+      "classPowerPct": 20,
+      "classPowerTier": "하"
+    }
+  },
+  {
+    "id": "anivia",
+    "apiName": "TFT16_Anivia",
+    "name": "애니비아",
+    "cost": 1,
+    "role": "AP 딜러",
+    "detailRole": "APCaster",
+    "isHybridRole": false,
+    "traits": [
+      "프렐요드",
+      "기원자"
+    ],
+    "imageUrl": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_anivia/hud/tft16_anivia_square.tft_set16.png",
+    "stats": {
+      "hp": 500,
+      "armor": 20,
+      "magicResist": 20,
+      "damage": 30,
+      "attackSpeed": 0.75,
+      "range": 4,
+      "mana": 40,
+      "initialMana": 0,
+      "classPower": 100
+    },
+    "metrics": {
+      "ehpAvg": 600,
+      "autoDps": 24.75,
+      "tankPct": 100,
+      "dpsPct": 100,
+      "classPowerPct": 100,
+      "classPowerTier": "최상"
+    }
+  },
+  {
+    "id": "lulu",
+    "apiName": "TFT16_Lulu",
+    "name": "룰루",
+    "cost": 1,
+    "role": "AP 딜러",
+    "detailRole": "APCaster",
+    "isHybridRole": false,
+    "traits": [
+      "요들",
+      "비전 마법사"
+    ],
+    "imageUrl": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_lulu/hud/tft16_lulu_square.tft_set16.png",
+    "stats": {
+      "hp": 500,
+      "armor": 15,
+      "magicResist": 15,
+      "damage": 25,
+      "attackSpeed": 0.7,
+      "range": 4,
+      "mana": 70,
+      "initialMana": 20,
+      "classPower": 75
+    },
+    "metrics": {
+      "ehpAvg": 575,
+      "autoDps": 19.25,
+      "tankPct": 50,
+      "dpsPct": 75,
+      "classPowerPct": 75,
+      "classPowerTier": "상"
+    }
+  },
+  {
+    "id": "sona",
+    "apiName": "TFT16_Sona",
+    "name": "소나",
+    "cost": 1,
+    "role": "AP 딜러",
+    "detailRole": "APCaster",
+    "isHybridRole": false,
+    "traits": [
+      "데마시아",
+      "기원자"
+    ],
+    "imageUrl": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_sona/hud/tft16_sona_square.tft_set16.png",
+    "stats": {
+      "hp": 500,
+      "armor": 15,
+      "magicResist": 15,
+      "damage": 20,
+      "attackSpeed": 0.7,
+      "range": 4,
+      "mana": 30,
+      "initialMana": 0,
+      "classPower": 37.5
+    },
+    "metrics": {
+      "ehpAvg": 575,
+      "autoDps": 15.4,
+      "tankPct": 50,
+      "dpsPct": 37.5,
+      "classPowerPct": 37.5,
+      "classPowerTier": "하"
+    }
+  },
+  {
+    "id": "kogmaw",
+    "apiName": "TFT16_KogMaw",
+    "name": "코그모",
+    "cost": 1,
+    "role": "AP 딜러",
+    "detailRole": "APCaster",
+    "isHybridRole": false,
+    "traits": [
+      "공허",
+      "비전 마법사",
+      "원거리 사격"
+    ],
+    "imageUrl": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_kogmaw/hud/tft16_kogmaw_square.tft_set16.png",
+    "stats": {
+      "hp": 500,
+      "armor": 15,
+      "magicResist": 15,
+      "damage": 20,
+      "attackSpeed": 0.7,
+      "range": 6,
+      "mana": 30,
+      "initialMana": 0,
+      "classPower": 37.5
+    },
+    "metrics": {
+      "ehpAvg": 575,
+      "autoDps": 15.4,
+      "tankPct": 50,
+      "dpsPct": 37.5,
+      "classPowerPct": 37.5,
+      "classPowerTier": "하"
+    }
+  },
+  {
+    "id": "rumble",
+    "apiName": "TFT16_Rumble",
+    "name": "럼블",
+    "cost": 1,
+    "role": "Tank",
+    "detailRole": "APTank",
+    "isHybridRole": false,
+    "traits": [
+      "요들",
+      "엄호대"
+    ],
+    "imageUrl": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_rumble/hud/tft16_rumble_square.tft_set16.png",
+    "stats": {
+      "hp": 700,
+      "armor": 40,
+      "magicResist": 40,
+      "damage": 45,
+      "attackSpeed": 0.6,
+      "range": 1,
+      "mana": 110,
+      "initialMana": 40,
+      "classPower": 60
+    },
+    "metrics": {
+      "ehpAvg": 980,
+      "autoDps": 29.7,
+      "tankPct": 60,
+      "dpsPct": 20,
+      "classPowerPct": 60,
+      "classPowerTier": "상"
+    }
+  },
+  {
+    "id": "illaoi",
+    "apiName": "TFT16_Illaoi",
+    "name": "일라오이",
+    "cost": 1,
+    "role": "Tank",
+    "detailRole": "ADTank",
+    "isHybridRole": false,
+    "traits": [
+      "빌지워터",
+      "난동꾼"
+    ],
+    "imageUrl": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_illaoi/hud/tft16_illaoi_square.tft_set16.png",
+    "stats": {
+      "hp": 700,
+      "armor": 40,
+      "magicResist": 40,
+      "damage": 50,
+      "attackSpeed": 0.6,
+      "range": 1,
+      "mana": 100,
+      "initialMana": 40,
+      "classPower": 60
+    },
+    "metrics": {
+      "ehpAvg": 980,
+      "autoDps": 33,
+      "tankPct": 60,
+      "dpsPct": 60,
+      "classPowerPct": 60,
+      "classPowerTier": "상"
+    }
+  },
+  {
+    "id": "jarvaniv",
+    "apiName": "TFT16_JarvanIV",
+    "name": "자르반 4세",
+    "cost": 1,
+    "role": "Tank",
+    "detailRole": "APTank",
+    "isHybridRole": false,
+    "traits": [
+      "데마시아",
+      "엄호대"
+    ],
+    "imageUrl": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_jarvaniv/hud/tft16_jarvaniv_square.tft_set16.png",
+    "stats": {
+      "hp": 700,
+      "armor": 40,
+      "magicResist": 40,
+      "damage": 55,
+      "attackSpeed": 0.6,
+      "range": 1,
+      "mana": 100,
+      "initialMana": 30,
+      "classPower": 60
+    },
+    "metrics": {
+      "ehpAvg": 980,
+      "autoDps": 36.3,
+      "tankPct": 60,
+      "dpsPct": 80,
+      "classPowerPct": 60,
+      "classPowerTier": "상"
+    }
+  },
+  {
+    "id": "shen",
+    "apiName": "TFT16_Shen",
+    "name": "쉔",
+    "cost": 1,
+    "role": "Tank",
+    "detailRole": "APTank",
+    "isHybridRole": false,
+    "traits": [
+      "아이오니아",
+      "난동꾼"
+    ],
+    "imageUrl": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_shen/hud/tft16_shen_square.tft_set16.png",
+    "stats": {
+      "hp": 700,
+      "armor": 40,
+      "magicResist": 40,
+      "damage": 65,
+      "attackSpeed": 0.65,
+      "range": 1,
+      "mana": 90,
+      "initialMana": 30,
+      "classPower": 60
+    },
+    "metrics": {
+      "ehpAvg": 980,
+      "autoDps": 46.47,
+      "tankPct": 60,
+      "dpsPct": 100,
+      "classPowerPct": 60,
+      "classPowerTier": "상"
+    }
+  },
+  {
+    "id": "blitzcrank",
+    "apiName": "TFT16_Blitzcrank",
+    "name": "블리츠크랭크",
+    "cost": 1,
+    "role": "Tank",
+    "detailRole": "APTank",
+    "isHybridRole": false,
+    "traits": [
+      "자운",
+      "전쟁기계"
+    ],
+    "imageUrl": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_blitzcrank/hud/tft16_blitzcrank_square.tft_set16.png",
+    "stats": {
+      "hp": 700,
+      "armor": 40,
+      "magicResist": 40,
+      "damage": 50,
+      "attackSpeed": 0.55,
+      "range": 1,
+      "mana": 105,
+      "initialMana": 60,
+      "classPower": 60
+    },
+    "metrics": {
+      "ehpAvg": 980,
+      "autoDps": 30.25,
+      "tankPct": 60,
+      "dpsPct": 40,
+      "classPowerPct": 60,
+      "classPowerTier": "상"
+    }
+  },
+  {
+    "id": "vi",
+    "apiName": "TFT16_Vi",
+    "name": "바이",
+    "cost": 2,
+    "role": "AD 딜러",
+    "detailRole": "ADFighter",
+    "isHybridRole": false,
+    "traits": [
+      "필트오버",
+      "자운",
+      "엄호대"
+    ],
+    "imageUrl": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_vi/hud/tft16_vi_square.tft_set16.png",
+    "stats": {
+      "hp": 700,
+      "armor": 40,
+      "magicResist": 40,
+      "damage": 60,
+      "attackSpeed": 0.85,
+      "range": 1,
+      "mana": 30,
+      "initialMana": 0,
+      "classPower": 100
+    },
+    "metrics": {
+      "ehpAvg": 980,
+      "autoDps": 56.1,
+      "tankPct": 50,
+      "dpsPct": 100,
+      "classPowerPct": 100,
+      "classPowerTier": "최상"
+    }
+  },
+  {
+    "id": "tryndamere",
+    "apiName": "TFT16_Tryndamere",
+    "name": "트린다미어",
+    "cost": 2,
+    "role": "AD 딜러",
+    "detailRole": "ADFighter",
+    "isHybridRole": false,
+    "traits": [
+      "프렐요드",
+      "학살자"
+    ],
+    "imageUrl": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_tryndamere/hud/tft16_tryndamere_square.tft_set16.png",
+    "stats": {
+      "hp": 750,
+      "armor": 45,
+      "magicResist": 45,
+      "damage": 60,
+      "attackSpeed": 0.75,
+      "range": 1,
+      "mana": 50,
+      "initialMana": 0,
+      "classPower": 87.5
+    },
+    "metrics": {
+      "ehpAvg": 1087.5,
+      "autoDps": 49.5,
+      "tankPct": 87.5,
+      "dpsPct": 87.5,
+      "classPowerPct": 87.5,
+      "classPowerTier": "최상"
+    }
+  },
+  {
+    "id": "reksai",
+    "apiName": "TFT16_RekSai",
+    "name": "렉사이",
+    "cost": 2,
+    "role": "AD 딜러",
+    "detailRole": "ADReaper",
+    "isHybridRole": false,
+    "traits": [
+      "공허",
+      "토벌자"
+    ],
+    "imageUrl": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_reksai/hud/tft16_reksai_square.tft_set16.png",
+    "stats": {
+      "hp": 750,
+      "armor": 45,
+      "magicResist": 45,
+      "damage": 50,
+      "attackSpeed": 0.85,
+      "range": 1,
+      "mana": 30,
+      "initialMana": 0,
+      "classPower": 75
+    },
+    "metrics": {
+      "ehpAvg": 1087.5,
+      "autoDps": 46.75,
+      "tankPct": 87.5,
+      "dpsPct": 75,
+      "classPowerPct": 75,
+      "classPowerTier": "상"
+    }
+  },
+  {
+    "id": "tristana",
+    "apiName": "TFT16_Tristana",
+    "name": "트리스타나",
+    "cost": 2,
+    "role": "AD 딜러",
+    "detailRole": "ADCaster",
+    "isHybridRole": false,
+    "traits": [
+      "요들",
+      "총잡이"
+    ],
+    "imageUrl": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_tristana/hud/tft16_tristana_square.tft_set16.png",
+    "stats": {
+      "hp": 550,
+      "armor": 20,
+      "magicResist": 20,
+      "damage": 55,
+      "attackSpeed": 0.75,
+      "range": 4,
+      "mana": 50,
+      "initialMana": 0,
+      "classPower": 62.5
+    },
+    "metrics": {
+      "ehpAvg": 660,
+      "autoDps": 45.37,
+      "tankPct": 18.75,
+      "dpsPct": 62.5,
+      "classPowerPct": 62.5,
+      "classPowerTier": "상"
+    }
+  },
+  {
+    "id": "ashe",
+    "apiName": "TFT16_Ashe",
+    "name": "애쉬",
+    "cost": 2,
+    "role": "AD 딜러",
+    "detailRole": "ADCarry",
+    "isHybridRole": false,
+    "traits": [
+      "프렐요드",
+      "기동타격대"
+    ],
+    "imageUrl": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_ashe/hud/tft16_ashe_square.tft_set16.png",
+    "stats": {
+      "hp": 550,
+      "armor": 20,
+      "magicResist": 20,
+      "damage": 58,
+      "attackSpeed": 0.7,
+      "range": 4,
+      "mana": 80,
+      "initialMana": 20,
+      "classPower": 50
+    },
+    "metrics": {
+      "ehpAvg": 660,
+      "autoDps": 44.66,
+      "tankPct": 18.75,
+      "dpsPct": 50,
+      "classPowerPct": 50,
+      "classPowerTier": "동"
+    }
+  },
+  {
+    "id": "yasuo",
+    "apiName": "TFT16_Yasuo",
+    "name": "야스오",
+    "cost": 2,
+    "role": "AD 딜러",
+    "detailRole": "ADFighter",
+    "isHybridRole": false,
+    "traits": [
+      "아이오니아",
+      "학살자"
+    ],
+    "imageUrl": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_yasuo/hud/tft16_yasuo_square.tft_set16.png",
+    "stats": {
+      "hp": 750,
+      "armor": 45,
+      "magicResist": 45,
+      "damage": 45,
+      "attackSpeed": 0.8,
+      "range": 1,
+      "mana": 30,
+      "initialMana": 0,
+      "classPower": 37.5
+    },
+    "metrics": {
+      "ehpAvg": 1087.5,
+      "autoDps": 39.6,
+      "tankPct": 87.5,
+      "dpsPct": 37.5,
+      "classPowerPct": 37.5,
+      "classPowerTier": "하"
+    }
+  },
+  {
+    "id": "graves",
+    "apiName": "TFT16_Graves",
+    "name": "그레이브즈",
+    "cost": 2,
+    "role": "AD 딜러",
+    "detailRole": "ADFighter",
+    "isHybridRole": false,
+    "traits": [
+      "빌지워터",
+      "총잡이"
+    ],
+    "imageUrl": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_graves/hud/tft16_graves_square.tft_set16.png",
+    "stats": {
+      "hp": 700,
+      "armor": 45,
+      "magicResist": 45,
+      "damage": 50,
+      "attackSpeed": 0.7,
+      "range": 2,
+      "mana": 50,
+      "initialMana": 0,
+      "classPower": 25
+    },
+    "metrics": {
+      "ehpAvg": 1015,
+      "autoDps": 38.5,
+      "tankPct": 62.5,
+      "dpsPct": 25,
+      "classPowerPct": 25,
+      "classPowerTier": "하"
+    }
+  },
+  {
+    "id": "aphelios",
+    "apiName": "TFT16_Aphelios",
+    "name": "아펠리오스",
+    "cost": 2,
+    "role": "AD 딜러",
+    "detailRole": "ADCarry",
+    "isHybridRole": false,
+    "traits": [
+      "타곤"
+    ],
+    "imageUrl": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_aphelios/hud/tft16_aphelios_square.tft_set16.png",
+    "stats": {
+      "hp": 650,
+      "armor": 20,
+      "magicResist": 20,
+      "damage": 20,
+      "attackSpeed": 0.75,
+      "range": 4,
+      "mana": 40,
+      "initialMana": 0,
+      "classPower": 12.5
+    },
+    "metrics": {
+      "ehpAvg": 780,
+      "autoDps": 16.5,
+      "tankPct": 37.5,
+      "dpsPct": 12.5,
+      "classPowerPct": 12.5,
+      "classPowerTier": "최하"
+    }
+  },
+  {
+    "id": "ekko",
+    "apiName": "TFT16_Ekko",
+    "name": "에코",
+    "cost": 2,
+    "role": "AP 딜러",
+    "detailRole": "APFighter",
+    "isHybridRole": false,
+    "traits": [
+      "자운",
+      "방해꾼"
+    ],
+    "imageUrl": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_ekko/hud/tft16_ekko_square.tft_set16.png",
+    "stats": {
+      "hp": 750,
+      "armor": 45,
+      "magicResist": 45,
+      "damage": 35,
+      "attackSpeed": 0.85,
+      "range": 1,
+      "mana": 40,
+      "initialMana": 0,
+      "classPower": 100
+    },
+    "metrics": {
+      "ehpAvg": 1087.5,
+      "autoDps": 32.73,
+      "tankPct": 100,
+      "dpsPct": 100,
+      "classPowerPct": 100,
+      "classPowerTier": "최상"
+    }
+  },
+  {
+    "id": "teemo",
+    "apiName": "TFT16_Teemo",
+    "name": "티모",
+    "cost": 2,
+    "role": "AP 딜러",
+    "detailRole": "APCaster",
+    "isHybridRole": false,
+    "traits": [
+      "요들",
+      "원거리 사격"
+    ],
+    "imageUrl": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_teemo/hud/tft16_teemo_square.tft_set16.png",
+    "stats": {
+      "hp": 550,
+      "armor": 20,
+      "magicResist": 20,
+      "damage": 35,
+      "attackSpeed": 0.75,
+      "range": 6,
+      "mana": 30,
+      "initialMana": 0,
+      "classPower": 75
+    },
+    "metrics": {
+      "ehpAvg": 660,
+      "autoDps": 28.87,
+      "tankPct": 40,
+      "dpsPct": 75,
+      "classPowerPct": 75,
+      "classPowerTier": "상"
+    }
+  },
+  {
+    "id": "bard",
+    "apiName": "TFT16_Bard",
+    "name": "바드",
+    "cost": 2,
+    "role": "AP 딜러",
+    "detailRole": "APCaster",
+    "isHybridRole": false,
+    "traits": [
+      "관리인"
+    ],
+    "imageUrl": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_bard/hud/tft16_bard_square.tft_set16.png",
+    "stats": {
+      "hp": 750,
+      "armor": 20,
+      "magicResist": 20,
+      "damage": 30,
+      "attackSpeed": 0.75,
+      "range": 4,
+      "mana": 55,
+      "initialMana": 0,
+      "classPower": 50
+    },
+    "metrics": {
+      "ehpAvg": 900,
+      "autoDps": 24.75,
+      "tankPct": 80,
+      "dpsPct": 50,
+      "classPowerPct": 50,
+      "classPowerTier": "동"
+    }
+  },
+  {
+    "id": "orianna",
+    "apiName": "TFT16_Orianna",
+    "name": "오리아나",
+    "cost": 2,
+    "role": "AP 딜러",
+    "detailRole": "APCaster",
+    "isHybridRole": false,
+    "traits": [
+      "필트오버",
+      "기원자"
+    ],
+    "imageUrl": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_orianna/hud/tft16_orianna_square.tft_set16.png",
+    "stats": {
+      "hp": 550,
+      "armor": 20,
+      "magicResist": 20,
+      "damage": 30,
+      "attackSpeed": 0.7,
+      "range": 4,
+      "mana": 50,
+      "initialMana": 20,
+      "classPower": 25
+    },
+    "metrics": {
+      "ehpAvg": 660,
+      "autoDps": 23.1,
+      "tankPct": 40,
+      "dpsPct": 25,
+      "classPowerPct": 25,
+      "classPowerTier": "하"
+    }
+  },
+  {
+    "id": "twistedfate",
+    "apiName": "TFT16_TwistedFate",
+    "name": "트위스티드 페이트",
+    "cost": 2,
+    "role": "AP 딜러",
+    "detailRole": "APSpecialist",
+    "isHybridRole": false,
+    "traits": [
+      "빌지워터",
+      "기동타격대"
+    ],
+    "imageUrl": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_twistedfate/hud/tft16_twistedfate_square.tft_set16.png",
+    "stats": {
+      "hp": 550,
+      "armor": 20,
+      "magicResist": 20,
+      "damage": null,
+      "attackSpeed": 0.75,
+      "range": 4,
+      "mana": 3,
+      "initialMana": 0,
+      "classPower": null
+    },
+    "metrics": {
+      "ehpAvg": 660,
+      "autoDps": null,
+      "tankPct": 40,
+      "dpsPct": null,
+      "classPowerPct": null,
+      "classPowerTier": "N/A"
+    }
+  },
+  {
+    "id": "neeko",
+    "apiName": "TFT16_Neeko",
+    "name": "니코",
+    "cost": 2,
+    "role": "Tank",
+    "detailRole": "APTank",
+    "isHybridRole": false,
+    "traits": [
+      "이쉬탈",
+      "비전 마법사",
+      "엄호대"
+    ],
+    "imageUrl": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_neeko/hud/tft16_neeko_square.tft_set16.png",
+    "stats": {
+      "hp": 850,
+      "armor": 45,
+      "magicResist": 45,
+      "damage": 50,
+      "attackSpeed": 0.6,
+      "range": 1,
+      "mana": 65,
+      "initialMana": 15,
+      "classPower": 66.67
+    },
+    "metrics": {
+      "ehpAvg": 1232.5,
+      "autoDps": 33,
+      "tankPct": 66.67,
+      "dpsPct": 41.67,
+      "classPowerPct": 66.67,
+      "classPowerTier": "상"
+    }
+  },
+  {
+    "id": "chogath",
+    "apiName": "TFT16_ChoGath",
+    "name": "초가스",
+    "cost": 2,
+    "role": "Tank",
+    "detailRole": "APTank",
+    "isHybridRole": false,
+    "traits": [
+      "공허",
+      "전쟁기계"
+    ],
+    "imageUrl": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_chogath/hud/tft16_chogath_square.tft_set16.png",
+    "stats": {
+      "hp": 850,
+      "armor": 45,
+      "magicResist": 45,
+      "damage": 50,
+      "attackSpeed": 0.6,
+      "range": 1,
+      "mana": 100,
+      "initialMana": 40,
+      "classPower": 66.67
+    },
+    "metrics": {
+      "ehpAvg": 1232.5,
+      "autoDps": 33,
+      "tankPct": 66.67,
+      "dpsPct": 41.67,
+      "classPowerPct": 66.67,
+      "classPowerTier": "상"
+    }
+  },
+  {
+    "id": "poppy",
+    "apiName": "TFT16_Poppy",
+    "name": "뽀삐",
+    "cost": 2,
+    "role": "Tank",
+    "detailRole": "ADTank",
+    "isHybridRole": false,
+    "traits": [
+      "데마시아",
+      "요들",
+      "전쟁기계"
+    ],
+    "imageUrl": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_poppy/hud/tft16_poppy_square.tft_set16.png",
+    "stats": {
+      "hp": 850,
+      "armor": 45,
+      "magicResist": 45,
+      "damage": 50,
+      "attackSpeed": 0.7,
+      "range": 1,
+      "mana": 80,
+      "initialMana": 40,
+      "classPower": 66.67
+    },
+    "metrics": {
+      "ehpAvg": 1232.5,
+      "autoDps": 38.5,
+      "tankPct": 66.67,
+      "dpsPct": 83.33,
+      "classPowerPct": 66.67,
+      "classPowerTier": "상"
+    }
+  },
+  {
+    "id": "xinzhao",
+    "apiName": "TFT16_XinZhao",
+    "name": "신 짜오",
+    "cost": 2,
+    "role": "Tank",
+    "detailRole": "ADTank",
+    "isHybridRole": false,
+    "traits": [
+      "데마시아",
+      "아이오니아",
+      "파수꾼"
+    ],
+    "imageUrl": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_xinzhao/hud/tft16_xinzhao_square.tft_set16.png",
+    "stats": {
+      "hp": 850,
+      "armor": 45,
+      "magicResist": 45,
+      "damage": 50,
+      "attackSpeed": 0.65,
+      "range": 1,
+      "mana": 70,
+      "initialMana": 15,
+      "classPower": 66.67
+    },
+    "metrics": {
+      "ehpAvg": 1232.5,
+      "autoDps": 35.75,
+      "tankPct": 66.67,
+      "dpsPct": 66.67,
+      "classPowerPct": 66.67,
+      "classPowerTier": "상"
+    }
+  },
+  {
+    "id": "yorick",
+    "apiName": "TFT16_Yorick",
+    "name": "요릭",
+    "cost": 2,
+    "role": "Tank",
+    "detailRole": "APTank",
+    "isHybridRole": false,
+    "traits": [
+      "그림자 군도",
+      "파수꾼"
+    ],
+    "imageUrl": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_yorick/hud/tft16_yorick_square.tft_set16.png",
+    "stats": {
+      "hp": 850,
+      "armor": 45,
+      "magicResist": 45,
+      "damage": 60,
+      "attackSpeed": 0.6,
+      "range": 1,
+      "mana": 75,
+      "initialMana": 15,
+      "classPower": 66.67
+    },
+    "metrics": {
+      "ehpAvg": 1232.5,
+      "autoDps": 39.6,
+      "tankPct": 66.67,
+      "dpsPct": 100,
+      "classPowerPct": 66.67,
+      "classPowerTier": "상"
+    }
+  },
+  {
+    "id": "sion",
+    "apiName": "TFT16_Sion",
+    "name": "사이온",
+    "cost": 2,
+    "role": "Tank",
+    "detailRole": "APTank",
+    "isHybridRole": false,
+    "traits": [
+      "녹서스",
+      "난동꾼"
+    ],
+    "imageUrl": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_sion/hud/tft16_sion_square.tft_set16.png",
+    "stats": {
+      "hp": 650,
+      "armor": 40,
+      "magicResist": 40,
+      "damage": 50,
+      "attackSpeed": 0.55,
+      "range": 1,
+      "mana": 70,
+      "initialMana": 0,
+      "classPower": 16.67
+    },
+    "metrics": {
+      "ehpAvg": 910,
+      "autoDps": 30.25,
+      "tankPct": 16.67,
+      "dpsPct": 16.67,
+      "classPowerPct": 16.67,
+      "classPowerTier": "최하"
+    }
+  },
+  {
+    "id": "vayne",
+    "apiName": "TFT16_Vayne",
+    "name": "베인",
+    "cost": 3,
+    "role": "AD 딜러",
+    "detailRole": "ADCarry",
+    "isHybridRole": false,
+    "traits": [
+      "데마시아",
+      "원거리 사격"
+    ],
+    "imageUrl": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_vayne/hud/tft16_vayne_square.tft_set16.png",
+    "stats": {
+      "hp": 650,
+      "armor": 25,
+      "magicResist": 25,
+      "damage": 70,
+      "attackSpeed": 0.9,
+      "range": 6,
+      "mana": 40,
+      "initialMana": 0,
+      "classPower": 100
+    },
+    "metrics": {
+      "ehpAvg": 812.5,
+      "autoDps": 69.3,
+      "tankPct": 50,
+      "dpsPct": 100,
+      "classPowerPct": 100,
+      "classPowerTier": "최상"
+    }
+  },
+  {
+    "id": "draven",
+    "apiName": "TFT16_Draven",
+    "name": "드레이븐",
+    "cost": 3,
+    "role": "AD 딜러",
+    "detailRole": "ADCarry",
+    "isHybridRole": false,
+    "traits": [
+      "녹서스",
+      "기동타격대"
+    ],
+    "imageUrl": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_draven/hud/tft16_draven_square.tft_set16.png",
+    "stats": {
+      "hp": 650,
+      "armor": 25,
+      "magicResist": 25,
+      "damage": 58,
+      "attackSpeed": 0.75,
+      "range": 4,
+      "mana": 100,
+      "initialMana": 60,
+      "classPower": 75
+    },
+    "metrics": {
+      "ehpAvg": 812.5,
+      "autoDps": 47.85,
+      "tankPct": 50,
+      "dpsPct": 75,
+      "classPowerPct": 75,
+      "classPowerTier": "상"
+    }
+  },
+  {
+    "id": "jinx",
+    "apiName": "TFT16_Jinx",
+    "name": "징크스",
+    "cost": 3,
+    "role": "AD 딜러",
+    "detailRole": "ADSpecialist",
+    "isHybridRole": false,
+    "traits": [
+      "자운",
+      "총잡이"
+    ],
+    "imageUrl": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_jinx/hud/tft16_jinx_square.tft_set16.png",
+    "stats": {
+      "hp": 650,
+      "armor": 25,
+      "magicResist": 25,
+      "damage": 50,
+      "attackSpeed": 0.75,
+      "range": 4,
+      "mana": 18,
+      "initialMana": 0,
+      "classPower": 50
+    },
+    "metrics": {
+      "ehpAvg": 812.5,
+      "autoDps": 41.25,
+      "tankPct": 50,
+      "dpsPct": 50,
+      "classPowerPct": 50,
+      "classPowerTier": "동"
+    }
+  },
+  {
+    "id": "gangplank",
+    "apiName": "TFT16_Gangplank",
+    "name": "갱플랭크",
+    "cost": 3,
+    "role": "AD 딜러",
+    "detailRole": "ADFighter",
+    "isHybridRole": false,
+    "traits": [
+      "빌지워터",
+      "학살자",
+      "토벌자"
+    ],
+    "imageUrl": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_gangplank/hud/tft16_gangplank_square.tft_set16.png",
+    "stats": {
+      "hp": 850,
+      "armor": 55,
+      "magicResist": 55,
+      "damage": 45,
+      "attackSpeed": 0.8,
+      "range": 1,
+      "mana": 50,
+      "initialMana": 0,
+      "classPower": 25
+    },
+    "metrics": {
+      "ehpAvg": 1317.5,
+      "autoDps": 39.6,
+      "tankPct": 100,
+      "dpsPct": 25,
+      "classPowerPct": 25,
+      "classPowerTier": "하"
+    }
+  },
+  {
+    "id": "gwen",
+    "apiName": "TFT16_Gwen",
+    "name": "그웬",
+    "cost": 3,
+    "role": "AP 딜러",
+    "detailRole": "APFighter",
+    "isHybridRole": false,
+    "traits": [
+      "그림자 군도",
+      "방해꾼"
+    ],
+    "imageUrl": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_gwen/hud/tft16_gwen_square.tft_set16.png",
+    "stats": {
+      "hp": 850,
+      "armor": 55,
+      "magicResist": 55,
+      "damage": 40,
+      "attackSpeed": 0.8,
+      "range": 2,
+      "mana": 30,
+      "initialMana": 0,
+      "classPower": 100
+    },
+    "metrics": {
+      "ehpAvg": 1317.5,
+      "autoDps": 35.2,
+      "tankPct": 100,
+      "dpsPct": 100,
+      "classPowerPct": 100,
+      "classPowerTier": "최상"
+    }
+  },
+  {
+    "id": "zoe",
+    "apiName": "TFT16_Zoe",
+    "name": "조이",
+    "cost": 3,
+    "role": "AP 딜러",
+    "detailRole": "APCaster",
+    "isHybridRole": false,
+    "traits": [
+      "타곤"
+    ],
+    "imageUrl": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_zoe/hud/tft16_zoe_square.tft_set16.png",
+    "stats": {
+      "hp": 800,
+      "armor": 25,
+      "magicResist": 25,
+      "damage": 35,
+      "attackSpeed": 0.8,
+      "range": 4,
+      "mana": 60,
+      "initialMana": 30,
+      "classPower": 83.33
+    },
+    "metrics": {
+      "ehpAvg": 1000,
+      "autoDps": 30.8,
+      "tankPct": 83.33,
+      "dpsPct": 83.33,
+      "classPowerPct": 83.33,
+      "classPowerTier": "최상"
+    }
+  },
+  {
+    "id": "leblanc",
+    "apiName": "TFT16_Leblanc",
+    "name": "르블랑",
+    "cost": 3,
+    "role": "AP 딜러",
+    "detailRole": "APCaster",
+    "isHybridRole": false,
+    "traits": [
+      "녹서스",
+      "기원자"
+    ],
+    "imageUrl": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_leblanc/hud/tft16_leblanc_square.tft_set16.png",
+    "stats": {
+      "hp": 650,
+      "armor": 25,
+      "magicResist": 25,
+      "damage": 35,
+      "attackSpeed": 0.75,
+      "range": 4,
+      "mana": 60,
+      "initialMana": 0,
+      "classPower": 66.67
+    },
+    "metrics": {
+      "ehpAvg": 812.5,
+      "autoDps": 28.87,
+      "tankPct": 33.33,
+      "dpsPct": 66.67,
+      "classPowerPct": 66.67,
+      "classPowerTier": "상"
+    }
+  },
+  {
+    "id": "ahri",
+    "apiName": "TFT16_Ahri",
+    "name": "아리",
+    "cost": 3,
+    "role": "AP 딜러",
+    "detailRole": "APCaster",
+    "isHybridRole": false,
+    "traits": [
+      "아이오니아",
+      "비전 마법사"
+    ],
+    "imageUrl": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_ahri/hud/tft16_ahri_square.tft_set16.png",
+    "stats": {
+      "hp": 650,
+      "armor": 25,
+      "magicResist": 25,
+      "damage": 30,
+      "attackSpeed": 0.8,
+      "range": 4,
+      "mana": 30,
+      "initialMana": 0,
+      "classPower": 41.67
+    },
+    "metrics": {
+      "ehpAvg": 812.5,
+      "autoDps": 26.4,
+      "tankPct": 33.33,
+      "dpsPct": 41.67,
+      "classPowerPct": 41.67,
+      "classPowerTier": "동"
+    }
+  },
+  {
+    "id": "malzahar",
+    "apiName": "TFT16_Malzahar",
+    "name": "말자하",
+    "cost": 3,
+    "role": "AP 딜러",
+    "detailRole": "APCaster",
+    "isHybridRole": false,
+    "traits": [
+      "공허",
+      "방해꾼"
+    ],
+    "imageUrl": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_malzahar/hud/tft16_malzahar_square.tft_set16.png",
+    "stats": {
+      "hp": 650,
+      "armor": 25,
+      "magicResist": 25,
+      "damage": 30,
+      "attackSpeed": 0.8,
+      "range": 4,
+      "mana": 35,
+      "initialMana": 0,
+      "classPower": 41.67
+    },
+    "metrics": {
+      "ehpAvg": 812.5,
+      "autoDps": 26.4,
+      "tankPct": 33.33,
+      "dpsPct": 41.67,
+      "classPowerPct": 41.67,
+      "classPowerTier": "동"
+    }
+  },
+  {
+    "id": "milio",
+    "apiName": "TFT16_Milio",
+    "name": "밀리오",
+    "cost": 3,
+    "role": "AP 딜러",
+    "detailRole": "APCaster",
+    "isHybridRole": false,
+    "traits": [
+      "이쉬탈",
+      "기원자"
+    ],
+    "imageUrl": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_milio/hud/tft16_milio_square.tft_set16.png",
+    "stats": {
+      "hp": 650,
+      "armor": 30,
+      "magicResist": 30,
+      "damage": 30,
+      "attackSpeed": 0.75,
+      "range": 4,
+      "mana": 60,
+      "initialMana": 0,
+      "classPower": 16.67
+    },
+    "metrics": {
+      "ehpAvg": 845,
+      "autoDps": 24.75,
+      "tankPct": 66.67,
+      "dpsPct": 16.67,
+      "classPowerPct": 16.67,
+      "classPowerTier": "최하"
+    }
+  },
+  {
+    "id": "leona",
+    "apiName": "TFT16_Leona",
+    "name": "레오나",
+    "cost": 3,
+    "role": "Tank",
+    "detailRole": "APTank",
+    "isHybridRole": false,
+    "traits": [
+      "타곤"
+    ],
+    "imageUrl": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_leona/hud/tft16_leona_square.tft_set16.png",
+    "stats": {
+      "hp": 1000,
+      "armor": 60,
+      "magicResist": 60,
+      "damage": 50,
+      "attackSpeed": 0.65,
+      "range": 1,
+      "mana": 120,
+      "initialMana": 70,
+      "classPower": 100
+    },
+    "metrics": {
+      "ehpAvg": 1600,
+      "autoDps": 35.75,
+      "tankPct": 100,
+      "dpsPct": 62.5,
+      "classPowerPct": 100,
+      "classPowerTier": "최상"
+    }
+  },
+  {
+    "id": "loris",
+    "apiName": "TFT16_Loris",
+    "name": "로리스",
+    "cost": 3,
+    "role": "Tank",
+    "detailRole": "APTank",
+    "isHybridRole": false,
+    "traits": [
+      "필트오버",
+      "파수꾼"
+    ],
+    "imageUrl": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_loris/hud/tft16_loris_square.tft_set16.png",
+    "stats": {
+      "hp": 950,
+      "armor": 50,
+      "magicResist": 50,
+      "damage": 60,
+      "attackSpeed": 0.6,
+      "range": 1,
+      "mana": 140,
+      "initialMana": 70,
+      "classPower": 81.25
+    },
+    "metrics": {
+      "ehpAvg": 1425,
+      "autoDps": 39.6,
+      "tankPct": 81.25,
+      "dpsPct": 93.75,
+      "classPowerPct": 81.25,
+      "classPowerTier": "최상"
+    }
+  },
+  {
+    "id": "kobuko",
+    "apiName": "TFT16_Kobuko",
+    "name": "코부코와 유미",
+    "cost": 3,
+    "role": "Tank",
+    "detailRole": "APTank",
+    "isHybridRole": false,
+    "traits": [
+      "요들",
+      "난동꾼",
+      "기원자"
+    ],
+    "imageUrl": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_kobuko/hud/tft16_kobuko_square.tft_set16.png",
+    "stats": {
+      "hp": 950,
+      "armor": 50,
+      "magicResist": 50,
+      "damage": 20,
+      "attackSpeed": 0.65,
+      "range": 1,
+      "mana": 90,
+      "initialMana": 30,
+      "classPower": 81.25
+    },
+    "metrics": {
+      "ehpAvg": 1425,
+      "autoDps": 14.3,
+      "tankPct": 81.25,
+      "dpsPct": 12.5,
+      "classPowerPct": 81.25,
+      "classPowerTier": "최상"
+    }
+  },
+  {
+    "id": "nautilus",
+    "apiName": "TFT16_Nautilus",
+    "name": "노틸러스",
+    "cost": 3,
+    "role": "Tank",
+    "detailRole": "APTank",
+    "isHybridRole": false,
+    "traits": [
+      "빌지워터",
+      "전쟁기계",
+      "파수꾼"
+    ],
+    "imageUrl": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_nautilus/hud/tft16_nautilus_square.tft_set16.png",
+    "stats": {
+      "hp": 900,
+      "armor": 50,
+      "magicResist": 50,
+      "damage": 50,
+      "attackSpeed": 0.6,
+      "range": 1,
+      "mana": 120,
+      "initialMana": 60,
+      "classPower": 37.5
+    },
+    "metrics": {
+      "ehpAvg": 1350,
+      "autoDps": 33,
+      "tankPct": 37.5,
+      "dpsPct": 31.25,
+      "classPowerPct": 37.5,
+      "classPowerTier": "하"
+    }
+  },
+  {
+    "id": "sejuani",
+    "apiName": "TFT16_Sejuani",
+    "name": "세주아니",
+    "cost": 3,
+    "role": "Tank",
+    "detailRole": "APTank",
+    "isHybridRole": false,
+    "traits": [
+      "프렐요드",
+      "엄호대"
+    ],
+    "imageUrl": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_sejuani/hud/tft16_sejuani_square.tft_set16.png",
+    "stats": {
+      "hp": 900,
+      "armor": 50,
+      "magicResist": 50,
+      "damage": 60,
+      "attackSpeed": 0.6,
+      "range": 1,
+      "mana": 80,
+      "initialMana": 40,
+      "classPower": 37.5
+    },
+    "metrics": {
+      "ehpAvg": 1350,
+      "autoDps": 39.6,
+      "tankPct": 37.5,
+      "dpsPct": 93.75,
+      "classPowerPct": 37.5,
+      "classPowerTier": "하"
+    }
+  },
+  {
+    "id": "darius",
+    "apiName": "TFT16_Darius",
+    "name": "다리우스",
+    "cost": 3,
+    "role": "Tank",
+    "detailRole": "ADTank",
+    "isHybridRole": false,
+    "traits": [
+      "녹서스",
+      "엄호대"
+    ],
+    "imageUrl": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_darius/hud/tft16_darius_square.tft_set16.png",
+    "stats": {
+      "hp": 900,
+      "armor": 50,
+      "magicResist": 50,
+      "damage": 50,
+      "attackSpeed": 0.65,
+      "range": 1,
+      "mana": 65,
+      "initialMana": 20,
+      "classPower": 37.5
+    },
+    "metrics": {
+      "ehpAvg": 1350,
+      "autoDps": 35.75,
+      "tankPct": 37.5,
+      "dpsPct": 62.5,
+      "classPowerPct": 37.5,
+      "classPowerTier": "하"
+    }
+  },
+  {
+    "id": "kennen",
+    "apiName": "TFT16_Kennen",
+    "name": "케넨",
+    "cost": 3,
+    "role": "Tank",
+    "detailRole": "APTank",
+    "isHybridRole": false,
+    "traits": [
+      "아이오니아",
+      "요들",
+      "엄호대"
+    ],
+    "imageUrl": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_kennen/hud/tft16_kennen_square.tft_set16.png",
+    "stats": {
+      "hp": 900,
+      "armor": 50,
+      "magicResist": 50,
+      "damage": 50,
+      "attackSpeed": 0.65,
+      "range": 1,
+      "mana": 125,
+      "initialMana": 70,
+      "classPower": 37.5
+    },
+    "metrics": {
+      "ehpAvg": 1350,
+      "autoDps": 35.75,
+      "tankPct": 37.5,
+      "dpsPct": 62.5,
+      "classPowerPct": 37.5,
+      "classPowerTier": "하"
+    }
+  },
+  {
+    "id": "drmundo",
+    "apiName": "TFT16_DrMundo",
+    "name": "문도 박사",
+    "cost": 3,
+    "role": "Tank",
+    "detailRole": "ADTank",
+    "isHybridRole": false,
+    "traits": [
+      "자운",
+      "난동꾼"
+    ],
+    "imageUrl": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_drmundo/hud/tft16_drmundo_square.tft_set16.png",
+    "stats": {
+      "hp": 900,
+      "armor": 50,
+      "magicResist": 50,
+      "damage": 50,
+      "attackSpeed": 0.6,
+      "range": 1,
+      "mana": 60,
+      "initialMana": 0,
+      "classPower": 37.5
+    },
+    "metrics": {
+      "ehpAvg": 1350,
+      "autoDps": 33,
+      "tankPct": 37.5,
+      "dpsPct": 31.25,
+      "classPowerPct": 37.5,
+      "classPowerTier": "하"
+    }
+  },
+  {
+    "id": "renekton",
+    "apiName": "TFT16_Renekton",
+    "name": "레넥톤",
+    "cost": 4,
+    "role": "AD 딜러",
+    "detailRole": "ADFighter",
+    "isHybridRole": false,
+    "traits": [
+      "슈리마"
+    ],
+    "imageUrl": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_renekton/hud/tft16_renekton_square.tft_set16.png",
+    "stats": {
+      "hp": 1400,
+      "armor": 70,
+      "magicResist": 70,
+      "damage": 75,
+      "attackSpeed": 0.9,
+      "range": 1,
+      "mana": 30,
+      "initialMana": 0,
+      "classPower": 100
+    },
+    "metrics": {
+      "ehpAvg": 2380,
+      "autoDps": 74.25,
+      "tankPct": 100,
+      "dpsPct": 100,
+      "classPowerPct": 100,
+      "classPowerTier": "최상"
+    }
+  },
+  {
+    "id": "belveth",
+    "apiName": "TFT16_BelVeth",
+    "name": "벨베스",
+    "cost": 4,
+    "role": "AD 딜러",
+    "detailRole": "ADFighter",
+    "isHybridRole": false,
+    "traits": [
+      "공허",
+      "학살자"
+    ],
+    "imageUrl": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_belveth/hud/tft16_belveth_square.tft_set16.png",
+    "stats": {
+      "hp": 1000,
+      "armor": 50,
+      "magicResist": 50,
+      "damage": 65,
+      "attackSpeed": 0.85,
+      "range": 2,
+      "mana": 100,
+      "initialMana": 0,
+      "classPower": 88.89
+    },
+    "metrics": {
+      "ehpAvg": 1500,
+      "autoDps": 60.78,
+      "tankPct": 55.56,
+      "dpsPct": 88.89,
+      "classPowerPct": 88.89,
+      "classPowerTier": "최상"
+    }
+  },
+  {
+    "id": "warwick",
+    "apiName": "TFT16_Warwick",
+    "name": "워윅",
+    "cost": 4,
+    "role": "AD 딜러",
+    "detailRole": "ADFighter",
+    "isHybridRole": false,
+    "traits": [
+      "자운",
+      "기동타격대"
+    ],
+    "imageUrl": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_warwick/hud/tft16_warwick_square.tft_set16.png",
+    "stats": {
+      "hp": 1200,
+      "armor": 60,
+      "magicResist": 60,
+      "damage": 60,
+      "attackSpeed": 0.9,
+      "range": 1,
+      "mana": 90,
+      "initialMana": 0,
+      "classPower": 77.78
+    },
+    "metrics": {
+      "ehpAvg": 1920,
+      "autoDps": 59.4,
+      "tankPct": 88.89,
+      "dpsPct": 77.78,
+      "classPowerPct": 77.78,
+      "classPowerTier": "상"
+    }
+  },
+  {
+    "id": "yunara",
+    "apiName": "TFT16_Yunara",
+    "name": "유나라",
+    "cost": 4,
+    "role": "AD 딜러",
+    "detailRole": "ADCarry",
+    "isHybridRole": false,
+    "traits": [
+      "아이오니아",
+      "기동타격대"
+    ],
+    "imageUrl": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_yunara/hud/tft16_yunara_square.tft_set16.png",
+    "stats": {
+      "hp": 800,
+      "armor": 30,
+      "magicResist": 30,
+      "damage": 60,
+      "attackSpeed": 0.8,
+      "range": 4,
+      "mana": 50,
+      "initialMana": 0,
+      "classPower": 66.67
+    },
+    "metrics": {
+      "ehpAvg": 1040,
+      "autoDps": 52.8,
+      "tankPct": 22.22,
+      "dpsPct": 66.67,
+      "classPowerPct": 66.67,
+      "classPowerTier": "상"
+    }
+  },
+  {
+    "id": "ambessa",
+    "apiName": "TFT16_Ambessa",
+    "name": "암베사",
+    "cost": 4,
+    "role": "AD 딜러",
+    "detailRole": "ADFighter",
+    "isHybridRole": false,
+    "traits": [
+      "녹서스",
+      "토벌자"
+    ],
+    "imageUrl": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_ambessa/hud/tft16_ambessa_square.tft_set16.png",
+    "stats": {
+      "hp": 1100,
+      "armor": 60,
+      "magicResist": 60,
+      "damage": 50,
+      "attackSpeed": 0.9,
+      "range": 1,
+      "mana": 20,
+      "initialMana": 0,
+      "classPower": 55.56
+    },
+    "metrics": {
+      "ehpAvg": 1760,
+      "autoDps": 49.5,
+      "tankPct": 72.22,
+      "dpsPct": 55.56,
+      "classPowerPct": 55.56,
+      "classPowerTier": "동"
+    }
+  },
+  {
+    "id": "kalista",
+    "apiName": "TFT16_Kalista",
+    "name": "칼리스타",
+    "cost": 4,
+    "role": "AD 딜러",
+    "detailRole": "ADCaster",
+    "isHybridRole": false,
+    "traits": [
+      "그림자 군도",
+      "토벌자"
+    ],
+    "imageUrl": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_kalista/hud/tft16_kalista_square.tft_set16.png",
+    "stats": {
+      "hp": 800,
+      "armor": 30,
+      "magicResist": 30,
+      "damage": 50,
+      "attackSpeed": 0.85,
+      "range": 4,
+      "mana": 65,
+      "initialMana": 20,
+      "classPower": 44.44
+    },
+    "metrics": {
+      "ehpAvg": 1040,
+      "autoDps": 46.75,
+      "tankPct": 22.22,
+      "dpsPct": 44.44,
+      "classPowerPct": 44.44,
+      "classPowerTier": "동"
+    }
+  },
+  {
+    "id": "missfortune",
+    "apiName": "TFT16_MissFortune",
+    "name": "미스 포츈",
+    "cost": 4,
+    "role": "AD 딜러",
+    "detailRole": "ADCaster",
+    "isHybridRole": false,
+    "traits": [
+      "빌지워터",
+      "총잡이"
+    ],
+    "imageUrl": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_missfortune/hud/tft16_missfortune_square.tft_set16.png",
+    "stats": {
+      "hp": 800,
+      "armor": 30,
+      "magicResist": 30,
+      "damage": 55,
+      "attackSpeed": 0.75,
+      "range": 4,
+      "mana": 30,
+      "initialMana": 0,
+      "classPower": 33.33
+    },
+    "metrics": {
+      "ehpAvg": 1040,
+      "autoDps": 45.37,
+      "tankPct": 22.22,
+      "dpsPct": 33.33,
+      "classPowerPct": 33.33,
+      "classPowerTier": "하"
+    }
+  },
+  {
+    "id": "kaisa",
+    "apiName": "TFT16_Kaisa",
+    "name": "카이사",
+    "cost": 4,
+    "role": "AD 딜러",
+    "detailRole": "ADCasterFormSwapper",
+    "isHybridRole": false,
+    "traits": [
+      "흡수자",
+      "공허",
+      "원거리 사격"
+    ],
+    "imageUrl": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_kaisa/hud/tft16_kaisa_square.tft_set16.png",
+    "stats": {
+      "hp": 850,
+      "armor": 30,
+      "magicResist": 30,
+      "damage": 50,
+      "attackSpeed": 0.5,
+      "range": 6,
+      "mana": 10,
+      "initialMana": 0,
+      "classPower": 22.22
+    },
+    "metrics": {
+      "ehpAvg": 1105,
+      "autoDps": 27.5,
+      "tankPct": 44.44,
+      "dpsPct": 22.22,
+      "classPowerPct": 22.22,
+      "classPowerTier": "하"
+    }
+  },
+  {
+    "id": "yone",
+    "apiName": "TFT16_Yone",
+    "name": "요네",
+    "cost": 4,
+    "role": "AD 딜러",
+    "detailRole": "HFighter",
+    "isHybridRole": true,
+    "traits": [
+      "아이오니아",
+      "학살자"
+    ],
+    "imageUrl": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_yone/hud/tft16_yone_square.tft_set16.png",
+    "stats": {
+      "hp": 1100,
+      "armor": 60,
+      "magicResist": 60,
+      "damage": 20,
+      "attackSpeed": 0.9,
+      "range": 1,
+      "mana": 100,
+      "initialMana": 30,
+      "classPower": 11.11
+    },
+    "metrics": {
+      "ehpAvg": 1760,
+      "autoDps": 19.8,
+      "tankPct": 72.22,
+      "dpsPct": 11.11,
+      "classPowerPct": 11.11,
+      "classPowerTier": "최하"
+    }
+  },
+  {
+    "id": "nidalee",
+    "apiName": "TFT16_Nidalee",
+    "name": "니달리",
+    "cost": 4,
+    "role": "AP 딜러",
+    "detailRole": "APFighter",
+    "isHybridRole": false,
+    "traits": [
+      "이쉬탈",
+      "여사냥꾼"
+    ],
+    "imageUrl": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_nidalee/hud/tft16_nidalee_square.tft_set16.png",
+    "stats": {
+      "hp": 1100,
+      "armor": 70,
+      "magicResist": 70,
+      "damage": 45,
+      "attackSpeed": 0.9,
+      "range": 1,
+      "mana": 40,
+      "initialMana": 0,
+      "classPower": 100
+    },
+    "metrics": {
+      "ehpAvg": 1870,
+      "autoDps": 44.55,
+      "tankPct": 85.71,
+      "dpsPct": 100,
+      "classPowerPct": 100,
+      "classPowerTier": "최상"
+    }
+  },
+  {
+    "id": "diana",
+    "apiName": "TFT16_Diana",
+    "name": "다이애나",
+    "cost": 4,
+    "role": "AP 딜러",
+    "detailRole": "APReaper",
+    "isHybridRole": false,
+    "traits": [
+      "타곤"
+    ],
+    "imageUrl": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_diana/hud/tft16_diana_square.tft_set16.png",
+    "stats": {
+      "hp": 1300,
+      "armor": 70,
+      "magicResist": 70,
+      "damage": 35,
+      "attackSpeed": 0.8,
+      "range": 1,
+      "mana": 30,
+      "initialMana": 0,
+      "classPower": 85.71
+    },
+    "metrics": {
+      "ehpAvg": 2210,
+      "autoDps": 30.8,
+      "tankPct": 100,
+      "dpsPct": 85.71,
+      "classPowerPct": 85.71,
+      "classPowerTier": "최상"
+    }
+  },
+  {
+    "id": "fizz",
+    "apiName": "TFT16_Fizz",
+    "name": "피즈",
+    "cost": 4,
+    "role": "AP 딜러",
+    "detailRole": "APReaper",
+    "isHybridRole": false,
+    "traits": [
+      "빌지워터",
+      "요들"
+    ],
+    "imageUrl": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_fizz/hud/tft16_fizz_square.tft_set16.png",
+    "stats": {
+      "hp": 1000,
+      "armor": 50,
+      "magicResist": 50,
+      "damage": 30,
+      "attackSpeed": 0.9,
+      "range": 1,
+      "mana": 10,
+      "initialMana": 0,
+      "classPower": 71.43
+    },
+    "metrics": {
+      "ehpAvg": 1500,
+      "autoDps": 29.7,
+      "tankPct": 71.43,
+      "dpsPct": 71.43,
+      "classPowerPct": 71.43,
+      "classPowerTier": "상"
+    }
+  },
+  {
+    "id": "veigar",
+    "apiName": "TFT16_Veigar",
+    "name": "베이가",
+    "cost": 4,
+    "role": "AP 딜러",
+    "detailRole": "APCaster",
+    "isHybridRole": false,
+    "traits": [
+      "요들",
+      "비전 마법사"
+    ],
+    "imageUrl": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_veigar/hud/tft16_veigar_square.tft_set16.png",
+    "stats": {
+      "hp": 800,
+      "armor": 30,
+      "magicResist": 30,
+      "damage": 33,
+      "attackSpeed": 0.8,
+      "range": 4,
+      "mana": 60,
+      "initialMana": 0,
+      "classPower": 57.14
+    },
+    "metrics": {
+      "ehpAvg": 1040,
+      "autoDps": 29.04,
+      "tankPct": 35.71,
+      "dpsPct": 57.14,
+      "classPowerPct": 57.14,
+      "classPowerTier": "동"
+    }
+  },
+  {
+    "id": "lux",
+    "apiName": "TFT16_Lux",
+    "name": "럭스",
+    "cost": 4,
+    "role": "AP 딜러",
+    "detailRole": "APCaster",
+    "isHybridRole": false,
+    "traits": [
+      "데마시아",
+      "비전 마법사"
+    ],
+    "imageUrl": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_lux/hud/tft16_lux_square.tft_set16.png",
+    "stats": {
+      "hp": 800,
+      "armor": 30,
+      "magicResist": 30,
+      "damage": 30,
+      "attackSpeed": 0.75,
+      "range": 4,
+      "mana": 50,
+      "initialMana": 0,
+      "classPower": 28.57
+    },
+    "metrics": {
+      "ehpAvg": 1040,
+      "autoDps": 24.75,
+      "tankPct": 35.71,
+      "dpsPct": 28.57,
+      "classPowerPct": 28.57,
+      "classPowerTier": "하"
+    }
+  },
+  {
+    "id": "lissandra",
+    "apiName": "TFT16_Lissandra",
+    "name": "리산드라",
+    "cost": 4,
+    "role": "AP 딜러",
+    "detailRole": "APCaster",
+    "isHybridRole": false,
+    "traits": [
+      "프렐요드",
+      "기원자"
+    ],
+    "imageUrl": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_lissandra/hud/tft16_lissandra_square.tft_set16.png",
+    "stats": {
+      "hp": 800,
+      "armor": 30,
+      "magicResist": 30,
+      "damage": 30,
+      "attackSpeed": 0.75,
+      "range": 4,
+      "mana": 70,
+      "initialMana": 20,
+      "classPower": 28.57
+    },
+    "metrics": {
+      "ehpAvg": 1040,
+      "autoDps": 24.75,
+      "tankPct": 35.71,
+      "dpsPct": 28.57,
+      "classPowerPct": 28.57,
+      "classPowerTier": "하"
+    }
+  },
+  {
+    "id": "seraphine",
+    "apiName": "TFT16_Seraphine",
+    "name": "세라핀",
+    "cost": 4,
+    "role": "AP 딜러",
+    "detailRole": "APCaster",
+    "isHybridRole": false,
+    "traits": [
+      "필트오버",
+      "방해꾼"
+    ],
+    "imageUrl": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_seraphine/hud/tft16_seraphine_square.tft_set16.png",
+    "stats": {
+      "hp": 800,
+      "armor": 30,
+      "magicResist": 30,
+      "damage": 30,
+      "attackSpeed": 0.75,
+      "range": 4,
+      "mana": 20,
+      "initialMana": 0,
+      "classPower": 28.57
+    },
+    "metrics": {
+      "ehpAvg": 1040,
+      "autoDps": 24.75,
+      "tankPct": 35.71,
+      "dpsPct": 28.57,
+      "classPowerPct": 28.57,
+      "classPowerTier": "하"
+    }
+  },
+  {
+    "id": "nasus",
+    "apiName": "TFT16_Nasus",
+    "name": "나서스",
+    "cost": 4,
+    "role": "Tank",
+    "detailRole": "APTank",
+    "isHybridRole": false,
+    "traits": [
+      "슈리마"
+    ],
+    "imageUrl": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_nasus/hud/tft16_nasus_square.tft_set16.png",
+    "stats": {
+      "hp": 1500,
+      "armor": 70,
+      "magicResist": 70,
+      "damage": 60,
+      "attackSpeed": 0.65,
+      "range": 1,
+      "mana": 70,
+      "initialMana": 10,
+      "classPower": 100
+    },
+    "metrics": {
+      "ehpAvg": 2550,
+      "autoDps": 42.9,
+      "tankPct": 100,
+      "dpsPct": 61.11,
+      "classPowerPct": 100,
+      "classPowerTier": "최상"
+    }
+  },
+  {
+    "id": "skarner",
+    "apiName": "TFT16_Skarner",
+    "name": "스카너",
+    "cost": 4,
+    "role": "Tank",
+    "detailRole": "ADTank",
+    "isHybridRole": false,
+    "traits": [
+      "이쉬탈"
+    ],
+    "imageUrl": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_skarner/hud/tft16_skarner_square.tft_set16.png",
+    "stats": {
+      "hp": 1400,
+      "armor": 70,
+      "magicResist": 70,
+      "damage": 65,
+      "attackSpeed": 0.65,
+      "range": 1,
+      "mana": 120,
+      "initialMana": 60,
+      "classPower": 88.89
+    },
+    "metrics": {
+      "ehpAvg": 2380,
+      "autoDps": 46.47,
+      "tankPct": 88.89,
+      "dpsPct": 88.89,
+      "classPowerPct": 88.89,
+      "classPowerTier": "최상"
+    }
+  },
+  {
+    "id": "taric",
+    "apiName": "TFT16_Taric",
+    "name": "타릭",
+    "cost": 4,
+    "role": "Tank",
+    "detailRole": "APTank",
+    "isHybridRole": false,
+    "traits": [
+      "타곤"
+    ],
+    "imageUrl": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_taric/hud/tft16_taric_square.tft_set16.png",
+    "stats": {
+      "hp": 1300,
+      "armor": 70,
+      "magicResist": 70,
+      "damage": 70,
+      "attackSpeed": 0.65,
+      "range": 1,
+      "mana": 80,
+      "initialMana": 0,
+      "classPower": 77.78
+    },
+    "metrics": {
+      "ehpAvg": 2210,
+      "autoDps": 50.05,
+      "tankPct": 77.78,
+      "dpsPct": 100,
+      "classPowerPct": 77.78,
+      "classPowerTier": "상"
+    }
+  },
+  {
+    "id": "garen",
+    "apiName": "TFT16_Garen",
+    "name": "가렌",
+    "cost": 4,
+    "role": "Tank",
+    "detailRole": "ADTank",
+    "isHybridRole": false,
+    "traits": [
+      "데마시아",
+      "엄호대"
+    ],
+    "imageUrl": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_garen/hud/tft16_garen_square.tft_set16.png",
+    "stats": {
+      "hp": 1200,
+      "armor": 60,
+      "magicResist": 60,
+      "damage": 65,
+      "attackSpeed": 0.6,
+      "range": 1,
+      "mana": 130,
+      "initialMana": 50,
+      "classPower": 55.56
+    },
+    "metrics": {
+      "ehpAvg": 1920,
+      "autoDps": 42.9,
+      "tankPct": 55.56,
+      "dpsPct": 77.78,
+      "classPowerPct": 55.56,
+      "classPowerTier": "동"
+    }
+  },
+  {
+    "id": "braum",
+    "apiName": "TFT16_Braum",
+    "name": "브라움",
+    "cost": 4,
+    "role": "Tank",
+    "detailRole": "APTank",
+    "isHybridRole": false,
+    "traits": [
+      "프렐요드",
+      "파수꾼"
+    ],
+    "imageUrl": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_braum/hud/tft16_braum_square.tft_set16.png",
+    "stats": {
+      "hp": 1200,
+      "armor": 60,
+      "magicResist": 60,
+      "damage": 50,
+      "attackSpeed": 0.6,
+      "range": 1,
+      "mana": 105,
+      "initialMana": 60,
+      "classPower": 55.56
+    },
+    "metrics": {
+      "ehpAvg": 1920,
+      "autoDps": 33,
+      "tankPct": 55.56,
+      "dpsPct": 33.33,
+      "classPowerPct": 55.56,
+      "classPowerTier": "동"
+    }
+  },
+  {
+    "id": "swain",
+    "apiName": "TFT16_Swain",
+    "name": "스웨인",
+    "cost": 4,
+    "role": "Tank",
+    "detailRole": "APTank",
+    "isHybridRole": false,
+    "traits": [
+      "녹서스",
+      "비전 마법사",
+      "전쟁기계"
+    ],
+    "imageUrl": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_swain/hud/tft16_swain_square.tft_set16.png",
+    "stats": {
+      "hp": 1200,
+      "armor": 60,
+      "magicResist": 60,
+      "damage": 40,
+      "attackSpeed": 0.65,
+      "range": 1,
+      "mana": 155,
+      "initialMana": 40,
+      "classPower": 55.56
+    },
+    "metrics": {
+      "ehpAvg": 1920,
+      "autoDps": 28.6,
+      "tankPct": 55.56,
+      "dpsPct": 22.22,
+      "classPowerPct": 55.56,
+      "classPowerTier": "동"
+    }
+  },
+  {
+    "id": "singed",
+    "apiName": "TFT16_Singed",
+    "name": "신지드",
+    "cost": 4,
+    "role": "Tank",
+    "detailRole": "APTank",
+    "isHybridRole": false,
+    "traits": [
+      "자운",
+      "전쟁기계"
+    ],
+    "imageUrl": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_singed/hud/tft16_singed_square.tft_set16.png",
+    "stats": {
+      "hp": 1100,
+      "armor": 60,
+      "magicResist": 60,
+      "damage": 15,
+      "attackSpeed": 0.7,
+      "range": 1,
+      "mana": 80,
+      "initialMana": 0,
+      "classPower": 27.78
+    },
+    "metrics": {
+      "ehpAvg": 1760,
+      "autoDps": 11.55,
+      "tankPct": 27.78,
+      "dpsPct": 11.11,
+      "classPowerPct": 27.78,
+      "classPowerTier": "하"
+    }
+  },
+  {
+    "id": "riftherald",
+    "apiName": "TFT16_RiftHerald",
+    "name": "협곡의 전령",
+    "cost": 4,
+    "role": "Tank",
+    "detailRole": "APTank",
+    "isHybridRole": false,
+    "traits": [
+      "공허",
+      "난동꾼"
+    ],
+    "imageUrl": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_riftherald/skins/base/images/tft16_riftherald_splash_tile_0.tft_set16.png",
+    "stats": {
+      "hp": 1100,
+      "armor": 60,
+      "magicResist": 60,
+      "damage": 60,
+      "attackSpeed": 0.6,
+      "range": 1,
+      "mana": 125,
+      "initialMana": 60,
+      "classPower": 27.78
+    },
+    "metrics": {
+      "ehpAvg": 1760,
+      "autoDps": 39.6,
+      "tankPct": 27.78,
+      "dpsPct": 44.44,
+      "classPowerPct": 27.78,
+      "classPowerTier": "하"
+    }
+  },
+  {
+    "id": "wukong",
+    "apiName": "TFT16_Wukong",
+    "name": "오공",
+    "cost": 4,
+    "role": "Tank",
+    "detailRole": "ADTank",
+    "isHybridRole": false,
+    "traits": [
+      "아이오니아",
+      "난동꾼"
+    ],
+    "imageUrl": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_wukong/hud/tft16_wukong_square.tft_set16.png",
+    "stats": {
+      "hp": 1050,
+      "armor": 60,
+      "magicResist": 60,
+      "damage": 60,
+      "attackSpeed": 0.65,
+      "range": 1,
+      "mana": 60,
+      "initialMana": 30,
+      "classPower": 11.11
+    },
+    "metrics": {
+      "ehpAvg": 1680,
+      "autoDps": 42.9,
+      "tankPct": 11.11,
+      "dpsPct": 61.11,
+      "classPowerPct": 11.11,
+      "classPowerTier": "최하"
+    }
+  },
+  {
+    "id": "thex",
+    "apiName": "TFT16_THex",
+    "name": "T-헥스",
+    "cost": 5,
+    "role": "AD 딜러",
+    "detailRole": "ADFighter",
+    "isHybridRole": false,
+    "traits": [
+      "마법공학기계",
+      "필트오버",
+      "총잡이"
+    ],
+    "imageUrl": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_thex/hud/tft16_thex_square.tft_set16.png",
+    "stats": {
+      "hp": 1400,
+      "armor": 80,
+      "magicResist": 80,
+      "damage": 85,
+      "attackSpeed": 0.9,
+      "range": 2,
+      "mana": 80,
+      "initialMana": 10,
+      "classPower": 100
+    },
+    "metrics": {
+      "ehpAvg": 2520,
+      "autoDps": 84.15,
+      "tankPct": 100,
+      "dpsPct": 100,
+      "classPowerPct": 100,
+      "classPowerTier": "최상"
+    }
+  },
+  {
+    "id": "shyvana",
+    "apiName": "TFT16_Shyvana",
+    "name": "쉬바나",
+    "cost": 5,
+    "role": "AD 딜러",
+    "detailRole": "ADFighter",
+    "isHybridRole": false,
+    "traits": [
+      "용족",
+      "전쟁기계"
+    ],
+    "imageUrl": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_shyvana/hud/tft16_shyvana_square.tft_set16.png",
+    "stats": {
+      "hp": 1200,
+      "armor": 60,
+      "magicResist": 60,
+      "damage": 80,
+      "attackSpeed": 0.95,
+      "range": 1,
+      "mana": 30,
+      "initialMana": 0,
+      "classPower": 83.33
+    },
+    "metrics": {
+      "ehpAvg": 1920,
+      "autoDps": 83.6,
+      "tankPct": 75,
+      "dpsPct": 83.33,
+      "classPowerPct": 83.33,
+      "classPowerTier": "최상"
+    }
+  },
+  {
+    "id": "kindred",
+    "apiName": "TFT16_Kindred",
+    "name": "킨드레드",
+    "cost": 5,
+    "role": "AD 딜러",
+    "detailRole": "ADCarry",
+    "isHybridRole": false,
+    "traits": [
+      "영겁",
+      "기동타격대"
+    ],
+    "imageUrl": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_kindred/hud/tft16_kindred_square.tft_set16.png",
+    "stats": {
+      "hp": 900,
+      "armor": 40,
+      "magicResist": 40,
+      "damage": 73,
+      "attackSpeed": 0.9,
+      "range": 4,
+      "mana": 200,
+      "initialMana": 80,
+      "classPower": 66.67
+    },
+    "metrics": {
+      "ehpAvg": 1260,
+      "autoDps": 72.27,
+      "tankPct": 25,
+      "dpsPct": 66.67,
+      "classPowerPct": 66.67,
+      "classPowerTier": "상"
+    }
+  },
+  {
+    "id": "aatrox",
+    "apiName": "TFT16_Aatrox",
+    "name": "아트록스",
+    "cost": 5,
+    "role": "AD 딜러",
+    "detailRole": "ADFighter",
+    "isHybridRole": false,
+    "traits": [
+      "다르킨",
+      "세계의 종결자",
+      "학살자"
+    ],
+    "imageUrl": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_aatrox/hud/tft16_aatrox_square.tft_set16.png",
+    "stats": {
+      "hp": 1000,
+      "armor": 55,
+      "magicResist": 55,
+      "damage": 65,
+      "attackSpeed": 0.9,
+      "range": 1,
+      "mana": 20,
+      "initialMana": 0,
+      "classPower": 50
+    },
+    "metrics": {
+      "ehpAvg": 1550,
+      "autoDps": 64.35,
+      "tankPct": 50,
+      "dpsPct": 50,
+      "classPowerPct": 50,
+      "classPowerTier": "동"
+    }
+  },
+  {
+    "id": "lucian",
+    "apiName": "TFT16_Lucian",
+    "name": "루시안과 세나",
+    "cost": 5,
+    "role": "AD 딜러",
+    "detailRole": "ADCaster",
+    "isHybridRole": false,
+    "traits": [
+      "영혼결속자",
+      "총잡이"
+    ],
+    "imageUrl": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_lucian/hud/tft16_lucian_square.tft_set16.png",
+    "stats": {
+      "hp": 900,
+      "armor": 40,
+      "magicResist": 40,
+      "damage": 65,
+      "attackSpeed": 0.8,
+      "range": 4,
+      "mana": 70,
+      "initialMana": 0,
+      "classPower": 33.33
+    },
+    "metrics": {
+      "ehpAvg": 1260,
+      "autoDps": 57.2,
+      "tankPct": 25,
+      "dpsPct": 33.33,
+      "classPowerPct": 33.33,
+      "classPowerTier": "하"
+    }
+  },
+  {
+    "id": "volibear",
+    "apiName": "TFT16_Volibear",
+    "name": "볼리베어",
+    "cost": 5,
+    "role": "AD 딜러",
+    "detailRole": "ADFighter",
+    "isHybridRole": false,
+    "traits": [
+      "프렐요드",
+      "난동꾼"
+    ],
+    "imageUrl": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_volibear/hud/tft16_volibear_square.tft_set16.png",
+    "stats": {
+      "hp": 1200,
+      "armor": 60,
+      "magicResist": 60,
+      "damage": 55,
+      "attackSpeed": 0.9,
+      "range": 1,
+      "mana": 20,
+      "initialMana": 0,
+      "classPower": 16.67
+    },
+    "metrics": {
+      "ehpAvg": 1920,
+      "autoDps": 54.45,
+      "tankPct": 75,
+      "dpsPct": 16.67,
+      "classPowerPct": 16.67,
+      "classPowerTier": "최하"
+    }
+  },
+  {
+    "id": "sett",
+    "apiName": "TFT16_Sett",
+    "name": "세트",
+    "cost": 5,
+    "role": "AP 딜러",
+    "detailRole": "APFighter",
+    "isHybridRole": false,
+    "traits": [
+      "아이오니아",
+      "우두머리"
+    ],
+    "imageUrl": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_sett/hud/tft16_sett_square.tft_set16.png",
+    "stats": {
+      "hp": 1000,
+      "armor": 50,
+      "magicResist": 50,
+      "damage": 60,
+      "attackSpeed": 0.9,
+      "range": 1,
+      "mana": 90,
+      "initialMana": 10,
+      "classPower": 100
+    },
+    "metrics": {
+      "ehpAvg": 1500,
+      "autoDps": 59.4,
+      "tankPct": 77.78,
+      "dpsPct": 100,
+      "classPowerPct": 100,
+      "classPowerTier": "최상"
+    }
+  },
+  {
+    "id": "thresh",
+    "apiName": "TFT16_Thresh",
+    "name": "쓰레쉬",
+    "cost": 5,
+    "role": "AP 딜러",
+    "detailRole": "APFighter",
+    "isHybridRole": false,
+    "traits": [
+      "그림자 군도",
+      "파수꾼"
+    ],
+    "imageUrl": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_thresh/hud/tft16_thresh_square.tft_set16.png",
+    "stats": {
+      "hp": 1200,
+      "armor": 75,
+      "magicResist": 75,
+      "damage": 60,
+      "attackSpeed": 0.85,
+      "range": 1,
+      "mana": 40,
+      "initialMana": 0,
+      "classPower": 87.5
+    },
+    "metrics": {
+      "ehpAvg": 2100,
+      "autoDps": 56.1,
+      "tankPct": 100,
+      "dpsPct": 87.5,
+      "classPowerPct": 87.5,
+      "classPowerTier": "최상"
+    }
+  },
+  {
+    "id": "fiddlesticks",
+    "apiName": "TFT16_Fiddlesticks",
+    "name": "피들스틱",
+    "cost": 5,
+    "role": "AP 딜러",
+    "detailRole": "APReaper",
+    "isHybridRole": false,
+    "traits": [
+      "수확자",
+      "토벌자"
+    ],
+    "imageUrl": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_fiddlesticks/hud/tft16_fiddlesticks_square.tft_set16.png",
+    "stats": {
+      "hp": 1200,
+      "armor": 60,
+      "magicResist": 60,
+      "damage": 50,
+      "attackSpeed": 0.9,
+      "range": 2,
+      "mana": 70,
+      "initialMana": 30,
+      "classPower": 75
+    },
+    "metrics": {
+      "ehpAvg": 1920,
+      "autoDps": 49.5,
+      "tankPct": 88.89,
+      "dpsPct": 75,
+      "classPowerPct": 75,
+      "classPowerTier": "상"
+    }
+  },
+  {
+    "id": "mel",
+    "apiName": "TFT16_Mel",
+    "name": "멜",
+    "cost": 5,
+    "role": "AP 딜러",
+    "detailRole": "APCaster",
+    "isHybridRole": false,
+    "traits": [
+      "녹서스",
+      "방해꾼"
+    ],
+    "imageUrl": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_mel/hud/tft16_mel_square.tft_set16.png",
+    "stats": {
+      "hp": 900,
+      "armor": 30,
+      "magicResist": 30,
+      "damage": 50,
+      "attackSpeed": 0.8,
+      "range": 4,
+      "mana": 200,
+      "initialMana": 30,
+      "classPower": 62.5
+    },
+    "metrics": {
+      "ehpAvg": 1170,
+      "autoDps": 44,
+      "tankPct": 50,
+      "dpsPct": 62.5,
+      "classPowerPct": 62.5,
+      "classPowerTier": "상"
+    }
+  },
+  {
+    "id": "zilean",
+    "apiName": "TFT16_Zilean",
+    "name": "질리언",
+    "cost": 5,
+    "role": "AP 딜러",
+    "detailRole": "APCaster",
+    "isHybridRole": false,
+    "traits": [
+      "시간의 수호자",
+      "기원자"
+    ],
+    "imageUrl": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_zilean/hud/tft16_zilean_square.tft_set16.png",
+    "stats": {
+      "hp": 900,
+      "armor": 30,
+      "magicResist": 30,
+      "damage": 40,
+      "attackSpeed": 0.9,
+      "range": 4,
+      "mana": 35,
+      "initialMana": 0,
+      "classPower": 50
+    },
+    "metrics": {
+      "ehpAvg": 1170,
+      "autoDps": 39.6,
+      "tankPct": 50,
+      "dpsPct": 50,
+      "classPowerPct": 50,
+      "classPowerTier": "동"
+    }
+  },
+  {
+    "id": "xerath",
+    "apiName": "TFT16_Xerath",
+    "name": "제라스",
+    "cost": 5,
+    "role": "AP 딜러",
+    "detailRole": "APCaster",
+    "isHybridRole": false,
+    "traits": [
+      "슈리마",
+      "초월체"
+    ],
+    "imageUrl": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_xerath/hud/tft16_xerath_square.tft_set16.png",
+    "stats": {
+      "hp": 900,
+      "armor": 30,
+      "magicResist": 30,
+      "damage": 40,
+      "attackSpeed": 0.8,
+      "range": 4,
+      "mana": 135,
+      "initialMana": 0,
+      "classPower": 37.5
+    },
+    "metrics": {
+      "ehpAvg": 1170,
+      "autoDps": 35.2,
+      "tankPct": 50,
+      "dpsPct": 37.5,
+      "classPowerPct": 37.5,
+      "classPowerTier": "하"
+    }
+  },
+  {
+    "id": "azir",
+    "apiName": "TFT16_Azir",
+    "name": "아지르",
+    "cost": 5,
+    "role": "AP 딜러",
+    "detailRole": "APCarry",
+    "isHybridRole": false,
+    "traits": [
+      "슈리마",
+      "황제",
+      "방해꾼"
+    ],
+    "imageUrl": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_azir/hud/tft16_azir_square.tft_set16.png",
+    "stats": {
+      "hp": 800,
+      "armor": 30,
+      "magicResist": 30,
+      "damage": 35,
+      "attackSpeed": 0.8,
+      "range": 4,
+      "mana": 40,
+      "initialMana": 20,
+      "classPower": 25
+    },
+    "metrics": {
+      "ehpAvg": 1040,
+      "autoDps": 30.8,
+      "tankPct": 16.67,
+      "dpsPct": 25,
+      "classPowerPct": 25,
+      "classPowerTier": "하"
+    }
+  },
+  {
+    "id": "annie",
+    "apiName": "TFT16_Annie",
+    "name": "애니",
+    "cost": 5,
+    "role": "AP 딜러",
+    "detailRole": "APCaster",
+    "isHybridRole": false,
+    "traits": [
+      "어둠의 아이",
+      "비전 마법사"
+    ],
+    "imageUrl": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_annie/hud/tft16_annie_square.tft_set16.png",
+    "stats": {
+      "hp": 800,
+      "armor": 30,
+      "magicResist": 30,
+      "damage": 30,
+      "attackSpeed": 0.8,
+      "range": 4,
+      "mana": 160,
+      "initialMana": 0,
+      "classPower": 12.5
+    },
+    "metrics": {
+      "ehpAvg": 1040,
+      "autoDps": 26.4,
+      "tankPct": 16.67,
+      "dpsPct": 12.5,
+      "classPowerPct": 12.5,
+      "classPowerTier": "최하"
+    }
+  },
+  {
+    "id": "ziggs",
+    "apiName": "TFT16_Ziggs",
+    "name": "직스",
+    "cost": 5,
+    "role": "AP 딜러",
+    "detailRole": "APCarry",
+    "isHybridRole": false,
+    "traits": [
+      "자운",
+      "요들",
+      "원거리 사격"
+    ],
+    "imageUrl": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_ziggs/hud/tft16_ziggs_square.tft_set16.png",
+    "stats": {
+      "hp": 900,
+      "armor": 30,
+      "magicResist": 30,
+      "damage": null,
+      "attackSpeed": 0.9,
+      "range": 6,
+      "mana": 140,
+      "initialMana": 0,
+      "classPower": null
+    },
+    "metrics": {
+      "ehpAvg": 1170,
+      "autoDps": null,
+      "tankPct": 50,
+      "dpsPct": null,
+      "classPowerPct": null,
+      "classPowerTier": "N/A"
+    }
+  },
+  {
+    "id": "galio",
+    "apiName": "TFT16_Galio",
+    "name": "갈리오",
+    "cost": 5,
+    "role": "Tank",
+    "detailRole": "APTank",
+    "isHybridRole": false,
+    "traits": [
+      "데마시아",
+      "영웅"
+    ],
+    "imageUrl": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_galio/hud/tft16_galio_square.tft_set16.png",
+    "stats": {
+      "hp": 1100,
+      "armor": 65,
+      "magicResist": 65,
+      "damage": 50,
+      "attackSpeed": 0.9,
+      "range": 1,
+      "mana": 140,
+      "initialMana": 90,
+      "classPower": 100
+    },
+    "metrics": {
+      "ehpAvg": 1815,
+      "autoDps": 49.5,
+      "tankPct": 100,
+      "dpsPct": 100,
+      "classPowerPct": 100,
+      "classPowerTier": "최상"
+    }
+  },
+  {
+    "id": "tahmkench",
+    "apiName": "TFT16_TahmKench",
+    "name": "탐 켄치",
+    "cost": 5,
+    "role": "Tank",
+    "detailRole": "APTank",
+    "isHybridRole": false,
+    "traits": [
+      "빌지워터",
+      "대식가",
+      "난동꾼"
+    ],
+    "imageUrl": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_tahmkench/hud/tft16_tahmkench_square.tft_set16.png",
+    "stats": {
+      "hp": 1100,
+      "armor": 60,
+      "magicResist": 60,
+      "damage": 70,
+      "attackSpeed": 0.55,
+      "range": 1,
+      "mana": 90,
+      "initialMana": 10,
+      "classPower": 66.67
+    },
+    "metrics": {
+      "ehpAvg": 1760,
+      "autoDps": 42.35,
+      "tankPct": 66.67,
+      "dpsPct": 50,
+      "classPowerPct": 66.67,
+      "classPowerTier": "상"
+    }
+  },
+  {
+    "id": "ornn",
+    "apiName": "TFT16_Ornn",
+    "name": "오른",
+    "cost": 5,
+    "role": "Tank",
+    "detailRole": "APTank",
+    "isHybridRole": false,
+    "traits": [
+      "대장장이",
+      "파수꾼"
+    ],
+    "imageUrl": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_ornn/hud/tft16_ornn_square.tft_set16.png",
+    "stats": {
+      "hp": 900,
+      "armor": 55,
+      "magicResist": 55,
+      "damage": 70,
+      "attackSpeed": 0.55,
+      "range": 1,
+      "mana": 150,
+      "initialMana": 50,
+      "classPower": 33.33
+    },
+    "metrics": {
+      "ehpAvg": 1395,
+      "autoDps": 42.35,
+      "tankPct": 33.33,
+      "dpsPct": 50,
+      "classPowerPct": 33.33,
+      "classPowerTier": "하"
+    }
+  },
+  {
+    "id": "brock",
+    "apiName": "TFT16_Brock",
+    "name": "브록",
+    "cost": 7,
+    "role": "AD 딜러",
+    "detailRole": "ADFighter",
+    "isHybridRole": false,
+    "traits": [
+      "이쉬탈"
+    ],
+    "imageUrl": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_brock/skins/base/images/tft16_brock_splash_tile_0.tft_set16.png",
+    "stats": {
+      "hp": 1800,
+      "armor": 60,
+      "magicResist": 60,
+      "damage": 270,
+      "attackSpeed": 0.5,
+      "range": 1,
+      "mana": 100,
+      "initialMana": 40,
+      "classPower": 100
+    },
+    "metrics": {
+      "ehpAvg": 2880,
+      "autoDps": 148.5,
+      "tankPct": 66.67,
+      "dpsPct": 100,
+      "classPowerPct": 100,
+      "classPowerTier": "최상"
+    }
+  },
+  {
+    "id": "zaahen",
+    "apiName": "TFT16_Zaahen",
+    "name": "자헨",
+    "cost": 7,
+    "role": "AD 딜러",
+    "detailRole": "ADFighter",
+    "isHybridRole": false,
+    "traits": [
+      "다르킨",
+      "불멸자"
+    ],
+    "imageUrl": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_zaahen/hud/tft16_zaahen_square.tft_set16.png",
+    "stats": {
+      "hp": 1200,
+      "armor": 80,
+      "magicResist": 80,
+      "damage": 60,
+      "attackSpeed": 1.1,
+      "range": 2,
+      "mana": 40,
+      "initialMana": 0,
+      "classPower": 66.67
+    },
+    "metrics": {
+      "ehpAvg": 2160,
+      "autoDps": 72.6,
+      "tankPct": 33.33,
+      "dpsPct": 66.67,
+      "classPowerPct": 66.67,
+      "classPowerTier": "상"
+    }
+  },
+  {
+    "id": "baronnashor",
+    "apiName": "TFT16_BaronNashor",
+    "name": "내셔 남작",
+    "cost": 7,
+    "role": "AD 딜러",
+    "detailRole": "ADFighter",
+    "isHybridRole": false,
+    "traits": [
+      "공허",
+      "균열의 재앙"
+    ],
+    "imageUrl": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_baronnashor/hud/tft16_baronnashor_square.tft_set16.png",
+    "stats": {
+      "hp": 3000,
+      "armor": 85,
+      "magicResist": 85,
+      "damage": 120,
+      "attackSpeed": 0.5,
+      "range": 2,
+      "mana": 50,
+      "initialMana": 0,
+      "classPower": 33.33
+    },
+    "metrics": {
+      "ehpAvg": 5550,
+      "autoDps": 66,
+      "tankPct": 100,
+      "dpsPct": 33.33,
+      "classPowerPct": 33.33,
+      "classPowerTier": "하"
+    }
+  },
+  {
+    "id": "sylas",
+    "apiName": "TFT16_Sylas",
+    "name": "사일러스",
+    "cost": 7,
+    "role": "AP 딜러",
+    "detailRole": "APFighter",
+    "isHybridRole": false,
+    "traits": [
+      "사슬파괴자",
+      "비전 마법사",
+      "엄호대"
+    ],
+    "imageUrl": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_sylas/hud/tft16_sylas_square.tft_set16.png",
+    "stats": {
+      "hp": 1600,
+      "armor": 80,
+      "magicResist": 80,
+      "damage": 65,
+      "attackSpeed": 1,
+      "range": 1,
+      "mana": 30,
+      "initialMana": 0,
+      "classPower": 100
+    },
+    "metrics": {
+      "ehpAvg": 2880,
+      "autoDps": 71.5,
+      "tankPct": 100,
+      "dpsPct": 100,
+      "classPowerPct": 100,
+      "classPowerTier": "최상"
+    }
+  },
+  {
+    "id": "aurelionsol",
+    "apiName": "TFT16_AurelionSol",
+    "name": "아우렐리온 솔",
+    "cost": 7,
+    "role": "AP 딜러",
+    "detailRole": "APCaster",
+    "isHybridRole": false,
+    "traits": [
+      "별의 창조자",
+      "타곤"
+    ],
+    "imageUrl": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_aurelionsol/hud/tft16_aurelionsol_square.tft_set16.png",
+    "stats": {
+      "hp": 1100,
+      "armor": 40,
+      "magicResist": 40,
+      "damage": 50,
+      "attackSpeed": 0.8,
+      "range": 4,
+      "mana": 85,
+      "initialMana": 0,
+      "classPower": 66.67
+    },
+    "metrics": {
+      "ehpAvg": 1540,
+      "autoDps": 44,
+      "tankPct": 66.67,
+      "dpsPct": 66.67,
+      "classPowerPct": 66.67,
+      "classPowerTier": "상"
+    }
+  },
+  {
+    "id": "ryze",
+    "apiName": "TFT16_Ryze",
+    "name": "라이즈",
+    "cost": 7,
+    "role": "AP 딜러",
+    "detailRole": "APCaster",
+    "isHybridRole": false,
+    "traits": [
+      "룬 마법사"
+    ],
+    "imageUrl": "https://raw.communitydragon.org/latest/game/assets/characters/tft16_ryze/hud/tft16_ryze_square.tft_set16.png",
+    "stats": {
+      "hp": 1000,
+      "armor": 40,
+      "magicResist": 40,
+      "damage": 35,
+      "attackSpeed": 0.9,
+      "range": 4,
+      "mana": 45,
+      "initialMana": 0,
+      "classPower": 33.33
+    },
+    "metrics": {
+      "ehpAvg": 1400,
+      "autoDps": 34.65,
+      "tankPct": 33.33,
+      "dpsPct": 33.33,
+      "classPowerPct": 33.33,
+      "classPowerTier": "하"
+    }
+  }
+]
