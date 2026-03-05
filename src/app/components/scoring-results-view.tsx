@@ -1,4 +1,4 @@
-﻿import { useMemo, useState } from "react";
+import { useMemo, useState } from "react";
 import { Search } from "lucide-react";
 import tankScoringRaw from "../../../tank_scoring_results.json";
 import dealerScoringRaw from "../../../tft_dealer_scoring_results.json";
@@ -81,8 +81,10 @@ const FORMULA = {
   tankBaseEhp: "BaseEHP = HP * ((1 + Armor/100 + 1 + MR/100) / 2)",
   tankDamage2:
     "Damage2(single-target) = (BaseDamage2 * Projectile * Repeat * Summon + MechanismBonus) / TargetCount",
-  tankShield2: "Shield2 = 誇 2-star values from <TFTBonus> blocks near '蹂댄샇留?",
-  tankHeal2: "Heal2 = 誇 2-star values from <scaleHealth> blocks near '?뚮났'",
+  tankShield2:
+    "Shield2 = parsed 2-star shield amount from spell variables/text (single-cast equivalent).",
+  tankHeal2:
+    "Heal2 = parsed 2-star heal amount from spell variables/text (single-cast equivalent).",
   readiness:
     "Readiness = W / (W + t_first_cast), where t_first_cast = (Mana-InitialMana) / MPS",
   autoDps: "AutoDPS = AD * AttackSpeed * (1 + CritChance * (CritMultiplier - 1))",
@@ -564,7 +566,7 @@ function SortableHeaderCell({
         boxShadow: active ? "inset 0 -3px 0 var(--primary)" : "none",
       }}
     >
-      {label} {active ? (direction === "asc" ? "▲" : "▼") : ""}
+      {label} {active ? (direction === "asc" ? "\u25B2" : "\u25BC") : ""}
     </th>
   );
 }
@@ -591,5 +593,3 @@ function BodyCell({
     </td>
   );
 }
-
-
