@@ -1,0 +1,2963 @@
+{
+  "total": 102,
+  "results": [
+    {
+      "apiName": "TFT16_Jhin",
+      "name": "진",
+      "cost": 1,
+      "role": "ADCarry",
+      "rawTagDamage2": 237.0,
+      "fallbackBaseDamage2": 145.0,
+      "baseDamage2Used": 237.0,
+      "mechanismBonus2": 0.0,
+      "totalCastDamage2": 948.0,
+      "singleTargetEquiv2": 948.0,
+      "targetCountUsed": 1.0,
+      "multipliers": {
+        "projectile": 4.0,
+        "repeat": 1.0,
+        "summon": 1.0,
+        "duration": 0.0,
+        "bonusAD": 0.0,
+        "decayingAS": 0.0,
+        "extraArrows": 0.0,
+        "descRepeatHint2": 4.0,
+        "descTargetHint2": 1.0
+      },
+      "meta": {
+        "baseSource": "tag",
+        "damageTagCount": 1,
+        "confidence": 0.58
+      }
+    },
+    {
+      "apiName": "TFT16_Caitlyn",
+      "name": "케이틀린",
+      "cost": 1,
+      "role": "ADCaster",
+      "rawTagDamage2": 775.0,
+      "fallbackBaseDamage2": 475.0,
+      "baseDamage2Used": 775.0,
+      "mechanismBonus2": 0.0,
+      "totalCastDamage2": 775.0,
+      "singleTargetEquiv2": 775.0,
+      "targetCountUsed": 1.0,
+      "multipliers": {
+        "projectile": 1.0,
+        "repeat": 1.0,
+        "summon": 1.0,
+        "duration": 0.0,
+        "bonusAD": 0.0,
+        "decayingAS": 0.0,
+        "extraArrows": 0.0,
+        "descRepeatHint2": 1.0,
+        "descTargetHint2": 1.0
+      },
+      "meta": {
+        "baseSource": "tag",
+        "damageTagCount": 1,
+        "confidence": 0.55
+      }
+    },
+    {
+      "apiName": "TFT16_Qiyana",
+      "name": "키아나",
+      "cost": 1,
+      "role": "ADFighter",
+      "rawTagDamage2": 270.0,
+      "fallbackBaseDamage2": 160.0,
+      "baseDamage2Used": 270.0,
+      "mechanismBonus2": 0.0,
+      "totalCastDamage2": 270.0,
+      "singleTargetEquiv2": 270.0,
+      "targetCountUsed": 1.0,
+      "multipliers": {
+        "projectile": 1.0,
+        "repeat": 1.0,
+        "summon": 1.0,
+        "duration": 0.0,
+        "bonusAD": 0.0,
+        "decayingAS": 0.0,
+        "extraArrows": 0.0,
+        "descRepeatHint2": 1.0,
+        "descTargetHint2": 1.0
+      },
+      "meta": {
+        "baseSource": "tag",
+        "damageTagCount": 1,
+        "confidence": 0.55
+      }
+    },
+    {
+      "apiName": "TFT16_Briar",
+      "name": "브라이어",
+      "cost": 1,
+      "role": "ADReaper",
+      "rawTagDamage2": 0.0,
+      "fallbackBaseDamage2": 0.0,
+      "baseDamage2Used": 0.0,
+      "mechanismBonus2": 144.9,
+      "totalCastDamage2": 144.9,
+      "singleTargetEquiv2": 144.9,
+      "targetCountUsed": 1.0,
+      "multipliers": {
+        "projectile": 1.0,
+        "repeat": 1.0,
+        "summon": 1.0,
+        "duration": 4.0,
+        "bonusAD": 0.25,
+        "decayingAS": 3.0,
+        "extraArrows": 0.0,
+        "descRepeatHint2": 1.0,
+        "descTargetHint2": 1.0
+      },
+      "meta": {
+        "baseSource": "none",
+        "damageTagCount": 0,
+        "confidence": 0.35
+      }
+    },
+    {
+      "apiName": "TFT16_Illaoi",
+      "name": "일라오이",
+      "cost": 1,
+      "role": "ADTank",
+      "rawTagDamage2": 270.0,
+      "fallbackBaseDamage2": 180.0,
+      "baseDamage2Used": 270.0,
+      "mechanismBonus2": 0.0,
+      "totalCastDamage2": 270.0,
+      "singleTargetEquiv2": 270.0,
+      "targetCountUsed": 1.0,
+      "multipliers": {
+        "projectile": 1.0,
+        "repeat": 1.0,
+        "summon": 1.0,
+        "duration": 0.0,
+        "bonusAD": 0.0,
+        "decayingAS": 0.0,
+        "extraArrows": 0.0,
+        "descRepeatHint2": 1.0,
+        "descTargetHint2": 1.0
+      },
+      "meta": {
+        "baseSource": "tag",
+        "damageTagCount": 1,
+        "confidence": 0.55
+      }
+    },
+    {
+      "apiName": "TFT_ElderDragon",
+      "name": "장로 드래곤",
+      "cost": 1,
+      "role": "ADTank",
+      "rawTagDamage2": 0.0,
+      "fallbackBaseDamage2": 0.0,
+      "baseDamage2Used": 0.0,
+      "mechanismBonus2": 0.0,
+      "totalCastDamage2": 0.0,
+      "singleTargetEquiv2": 0.0,
+      "targetCountUsed": 1.0,
+      "multipliers": {
+        "projectile": 1.0,
+        "repeat": 1.0,
+        "summon": 1.0,
+        "duration": 0.0,
+        "bonusAD": 0.0,
+        "decayingAS": 0.0,
+        "extraArrows": 0.0,
+        "descRepeatHint2": 1.0,
+        "descTargetHint2": 1.0
+      },
+      "meta": {
+        "baseSource": "none",
+        "damageTagCount": 0,
+        "confidence": 0.3
+      }
+    },
+    {
+      "apiName": "TFT16_Lulu",
+      "name": "룰루",
+      "cost": 1,
+      "role": "APCaster",
+      "rawTagDamage2": 605.0,
+      "fallbackBaseDamage2": 285.0,
+      "baseDamage2Used": 605.0,
+      "mechanismBonus2": 0.0,
+      "totalCastDamage2": 605.0,
+      "singleTargetEquiv2": 605.0,
+      "targetCountUsed": 1.0,
+      "multipliers": {
+        "projectile": 1.0,
+        "repeat": 1.0,
+        "summon": 1.0,
+        "duration": 0.0,
+        "bonusAD": 0.0,
+        "decayingAS": 0.0,
+        "extraArrows": 0.0,
+        "descRepeatHint2": 1.0,
+        "descTargetHint2": 1.0
+      },
+      "meta": {
+        "baseSource": "tag",
+        "damageTagCount": 2,
+        "confidence": 0.55
+      }
+    },
+    {
+      "apiName": "TFT16_Anivia",
+      "name": "애니비아",
+      "cost": 1,
+      "role": "APCaster",
+      "rawTagDamage2": 455.0,
+      "fallbackBaseDamage2": 325.0,
+      "baseDamage2Used": 455.0,
+      "mechanismBonus2": 0.0,
+      "totalCastDamage2": 455.0,
+      "singleTargetEquiv2": 455.0,
+      "targetCountUsed": 1.0,
+      "multipliers": {
+        "projectile": 1.0,
+        "repeat": 1.0,
+        "summon": 1.0,
+        "duration": 0.0,
+        "bonusAD": 0.0,
+        "decayingAS": 0.0,
+        "extraArrows": 0.0,
+        "descRepeatHint2": 1.0,
+        "descTargetHint2": 1.0
+      },
+      "meta": {
+        "baseSource": "tag",
+        "damageTagCount": 1,
+        "confidence": 0.55
+      }
+    },
+    {
+      "apiName": "TFT16_KogMaw",
+      "name": "코그모",
+      "cost": 1,
+      "role": "APCaster",
+      "rawTagDamage2": 200.0,
+      "fallbackBaseDamage2": 140.0,
+      "baseDamage2Used": 200.0,
+      "mechanismBonus2": 0.0,
+      "totalCastDamage2": 200.0,
+      "singleTargetEquiv2": 200.0,
+      "targetCountUsed": 1.0,
+      "multipliers": {
+        "projectile": 1.0,
+        "repeat": 1.0,
+        "summon": 1.0,
+        "duration": 0.0,
+        "bonusAD": 0.0,
+        "decayingAS": 0.0,
+        "extraArrows": 0.0,
+        "descRepeatHint2": 1.0,
+        "descTargetHint2": 1.0
+      },
+      "meta": {
+        "baseSource": "tag",
+        "damageTagCount": 1,
+        "confidence": 0.55
+      }
+    },
+    {
+      "apiName": "TFT16_Sona",
+      "name": "소나",
+      "cost": 1,
+      "role": "APCaster",
+      "rawTagDamage2": 195.0,
+      "fallbackBaseDamage2": 130.0,
+      "baseDamage2Used": 195.0,
+      "mechanismBonus2": 0.0,
+      "totalCastDamage2": 195.0,
+      "singleTargetEquiv2": 97.5,
+      "targetCountUsed": 2.0,
+      "multipliers": {
+        "projectile": 1.0,
+        "repeat": 1.0,
+        "summon": 1.0,
+        "duration": 0.0,
+        "bonusAD": 0.0,
+        "decayingAS": 0.0,
+        "extraArrows": 0.0,
+        "descRepeatHint2": 1.0,
+        "descTargetHint2": 2.0
+      },
+      "meta": {
+        "baseSource": "tag",
+        "damageTagCount": 1,
+        "confidence": 0.6
+      }
+    },
+    {
+      "apiName": "TFT_BlueGolem",
+      "name": "골렘",
+      "cost": 1,
+      "role": "APTank",
+      "rawTagDamage2": 480.0,
+      "fallbackBaseDamage2": 300.0,
+      "baseDamage2Used": 480.0,
+      "mechanismBonus2": 0.0,
+      "totalCastDamage2": 480.0,
+      "singleTargetEquiv2": 480.0,
+      "targetCountUsed": 1.0,
+      "multipliers": {
+        "projectile": 1.0,
+        "repeat": 1.0,
+        "summon": 1.0,
+        "duration": 0.0,
+        "bonusAD": 0.0,
+        "decayingAS": 0.0,
+        "extraArrows": 0.0,
+        "descRepeatHint2": 1.0,
+        "descTargetHint2": 1.0
+      },
+      "meta": {
+        "baseSource": "tag",
+        "damageTagCount": 1,
+        "confidence": 0.55
+      }
+    },
+    {
+      "apiName": "TFT16_Rumble",
+      "name": "럼블",
+      "cost": 1,
+      "role": "APTank",
+      "rawTagDamage2": 108.0,
+      "fallbackBaseDamage2": 0.0,
+      "baseDamage2Used": 108.0,
+      "mechanismBonus2": 0.0,
+      "totalCastDamage2": 108.0,
+      "singleTargetEquiv2": 108.0,
+      "targetCountUsed": 1.0,
+      "multipliers": {
+        "projectile": 1.0,
+        "repeat": 1.0,
+        "summon": 1.0,
+        "duration": 4.0,
+        "bonusAD": 0.0,
+        "decayingAS": 0.0,
+        "extraArrows": 0.0,
+        "descRepeatHint2": 1.0,
+        "descTargetHint2": 1.0
+      },
+      "meta": {
+        "baseSource": "tag",
+        "damageTagCount": 1,
+        "confidence": 0.55
+      }
+    },
+    {
+      "apiName": "TFT16_Blitzcrank",
+      "name": "블리츠크랭크",
+      "cost": 1,
+      "role": "APTank",
+      "rawTagDamage2": 84.0,
+      "fallbackBaseDamage2": 0.0,
+      "baseDamage2Used": 84.0,
+      "mechanismBonus2": 0.0,
+      "totalCastDamage2": 84.0,
+      "singleTargetEquiv2": 84.0,
+      "targetCountUsed": 1.0,
+      "multipliers": {
+        "projectile": 1.0,
+        "repeat": 1.0,
+        "summon": 1.0,
+        "duration": 4.0,
+        "bonusAD": 0.0,
+        "decayingAS": 0.0,
+        "extraArrows": 0.0,
+        "descRepeatHint2": 1.0,
+        "descTargetHint2": 1.0
+      },
+      "meta": {
+        "baseSource": "tag",
+        "damageTagCount": 1,
+        "confidence": 0.55
+      }
+    },
+    {
+      "apiName": "TFT16_JarvanIV",
+      "name": "자르반 4세",
+      "cost": 1,
+      "role": "APTank",
+      "rawTagDamage2": 0.0,
+      "fallbackBaseDamage2": 0.0,
+      "baseDamage2Used": 0.0,
+      "mechanismBonus2": 0.0,
+      "totalCastDamage2": 0.0,
+      "singleTargetEquiv2": 0.0,
+      "targetCountUsed": 1.0,
+      "multipliers": {
+        "projectile": 1.0,
+        "repeat": 1.0,
+        "summon": 1.0,
+        "duration": 0.0,
+        "bonusAD": 0.0,
+        "decayingAS": 0.0,
+        "extraArrows": 0.0,
+        "descRepeatHint2": 1.0,
+        "descTargetHint2": 1.0
+      },
+      "meta": {
+        "baseSource": "none",
+        "damageTagCount": 0,
+        "confidence": 0.3
+      }
+    },
+    {
+      "apiName": "TFT16_Shen",
+      "name": "쉔",
+      "cost": 1,
+      "role": "APTank",
+      "rawTagDamage2": 0.0,
+      "fallbackBaseDamage2": 0.0,
+      "baseDamage2Used": 0.0,
+      "mechanismBonus2": 0.0,
+      "totalCastDamage2": 0.0,
+      "singleTargetEquiv2": 0.0,
+      "targetCountUsed": 1.0,
+      "multipliers": {
+        "projectile": 1.0,
+        "repeat": 1.0,
+        "summon": 1.0,
+        "duration": 4.0,
+        "bonusAD": 0.0,
+        "decayingAS": 0.0,
+        "extraArrows": 0.0,
+        "descRepeatHint2": 1.0,
+        "descTargetHint2": 1.0
+      },
+      "meta": {
+        "baseSource": "none",
+        "damageTagCount": 0,
+        "confidence": 0.3
+      }
+    },
+    {
+      "apiName": "TFT16_Viego",
+      "name": "비에고",
+      "cost": 1,
+      "role": "HFighter",
+      "rawTagDamage2": 112.0,
+      "fallbackBaseDamage2": 55.0,
+      "baseDamage2Used": 112.0,
+      "mechanismBonus2": 0.0,
+      "totalCastDamage2": 112.0,
+      "singleTargetEquiv2": 112.0,
+      "targetCountUsed": 1.0,
+      "multipliers": {
+        "projectile": 1.0,
+        "repeat": 1.0,
+        "summon": 1.0,
+        "duration": 0.0,
+        "bonusAD": 0.0,
+        "decayingAS": 0.0,
+        "extraArrows": 0.0,
+        "descRepeatHint2": 1.0,
+        "descTargetHint2": 1.0
+      },
+      "meta": {
+        "baseSource": "tag",
+        "damageTagCount": 2,
+        "confidence": 0.55
+      }
+    },
+    {
+      "apiName": "TFT16_Ashe",
+      "name": "애쉬",
+      "cost": 2,
+      "role": "ADCarry",
+      "rawTagDamage2": 303.0,
+      "fallbackBaseDamage2": 135.0,
+      "baseDamage2Used": 303.0,
+      "mechanismBonus2": 0.0,
+      "totalCastDamage2": 303.0,
+      "singleTargetEquiv2": 303.0,
+      "targetCountUsed": 1.0,
+      "multipliers": {
+        "projectile": 1.0,
+        "repeat": 1.0,
+        "summon": 1.0,
+        "duration": 3.0,
+        "bonusAD": 0.0,
+        "decayingAS": 0.0,
+        "extraArrows": 0.0,
+        "descRepeatHint2": 1.0,
+        "descTargetHint2": 1.0
+      },
+      "meta": {
+        "baseSource": "tag",
+        "damageTagCount": 4,
+        "confidence": 0.55
+      }
+    },
+    {
+      "apiName": "TFT16_Aphelios",
+      "name": "아펠리오스",
+      "cost": 2,
+      "role": "ADCarry",
+      "rawTagDamage2": 120.0,
+      "fallbackBaseDamage2": 80.0,
+      "baseDamage2Used": 120.0,
+      "mechanismBonus2": 0.0,
+      "totalCastDamage2": 120.0,
+      "singleTargetEquiv2": 40.0,
+      "targetCountUsed": 3.0,
+      "multipliers": {
+        "projectile": 1.0,
+        "repeat": 1.0,
+        "summon": 1.0,
+        "duration": 0.0,
+        "bonusAD": 0.0,
+        "decayingAS": 0.0,
+        "extraArrows": 0.0,
+        "descRepeatHint2": 1.0,
+        "descTargetHint2": 3.0
+      },
+      "meta": {
+        "baseSource": "tag",
+        "damageTagCount": 1,
+        "confidence": 0.6
+      }
+    },
+    {
+      "apiName": "TFT16_Tristana",
+      "name": "트리스타나",
+      "cost": 2,
+      "role": "ADCaster",
+      "rawTagDamage2": 420.0,
+      "fallbackBaseDamage2": 250.0,
+      "baseDamage2Used": 420.0,
+      "mechanismBonus2": 0.0,
+      "totalCastDamage2": 420.0,
+      "singleTargetEquiv2": 420.0,
+      "targetCountUsed": 1.0,
+      "multipliers": {
+        "projectile": 1.0,
+        "repeat": 1.0,
+        "summon": 1.0,
+        "duration": 0.0,
+        "bonusAD": 0.0,
+        "decayingAS": 0.0,
+        "extraArrows": 0.0,
+        "descRepeatHint2": 1.0,
+        "descTargetHint2": 1.0
+      },
+      "meta": {
+        "baseSource": "tag",
+        "damageTagCount": 1,
+        "confidence": 0.55
+      }
+    },
+    {
+      "apiName": "TFT16_Vi",
+      "name": "바이",
+      "cost": 2,
+      "role": "ADFighter",
+      "rawTagDamage2": 405.0,
+      "fallbackBaseDamage2": 120.0,
+      "baseDamage2Used": 405.0,
+      "mechanismBonus2": 0.0,
+      "totalCastDamage2": 1215.0,
+      "singleTargetEquiv2": 1215.0,
+      "targetCountUsed": 1.0,
+      "multipliers": {
+        "projectile": 3.0,
+        "repeat": 1.0,
+        "summon": 1.0,
+        "duration": 0.0,
+        "bonusAD": 0.0,
+        "decayingAS": 0.0,
+        "extraArrows": 0.0,
+        "descRepeatHint2": 3.0,
+        "descTargetHint2": 1.0
+      },
+      "meta": {
+        "baseSource": "tag",
+        "damageTagCount": 2,
+        "confidence": 0.57
+      }
+    },
+    {
+      "apiName": "TFT16_Graves",
+      "name": "그레이브즈 ",
+      "cost": 2,
+      "role": "ADFighter",
+      "rawTagDamage2": 300.0,
+      "fallbackBaseDamage2": 180.0,
+      "baseDamage2Used": 300.0,
+      "mechanismBonus2": 0.0,
+      "totalCastDamage2": 300.0,
+      "singleTargetEquiv2": 300.0,
+      "targetCountUsed": 1.0,
+      "multipliers": {
+        "projectile": 1.0,
+        "repeat": 1.0,
+        "summon": 1.0,
+        "duration": 0.0,
+        "bonusAD": 0.0,
+        "decayingAS": 0.0,
+        "extraArrows": 0.0,
+        "descRepeatHint2": 1.0,
+        "descTargetHint2": 1.0
+      },
+      "meta": {
+        "baseSource": "tag",
+        "damageTagCount": 1,
+        "confidence": 0.55
+      }
+    },
+    {
+      "apiName": "TFT16_Tryndamere",
+      "name": "트린다미어 ",
+      "cost": 2,
+      "role": "ADFighter",
+      "rawTagDamage2": 160.0,
+      "fallbackBaseDamage2": 110.0,
+      "baseDamage2Used": 160.0,
+      "mechanismBonus2": 0.0,
+      "totalCastDamage2": 160.0,
+      "singleTargetEquiv2": 160.0,
+      "targetCountUsed": 1.0,
+      "multipliers": {
+        "projectile": 1.0,
+        "repeat": 1.0,
+        "summon": 1.0,
+        "duration": 5.0,
+        "bonusAD": 0.0,
+        "decayingAS": 0.0,
+        "extraArrows": 0.0,
+        "descRepeatHint2": 1.0,
+        "descTargetHint2": 1.0
+      },
+      "meta": {
+        "baseSource": "tag",
+        "damageTagCount": 1,
+        "confidence": 0.55
+      }
+    },
+    {
+      "apiName": "TFT16_Yasuo",
+      "name": "야스오",
+      "cost": 2,
+      "role": "ADFighter",
+      "rawTagDamage2": 157.0,
+      "fallbackBaseDamage2": 95.0,
+      "baseDamage2Used": 157.0,
+      "mechanismBonus2": 0.0,
+      "totalCastDamage2": 157.0,
+      "singleTargetEquiv2": 157.0,
+      "targetCountUsed": 1.0,
+      "multipliers": {
+        "projectile": 1.0,
+        "repeat": 1.0,
+        "summon": 1.0,
+        "duration": 0.0,
+        "bonusAD": 0.0,
+        "decayingAS": 0.0,
+        "extraArrows": 0.0,
+        "descRepeatHint2": 1.0,
+        "descTargetHint2": 1.0
+      },
+      "meta": {
+        "baseSource": "tag",
+        "damageTagCount": 1,
+        "confidence": 0.55
+      }
+    },
+    {
+      "apiName": "TFT16_RekSai",
+      "name": "렉사이",
+      "cost": 2,
+      "role": "ADReaper",
+      "rawTagDamage2": 405.0,
+      "fallbackBaseDamage2": 140.0,
+      "baseDamage2Used": 405.0,
+      "mechanismBonus2": 0.0,
+      "totalCastDamage2": 1215.0,
+      "singleTargetEquiv2": 1215.0,
+      "targetCountUsed": 1.0,
+      "multipliers": {
+        "projectile": 1.0,
+        "repeat": 3.0,
+        "summon": 1.0,
+        "duration": 0.0,
+        "bonusAD": 0.0,
+        "decayingAS": 0.0,
+        "extraArrows": 0.0,
+        "descRepeatHint2": 3.0,
+        "descTargetHint2": 1.0
+      },
+      "meta": {
+        "baseSource": "tag",
+        "damageTagCount": 2,
+        "confidence": 0.57
+      }
+    },
+    {
+      "apiName": "TFT16_XinZhao",
+      "name": "신 짜오",
+      "cost": 2,
+      "role": "ADTank",
+      "rawTagDamage2": 100.0,
+      "fallbackBaseDamage2": 65.0,
+      "baseDamage2Used": 100.0,
+      "mechanismBonus2": 0.0,
+      "totalCastDamage2": 300.0,
+      "singleTargetEquiv2": 300.0,
+      "targetCountUsed": 1.0,
+      "multipliers": {
+        "projectile": 3.0,
+        "repeat": 1.0,
+        "summon": 1.0,
+        "duration": 0.0,
+        "bonusAD": 0.0,
+        "decayingAS": 0.0,
+        "extraArrows": 0.0,
+        "descRepeatHint2": 3.0,
+        "descTargetHint2": 1.0
+      },
+      "meta": {
+        "baseSource": "tag",
+        "damageTagCount": 1,
+        "confidence": 0.57
+      }
+    },
+    {
+      "apiName": "TFT16_Poppy",
+      "name": "뽀삐 ",
+      "cost": 2,
+      "role": "ADTank",
+      "rawTagDamage2": 105.0,
+      "fallbackBaseDamage2": 70.0,
+      "baseDamage2Used": 105.0,
+      "mechanismBonus2": 0.0,
+      "totalCastDamage2": 105.0,
+      "singleTargetEquiv2": 105.0,
+      "targetCountUsed": 1.0,
+      "multipliers": {
+        "projectile": 1.0,
+        "repeat": 1.0,
+        "summon": 1.0,
+        "duration": 0.0,
+        "bonusAD": 0.0,
+        "decayingAS": 0.0,
+        "extraArrows": 0.0,
+        "descRepeatHint2": 1.0,
+        "descTargetHint2": 1.0
+      },
+      "meta": {
+        "baseSource": "tag",
+        "damageTagCount": 1,
+        "confidence": 0.55
+      }
+    },
+    {
+      "apiName": "TFT16_Orianna",
+      "name": "오리아나 ",
+      "cost": 2,
+      "role": "APCaster",
+      "rawTagDamage2": 480.0,
+      "fallbackBaseDamage2": 200.0,
+      "baseDamage2Used": 480.0,
+      "mechanismBonus2": 0.0,
+      "totalCastDamage2": 480.0,
+      "singleTargetEquiv2": 480.0,
+      "targetCountUsed": 1.0,
+      "multipliers": {
+        "projectile": 1.0,
+        "repeat": 1.0,
+        "summon": 1.0,
+        "duration": 0.0,
+        "bonusAD": 0.0,
+        "decayingAS": 0.0,
+        "extraArrows": 0.0,
+        "descRepeatHint2": 1.0,
+        "descTargetHint2": 1.0
+      },
+      "meta": {
+        "baseSource": "tag",
+        "damageTagCount": 2,
+        "confidence": 0.55
+      }
+    },
+    {
+      "apiName": "TFT16_Teemo",
+      "name": "티모",
+      "cost": 2,
+      "role": "APCaster",
+      "rawTagDamage2": 255.0,
+      "fallbackBaseDamage2": 130.0,
+      "baseDamage2Used": 255.0,
+      "mechanismBonus2": 0.0,
+      "totalCastDamage2": 255.0,
+      "singleTargetEquiv2": 255.0,
+      "targetCountUsed": 1.0,
+      "multipliers": {
+        "projectile": 1.0,
+        "repeat": 1.0,
+        "summon": 1.0,
+        "duration": 0.0,
+        "bonusAD": 0.0,
+        "decayingAS": 0.0,
+        "extraArrows": 0.0,
+        "descRepeatHint2": 1.0,
+        "descTargetHint2": 1.0
+      },
+      "meta": {
+        "baseSource": "tag",
+        "damageTagCount": 2,
+        "confidence": 0.55
+      }
+    },
+    {
+      "apiName": "TFT16_Bard",
+      "name": "바드 ",
+      "cost": 2,
+      "role": "APCaster",
+      "rawTagDamage2": 185.0,
+      "fallbackBaseDamage2": 130.0,
+      "baseDamage2Used": 185.0,
+      "mechanismBonus2": 0.0,
+      "totalCastDamage2": 185.0,
+      "singleTargetEquiv2": 185.0,
+      "targetCountUsed": 1.0,
+      "multipliers": {
+        "projectile": 1.0,
+        "repeat": 1.0,
+        "summon": 1.0,
+        "duration": 0.0,
+        "bonusAD": 0.0,
+        "decayingAS": 0.0,
+        "extraArrows": 0.0,
+        "descRepeatHint2": 1.0,
+        "descTargetHint2": 1.0
+      },
+      "meta": {
+        "baseSource": "tag",
+        "damageTagCount": 1,
+        "confidence": 0.55
+      }
+    },
+    {
+      "apiName": "TFT16_Ekko",
+      "name": "에코",
+      "cost": 2,
+      "role": "APFighter",
+      "rawTagDamage2": 420.0,
+      "fallbackBaseDamage2": 0.0,
+      "baseDamage2Used": 420.0,
+      "mechanismBonus2": 0.0,
+      "totalCastDamage2": 1260.0,
+      "singleTargetEquiv2": 1260.0,
+      "targetCountUsed": 1.0,
+      "multipliers": {
+        "projectile": 3.0,
+        "repeat": 1.0,
+        "summon": 1.0,
+        "duration": 3.0,
+        "bonusAD": 0.0,
+        "decayingAS": 0.0,
+        "extraArrows": 0.0,
+        "descRepeatHint2": 3.0,
+        "descTargetHint2": 1.0
+      },
+      "meta": {
+        "baseSource": "tag",
+        "damageTagCount": 2,
+        "confidence": 0.57
+      }
+    },
+    {
+      "apiName": "TFT16_TwistedFate",
+      "name": "트위스티드 페이트",
+      "cost": 2,
+      "role": "APSpecialist",
+      "rawTagDamage2": 180.0,
+      "fallbackBaseDamage2": 70.0,
+      "baseDamage2Used": 180.0,
+      "mechanismBonus2": 0.0,
+      "totalCastDamage2": 540.0,
+      "singleTargetEquiv2": 540.0,
+      "targetCountUsed": 1.0,
+      "multipliers": {
+        "projectile": 1.0,
+        "repeat": 3.0,
+        "summon": 1.0,
+        "duration": 0.0,
+        "bonusAD": 0.0,
+        "decayingAS": 0.0,
+        "extraArrows": 0.0,
+        "descRepeatHint2": 3.0,
+        "descTargetHint2": 1.0
+      },
+      "meta": {
+        "baseSource": "tag",
+        "damageTagCount": 2,
+        "confidence": 0.57
+      }
+    },
+    {
+      "apiName": "TFT16_Yorick",
+      "name": "요릭 ",
+      "cost": 2,
+      "role": "APTank",
+      "rawTagDamage2": 187.0,
+      "fallbackBaseDamage2": 0.0,
+      "baseDamage2Used": 187.0,
+      "mechanismBonus2": 0.0,
+      "totalCastDamage2": 187.0,
+      "singleTargetEquiv2": 187.0,
+      "targetCountUsed": 1.0,
+      "multipliers": {
+        "projectile": 1.0,
+        "repeat": 1.0,
+        "summon": 1.0,
+        "duration": 0.0,
+        "bonusAD": 0.0,
+        "decayingAS": 0.0,
+        "extraArrows": 0.0,
+        "descRepeatHint2": 1.0,
+        "descTargetHint2": 1.0
+      },
+      "meta": {
+        "baseSource": "tag",
+        "damageTagCount": 1,
+        "confidence": 0.55
+      }
+    },
+    {
+      "apiName": "TFT16_ChoGath",
+      "name": "초가스",
+      "cost": 2,
+      "role": "APTank",
+      "rawTagDamage2": 152.0,
+      "fallbackBaseDamage2": 45.0,
+      "baseDamage2Used": 152.0,
+      "mechanismBonus2": 0.0,
+      "totalCastDamage2": 152.0,
+      "singleTargetEquiv2": 152.0,
+      "targetCountUsed": 1.0,
+      "multipliers": {
+        "projectile": 1.0,
+        "repeat": 1.0,
+        "summon": 1.0,
+        "duration": 0.0,
+        "bonusAD": 0.0,
+        "decayingAS": 0.0,
+        "extraArrows": 0.0,
+        "descRepeatHint2": 1.0,
+        "descTargetHint2": 1.0
+      },
+      "meta": {
+        "baseSource": "tag",
+        "damageTagCount": 1,
+        "confidence": 0.55
+      }
+    },
+    {
+      "apiName": "TFT16_Neeko",
+      "name": "니코",
+      "cost": 2,
+      "role": "APTank",
+      "rawTagDamage2": 120.0,
+      "fallbackBaseDamage2": 80.0,
+      "baseDamage2Used": 120.0,
+      "mechanismBonus2": 0.0,
+      "totalCastDamage2": 120.0,
+      "singleTargetEquiv2": 120.0,
+      "targetCountUsed": 1.0,
+      "multipliers": {
+        "projectile": 1.0,
+        "repeat": 1.0,
+        "summon": 1.0,
+        "duration": 0.0,
+        "bonusAD": 0.0,
+        "decayingAS": 0.0,
+        "extraArrows": 0.0,
+        "descRepeatHint2": 1.0,
+        "descTargetHint2": 1.0
+      },
+      "meta": {
+        "baseSource": "tag",
+        "damageTagCount": 1,
+        "confidence": 0.55
+      }
+    },
+    {
+      "apiName": "TFT16_Sion",
+      "name": "사이온",
+      "cost": 2,
+      "role": "APTank",
+      "rawTagDamage2": 47.0,
+      "fallbackBaseDamage2": 0.0,
+      "baseDamage2Used": 47.0,
+      "mechanismBonus2": 0.0,
+      "totalCastDamage2": 47.0,
+      "singleTargetEquiv2": 47.0,
+      "targetCountUsed": 1.0,
+      "multipliers": {
+        "projectile": 1.0,
+        "repeat": 1.0,
+        "summon": 1.0,
+        "duration": 0.0,
+        "bonusAD": 0.0,
+        "decayingAS": 0.0,
+        "extraArrows": 0.0,
+        "descRepeatHint2": 1.0,
+        "descTargetHint2": 1.0
+      },
+      "meta": {
+        "baseSource": "tag",
+        "damageTagCount": 1,
+        "confidence": 0.55
+      }
+    },
+    {
+      "apiName": "TFT16_Draven",
+      "name": "드레이븐",
+      "cost": 3,
+      "role": "ADCarry",
+      "rawTagDamage2": 185.0,
+      "fallbackBaseDamage2": 120.0,
+      "baseDamage2Used": 185.0,
+      "mechanismBonus2": 0.0,
+      "totalCastDamage2": 185.0,
+      "singleTargetEquiv2": 185.0,
+      "targetCountUsed": 1.0,
+      "multipliers": {
+        "projectile": 1.0,
+        "repeat": 1.0,
+        "summon": 1.0,
+        "duration": 0.0,
+        "bonusAD": 0.0,
+        "decayingAS": 0.0,
+        "extraArrows": 0.0,
+        "descRepeatHint2": 1.0,
+        "descTargetHint2": 1.0
+      },
+      "meta": {
+        "baseSource": "tag",
+        "damageTagCount": 1,
+        "confidence": 0.55
+      }
+    },
+    {
+      "apiName": "TFT16_Vayne",
+      "name": "베인",
+      "cost": 3,
+      "role": "ADCarry",
+      "rawTagDamage2": 160.0,
+      "fallbackBaseDamage2": 100.0,
+      "baseDamage2Used": 160.0,
+      "mechanismBonus2": 0.0,
+      "totalCastDamage2": 160.0,
+      "singleTargetEquiv2": 160.0,
+      "targetCountUsed": 1.0,
+      "multipliers": {
+        "projectile": 1.0,
+        "repeat": 1.0,
+        "summon": 1.0,
+        "duration": 0.0,
+        "bonusAD": 0.0,
+        "decayingAS": 0.0,
+        "extraArrows": 0.0,
+        "descRepeatHint2": 1.0,
+        "descTargetHint2": 1.0
+      },
+      "meta": {
+        "baseSource": "tag",
+        "damageTagCount": 1,
+        "confidence": 0.55
+      }
+    },
+    {
+      "apiName": "TFT16_Gangplank",
+      "name": "갱플랭크",
+      "cost": 3,
+      "role": "ADFighter",
+      "rawTagDamage2": 300.0,
+      "fallbackBaseDamage2": 190.0,
+      "baseDamage2Used": 300.0,
+      "mechanismBonus2": 0.0,
+      "totalCastDamage2": 300.0,
+      "singleTargetEquiv2": 100.0,
+      "targetCountUsed": 3.0,
+      "multipliers": {
+        "projectile": 1.0,
+        "repeat": 1.0,
+        "summon": 1.0,
+        "duration": 0.0,
+        "bonusAD": 0.0,
+        "decayingAS": 0.0,
+        "extraArrows": 0.0,
+        "descRepeatHint2": 1.0,
+        "descTargetHint2": 3.0
+      },
+      "meta": {
+        "baseSource": "tag",
+        "damageTagCount": 1,
+        "confidence": 0.6
+      }
+    },
+    {
+      "apiName": "TFT16_Jinx",
+      "name": "징크스",
+      "cost": 3,
+      "role": "ADSpecialist",
+      "rawTagDamage2": 88.0,
+      "fallbackBaseDamage2": 54.0,
+      "baseDamage2Used": 88.0,
+      "mechanismBonus2": 0.0,
+      "totalCastDamage2": 4752.0,
+      "singleTargetEquiv2": 4752.0,
+      "targetCountUsed": 1.0,
+      "multipliers": {
+        "projectile": 3.0,
+        "repeat": 18.0,
+        "summon": 1.0,
+        "duration": 0.0,
+        "bonusAD": 0.0,
+        "decayingAS": 0.0,
+        "extraArrows": 0.0,
+        "descRepeatHint2": 18.0,
+        "descTargetHint2": 1.0
+      },
+      "meta": {
+        "baseSource": "tag",
+        "damageTagCount": 1,
+        "confidence": 0.67
+      }
+    },
+    {
+      "apiName": "TFT16_Darius",
+      "name": "다리우스",
+      "cost": 3,
+      "role": "ADTank",
+      "rawTagDamage2": 153.0,
+      "fallbackBaseDamage2": 90.0,
+      "baseDamage2Used": 153.0,
+      "mechanismBonus2": 0.0,
+      "totalCastDamage2": 153.0,
+      "singleTargetEquiv2": 153.0,
+      "targetCountUsed": 1.0,
+      "multipliers": {
+        "projectile": 1.0,
+        "repeat": 1.0,
+        "summon": 1.0,
+        "duration": 0.0,
+        "bonusAD": 0.0,
+        "decayingAS": 0.0,
+        "extraArrows": 0.0,
+        "descRepeatHint2": 1.0,
+        "descTargetHint2": 1.0
+      },
+      "meta": {
+        "baseSource": "tag",
+        "damageTagCount": 2,
+        "confidence": 0.55
+      }
+    },
+    {
+      "apiName": "TFT16_DrMundo",
+      "name": "문도 박사",
+      "cost": 3,
+      "role": "ADTank",
+      "rawTagDamage2": 0.0,
+      "fallbackBaseDamage2": 60.0,
+      "baseDamage2Used": 60.0,
+      "mechanismBonus2": 0.0,
+      "totalCastDamage2": 60.0,
+      "singleTargetEquiv2": 60.0,
+      "targetCountUsed": 1.0,
+      "multipliers": {
+        "projectile": 1.0,
+        "repeat": 1.0,
+        "summon": 1.0,
+        "duration": 5.0,
+        "bonusAD": 0.0,
+        "decayingAS": 0.0,
+        "extraArrows": 0.0,
+        "descRepeatHint2": 1.0,
+        "descTargetHint2": 1.0
+      },
+      "meta": {
+        "baseSource": "variable_fallback",
+        "damageTagCount": 1,
+        "confidence": 0.7
+      }
+    },
+    {
+      "apiName": "TFT16_Milio",
+      "name": "밀리오",
+      "cost": 3,
+      "role": "APCaster",
+      "rawTagDamage2": 525.0,
+      "fallbackBaseDamage2": 190.0,
+      "baseDamage2Used": 525.0,
+      "mechanismBonus2": 0.0,
+      "totalCastDamage2": 1575.0,
+      "singleTargetEquiv2": 1575.0,
+      "targetCountUsed": 1.0,
+      "multipliers": {
+        "projectile": 3.0,
+        "repeat": 1.0,
+        "summon": 1.0,
+        "duration": 0.0,
+        "bonusAD": 0.0,
+        "decayingAS": 0.0,
+        "extraArrows": 0.0,
+        "descRepeatHint2": 3.0,
+        "descTargetHint2": 1.0
+      },
+      "meta": {
+        "baseSource": "tag",
+        "damageTagCount": 2,
+        "confidence": 0.57
+      }
+    },
+    {
+      "apiName": "TFT16_Zoe",
+      "name": "조이",
+      "cost": 3,
+      "role": "APCaster",
+      "rawTagDamage2": 500.0,
+      "fallbackBaseDamage2": 330.0,
+      "baseDamage2Used": 500.0,
+      "mechanismBonus2": 0.0,
+      "totalCastDamage2": 1000.0,
+      "singleTargetEquiv2": 1000.0,
+      "targetCountUsed": 1.0,
+      "multipliers": {
+        "projectile": 2.0,
+        "repeat": 1.0,
+        "summon": 1.0,
+        "duration": 0.0,
+        "bonusAD": 0.0,
+        "decayingAS": 0.0,
+        "extraArrows": 0.0,
+        "descRepeatHint2": 2.0,
+        "descTargetHint2": 1.0
+      },
+      "meta": {
+        "baseSource": "tag",
+        "damageTagCount": 1,
+        "confidence": 0.56
+      }
+    },
+    {
+      "apiName": "TFT16_Malzahar",
+      "name": "말자하",
+      "cost": 3,
+      "role": "APCaster",
+      "rawTagDamage2": 45.0,
+      "fallbackBaseDamage2": 30.0,
+      "baseDamage2Used": 45.0,
+      "mechanismBonus2": 0.0,
+      "totalCastDamage2": 720.0,
+      "singleTargetEquiv2": 720.0,
+      "targetCountUsed": 1.0,
+      "multipliers": {
+        "projectile": 1.0,
+        "repeat": 8.0,
+        "summon": 2.0,
+        "duration": 0.0,
+        "bonusAD": 0.0,
+        "decayingAS": 0.0,
+        "extraArrows": 0.0,
+        "descRepeatHint2": 8.0,
+        "descTargetHint2": 1.0
+      },
+      "meta": {
+        "baseSource": "tag",
+        "damageTagCount": 1,
+        "confidence": 0.63
+      }
+    },
+    {
+      "apiName": "TFT16_Leblanc",
+      "name": "르블랑 ",
+      "cost": 3,
+      "role": "APCaster",
+      "rawTagDamage2": 720.0,
+      "fallbackBaseDamage2": 300.0,
+      "baseDamage2Used": 720.0,
+      "mechanismBonus2": 0.0,
+      "totalCastDamage2": 720.0,
+      "singleTargetEquiv2": 720.0,
+      "targetCountUsed": 1.0,
+      "multipliers": {
+        "projectile": 1.0,
+        "repeat": 1.0,
+        "summon": 1.0,
+        "duration": 0.0,
+        "bonusAD": 0.0,
+        "decayingAS": 0.0,
+        "extraArrows": 0.0,
+        "descRepeatHint2": 1.0,
+        "descTargetHint2": 1.0
+      },
+      "meta": {
+        "baseSource": "tag",
+        "damageTagCount": 2,
+        "confidence": 0.55
+      }
+    },
+    {
+      "apiName": "TFT16_Ahri",
+      "name": "아리",
+      "cost": 3,
+      "role": "APCaster",
+      "rawTagDamage2": 125.0,
+      "fallbackBaseDamage2": 82.0,
+      "baseDamage2Used": 125.0,
+      "mechanismBonus2": 0.0,
+      "totalCastDamage2": 1125.0,
+      "singleTargetEquiv2": 562.5,
+      "targetCountUsed": 2.0,
+      "multipliers": {
+        "projectile": 9.0,
+        "repeat": 1.0,
+        "summon": 1.0,
+        "duration": 0.0,
+        "bonusAD": 0.0,
+        "decayingAS": 0.0,
+        "extraArrows": 0.0,
+        "descRepeatHint2": 9.0,
+        "descTargetHint2": 2.0
+      },
+      "meta": {
+        "baseSource": "tag",
+        "damageTagCount": 1,
+        "confidence": 0.68
+      }
+    },
+    {
+      "apiName": "TFT16_Gwen",
+      "name": "그웬 ",
+      "cost": 3,
+      "role": "APFighter",
+      "rawTagDamage2": 110.0,
+      "fallbackBaseDamage2": 50.0,
+      "baseDamage2Used": 110.0,
+      "mechanismBonus2": 0.0,
+      "totalCastDamage2": 110.0,
+      "singleTargetEquiv2": 110.0,
+      "targetCountUsed": 1.0,
+      "multipliers": {
+        "projectile": 1.0,
+        "repeat": 1.0,
+        "summon": 1.0,
+        "duration": 0.0,
+        "bonusAD": 0.0,
+        "decayingAS": 0.0,
+        "extraArrows": 0.0,
+        "descRepeatHint2": 1.0,
+        "descTargetHint2": 1.0
+      },
+      "meta": {
+        "baseSource": "tag",
+        "damageTagCount": 2,
+        "confidence": 0.55
+      }
+    },
+    {
+      "apiName": "TFT16_Kennen",
+      "name": "케넨 ",
+      "cost": 3,
+      "role": "APTank",
+      "rawTagDamage2": 180.0,
+      "fallbackBaseDamage2": 120.0,
+      "baseDamage2Used": 180.0,
+      "mechanismBonus2": 0.0,
+      "totalCastDamage2": 1080.0,
+      "singleTargetEquiv2": 1080.0,
+      "targetCountUsed": 1.0,
+      "multipliers": {
+        "projectile": 6.0,
+        "repeat": 1.0,
+        "summon": 1.0,
+        "duration": 3.0,
+        "bonusAD": 0.0,
+        "decayingAS": 0.0,
+        "extraArrows": 0.0,
+        "descRepeatHint2": 6.0,
+        "descTargetHint2": 1.0
+      },
+      "meta": {
+        "baseSource": "tag",
+        "damageTagCount": 1,
+        "confidence": 0.6
+      }
+    },
+    {
+      "apiName": "TFT16_Loris",
+      "name": "로리스",
+      "cost": 3,
+      "role": "APTank",
+      "rawTagDamage2": 225.0,
+      "fallbackBaseDamage2": 150.0,
+      "baseDamage2Used": 225.0,
+      "mechanismBonus2": 0.0,
+      "totalCastDamage2": 225.0,
+      "singleTargetEquiv2": 225.0,
+      "targetCountUsed": 1.0,
+      "multipliers": {
+        "projectile": 1.0,
+        "repeat": 1.0,
+        "summon": 1.0,
+        "duration": 0.0,
+        "bonusAD": 0.0,
+        "decayingAS": 0.0,
+        "extraArrows": 0.0,
+        "descRepeatHint2": 1.0,
+        "descTargetHint2": 1.0
+      },
+      "meta": {
+        "baseSource": "tag",
+        "damageTagCount": 1,
+        "confidence": 0.55
+      }
+    },
+    {
+      "apiName": "TFT16_Sejuani",
+      "name": "세주아니",
+      "cost": 3,
+      "role": "APTank",
+      "rawTagDamage2": 105.0,
+      "fallbackBaseDamage2": 70.0,
+      "baseDamage2Used": 105.0,
+      "mechanismBonus2": 0.0,
+      "totalCastDamage2": 105.0,
+      "singleTargetEquiv2": 105.0,
+      "targetCountUsed": 1.0,
+      "multipliers": {
+        "projectile": 1.0,
+        "repeat": 1.0,
+        "summon": 1.0,
+        "duration": 0.0,
+        "bonusAD": 0.0,
+        "decayingAS": 0.0,
+        "extraArrows": 0.0,
+        "descRepeatHint2": 1.0,
+        "descTargetHint2": 1.0
+      },
+      "meta": {
+        "baseSource": "tag",
+        "damageTagCount": 1,
+        "confidence": 0.55
+      }
+    },
+    {
+      "apiName": "TFT16_Nautilus",
+      "name": "노틸러스",
+      "cost": 3,
+      "role": "APTank",
+      "rawTagDamage2": 68.0,
+      "fallbackBaseDamage2": 0.0,
+      "baseDamage2Used": 68.0,
+      "mechanismBonus2": 0.0,
+      "totalCastDamage2": 68.0,
+      "singleTargetEquiv2": 68.0,
+      "targetCountUsed": 1.0,
+      "multipliers": {
+        "projectile": 1.0,
+        "repeat": 1.0,
+        "summon": 1.0,
+        "duration": 0.0,
+        "bonusAD": 0.0,
+        "decayingAS": 0.0,
+        "extraArrows": 0.0,
+        "descRepeatHint2": 1.0,
+        "descTargetHint2": 1.0
+      },
+      "meta": {
+        "baseSource": "tag",
+        "damageTagCount": 1,
+        "confidence": 0.55
+      }
+    },
+    {
+      "apiName": "TFT16_Leona",
+      "name": "레오나",
+      "cost": 3,
+      "role": "APTank",
+      "rawTagDamage2": 120.0,
+      "fallbackBaseDamage2": 80.0,
+      "baseDamage2Used": 120.0,
+      "mechanismBonus2": 0.0,
+      "totalCastDamage2": 120.0,
+      "singleTargetEquiv2": 40.0,
+      "targetCountUsed": 3.0,
+      "multipliers": {
+        "projectile": 1.0,
+        "repeat": 1.0,
+        "summon": 1.0,
+        "duration": 0.0,
+        "bonusAD": 0.0,
+        "decayingAS": 0.0,
+        "extraArrows": 0.0,
+        "descRepeatHint2": 1.0,
+        "descTargetHint2": 3.0
+      },
+      "meta": {
+        "baseSource": "tag",
+        "damageTagCount": 1,
+        "confidence": 0.6
+      }
+    },
+    {
+      "apiName": "TFT16_Kobuko",
+      "name": "코부코와 유미",
+      "cost": 3,
+      "role": "APTank",
+      "rawTagDamage2": 0.0,
+      "fallbackBaseDamage2": 0.0,
+      "baseDamage2Used": 0.0,
+      "mechanismBonus2": 0.0,
+      "totalCastDamage2": 0.0,
+      "singleTargetEquiv2": 0.0,
+      "targetCountUsed": 1.0,
+      "multipliers": {
+        "projectile": 1.0,
+        "repeat": 1.0,
+        "summon": 1.0,
+        "duration": 0.0,
+        "bonusAD": 0.0,
+        "decayingAS": 0.0,
+        "extraArrows": 0.0,
+        "descRepeatHint2": 1.0,
+        "descTargetHint2": 1.0
+      },
+      "meta": {
+        "baseSource": "none",
+        "damageTagCount": 0,
+        "confidence": 0.3
+      }
+    },
+    {
+      "apiName": "TFT16_Yunara",
+      "name": "유나라",
+      "cost": 4,
+      "role": "ADCarry",
+      "rawTagDamage2": 120.0,
+      "fallbackBaseDamage2": 80.0,
+      "baseDamage2Used": 120.0,
+      "mechanismBonus2": 0.0,
+      "totalCastDamage2": 120.0,
+      "singleTargetEquiv2": 120.0,
+      "targetCountUsed": 1.0,
+      "multipliers": {
+        "projectile": 1.0,
+        "repeat": 1.0,
+        "summon": 1.0,
+        "duration": 0.0,
+        "bonusAD": 0.0,
+        "decayingAS": 0.0,
+        "extraArrows": 0.0,
+        "descRepeatHint2": 1.0,
+        "descTargetHint2": 1.0
+      },
+      "meta": {
+        "baseSource": "tag",
+        "damageTagCount": 2,
+        "confidence": 0.55
+      }
+    },
+    {
+      "apiName": "TFT16_MissFortune",
+      "name": "미스 포츈",
+      "cost": 4,
+      "role": "ADCaster",
+      "rawTagDamage2": 518.0,
+      "fallbackBaseDamage2": 230.0,
+      "baseDamage2Used": 518.0,
+      "mechanismBonus2": 0.0,
+      "totalCastDamage2": 1554.0,
+      "singleTargetEquiv2": 777.0,
+      "targetCountUsed": 2.0,
+      "multipliers": {
+        "projectile": 3.0,
+        "repeat": 1.0,
+        "summon": 1.0,
+        "duration": 0.0,
+        "bonusAD": 0.0,
+        "decayingAS": 0.0,
+        "extraArrows": 0.0,
+        "descRepeatHint2": 3.0,
+        "descTargetHint2": 2.0
+      },
+      "meta": {
+        "baseSource": "tag",
+        "damageTagCount": 2,
+        "confidence": 0.62
+      }
+    },
+    {
+      "apiName": "TFT16_Kalista",
+      "name": "칼리스타 ",
+      "cost": 4,
+      "role": "ADCaster",
+      "rawTagDamage2": 53.0,
+      "fallbackBaseDamage2": 32.0,
+      "baseDamage2Used": 53.0,
+      "mechanismBonus2": 0.0,
+      "totalCastDamage2": 1060.0,
+      "singleTargetEquiv2": 265.0,
+      "targetCountUsed": 4.0,
+      "multipliers": {
+        "projectile": 20.0,
+        "repeat": 1.0,
+        "summon": 1.0,
+        "duration": 0.0,
+        "bonusAD": 0.0,
+        "decayingAS": 0.0,
+        "extraArrows": 0.0,
+        "descRepeatHint2": 1.0,
+        "descTargetHint2": 4.0
+      },
+      "meta": {
+        "baseSource": "tag",
+        "damageTagCount": 1,
+        "confidence": 0.7
+      }
+    },
+    {
+      "apiName": "TFT16_Kaisa",
+      "name": "카이사 ",
+      "cost": 4,
+      "role": "ADCasterFormSwapper",
+      "rawTagDamage2": 72.0,
+      "fallbackBaseDamage2": 39.0,
+      "baseDamage2Used": 72.0,
+      "mechanismBonus2": 0.0,
+      "totalCastDamage2": 1080.0,
+      "singleTargetEquiv2": 270.0,
+      "targetCountUsed": 4.0,
+      "multipliers": {
+        "projectile": 15.0,
+        "repeat": 1.0,
+        "summon": 1.0,
+        "duration": 0.0,
+        "bonusAD": 0.0,
+        "decayingAS": 0.0,
+        "extraArrows": 0.0,
+        "descRepeatHint2": 15.0,
+        "descTargetHint2": 4.0
+      },
+      "meta": {
+        "baseSource": "tag",
+        "damageTagCount": 1,
+        "confidence": 0.7
+      }
+    },
+    {
+      "apiName": "TFT16_Renekton",
+      "name": "레넥톤 ",
+      "cost": 4,
+      "role": "ADFighter",
+      "rawTagDamage2": 205.0,
+      "fallbackBaseDamage2": 0.0,
+      "baseDamage2Used": 205.0,
+      "mechanismBonus2": 0.0,
+      "totalCastDamage2": 820.0,
+      "singleTargetEquiv2": 820.0,
+      "targetCountUsed": 1.0,
+      "multipliers": {
+        "projectile": 4.0,
+        "repeat": 1.0,
+        "summon": 1.0,
+        "duration": 0.0,
+        "bonusAD": 0.0,
+        "decayingAS": 0.0,
+        "extraArrows": 0.0,
+        "descRepeatHint2": 4.0,
+        "descTargetHint2": 1.0
+      },
+      "meta": {
+        "baseSource": "tag",
+        "damageTagCount": 2,
+        "confidence": 0.58
+      }
+    },
+    {
+      "apiName": "TFT16_Ambessa",
+      "name": "암베사",
+      "cost": 4,
+      "role": "ADFighter",
+      "rawTagDamage2": 311.0,
+      "fallbackBaseDamage2": 45.0,
+      "baseDamage2Used": 311.0,
+      "mechanismBonus2": 0.0,
+      "totalCastDamage2": 311.0,
+      "singleTargetEquiv2": 311.0,
+      "targetCountUsed": 1.0,
+      "multipliers": {
+        "projectile": 1.0,
+        "repeat": 1.0,
+        "summon": 1.0,
+        "duration": 0.0,
+        "bonusAD": 0.0,
+        "decayingAS": 0.0,
+        "extraArrows": 0.0,
+        "descRepeatHint2": 1.0,
+        "descTargetHint2": 1.0
+      },
+      "meta": {
+        "baseSource": "tag",
+        "damageTagCount": 2,
+        "confidence": 0.55
+      }
+    },
+    {
+      "apiName": "TFT16_BelVeth",
+      "name": "벨베스",
+      "cost": 4,
+      "role": "ADFighter",
+      "rawTagDamage2": 255.0,
+      "fallbackBaseDamage2": 150.0,
+      "baseDamage2Used": 255.0,
+      "mechanismBonus2": 0.0,
+      "totalCastDamage2": 255.0,
+      "singleTargetEquiv2": 255.0,
+      "targetCountUsed": 1.0,
+      "multipliers": {
+        "projectile": 1.0,
+        "repeat": 1.0,
+        "summon": 1.0,
+        "duration": 0.0,
+        "bonusAD": 0.0,
+        "decayingAS": 0.0,
+        "extraArrows": 0.0,
+        "descRepeatHint2": 1.0,
+        "descTargetHint2": 1.0
+      },
+      "meta": {
+        "baseSource": "tag",
+        "damageTagCount": 3,
+        "confidence": 0.55
+      }
+    },
+    {
+      "apiName": "TFT16_Warwick",
+      "name": "워윅",
+      "cost": 4,
+      "role": "ADFighter",
+      "rawTagDamage2": 70.0,
+      "fallbackBaseDamage2": 45.0,
+      "baseDamage2Used": 70.0,
+      "mechanismBonus2": 0.0,
+      "totalCastDamage2": 70.0,
+      "singleTargetEquiv2": 70.0,
+      "targetCountUsed": 1.0,
+      "multipliers": {
+        "projectile": 1.0,
+        "repeat": 1.0,
+        "summon": 1.0,
+        "duration": 0.0,
+        "bonusAD": 0.0,
+        "decayingAS": 0.0,
+        "extraArrows": 0.0,
+        "descRepeatHint2": 1.0,
+        "descTargetHint2": 1.0
+      },
+      "meta": {
+        "baseSource": "tag",
+        "damageTagCount": 1,
+        "confidence": 0.55
+      }
+    },
+    {
+      "apiName": "TFT16_Wukong",
+      "name": "오공",
+      "cost": 4,
+      "role": "ADTank",
+      "rawTagDamage2": 225.0,
+      "fallbackBaseDamage2": 150.0,
+      "baseDamage2Used": 225.0,
+      "mechanismBonus2": 0.0,
+      "totalCastDamage2": 225.0,
+      "singleTargetEquiv2": 225.0,
+      "targetCountUsed": 1.0,
+      "multipliers": {
+        "projectile": 1.0,
+        "repeat": 1.0,
+        "summon": 1.0,
+        "duration": 4.0,
+        "bonusAD": 0.0,
+        "decayingAS": 0.0,
+        "extraArrows": 0.0,
+        "descRepeatHint2": 1.0,
+        "descTargetHint2": 1.0
+      },
+      "meta": {
+        "baseSource": "tag",
+        "damageTagCount": 1,
+        "confidence": 0.55
+      }
+    },
+    {
+      "apiName": "TFT16_Garen",
+      "name": "가렌",
+      "cost": 4,
+      "role": "ADTank",
+      "rawTagDamage2": 150.0,
+      "fallbackBaseDamage2": 100.0,
+      "baseDamage2Used": 150.0,
+      "mechanismBonus2": 0.0,
+      "totalCastDamage2": 150.0,
+      "singleTargetEquiv2": 150.0,
+      "targetCountUsed": 1.0,
+      "multipliers": {
+        "projectile": 1.0,
+        "repeat": 1.0,
+        "summon": 1.0,
+        "duration": 0.0,
+        "bonusAD": 0.0,
+        "decayingAS": 0.0,
+        "extraArrows": 0.0,
+        "descRepeatHint2": 1.0,
+        "descTargetHint2": 1.0
+      },
+      "meta": {
+        "baseSource": "tag",
+        "damageTagCount": 1,
+        "confidence": 0.55
+      }
+    },
+    {
+      "apiName": "TFT16_Skarner",
+      "name": "스카너 ",
+      "cost": 4,
+      "role": "ADTank",
+      "rawTagDamage2": 126.0,
+      "fallbackBaseDamage2": 0.0,
+      "baseDamage2Used": 126.0,
+      "mechanismBonus2": 0.0,
+      "totalCastDamage2": 126.0,
+      "singleTargetEquiv2": 42.0,
+      "targetCountUsed": 3.0,
+      "multipliers": {
+        "projectile": 1.0,
+        "repeat": 1.0,
+        "summon": 1.0,
+        "duration": 0.0,
+        "bonusAD": 0.0,
+        "decayingAS": 0.0,
+        "extraArrows": 0.0,
+        "descRepeatHint2": 1.0,
+        "descTargetHint2": 3.0
+      },
+      "meta": {
+        "baseSource": "tag",
+        "damageTagCount": 1,
+        "confidence": 0.6
+      }
+    },
+    {
+      "apiName": "TFT16_Seraphine",
+      "name": "세라핀",
+      "cost": 4,
+      "role": "APCaster",
+      "rawTagDamage2": 460.0,
+      "fallbackBaseDamage2": 0.0,
+      "baseDamage2Used": 460.0,
+      "mechanismBonus2": 0.0,
+      "totalCastDamage2": 5520.0,
+      "singleTargetEquiv2": 2760.0,
+      "targetCountUsed": 2.0,
+      "multipliers": {
+        "projectile": 12.0,
+        "repeat": 1.0,
+        "summon": 1.0,
+        "duration": 0.0,
+        "bonusAD": 0.0,
+        "decayingAS": 0.0,
+        "extraArrows": 0.0,
+        "descRepeatHint2": 12.0,
+        "descTargetHint2": 1.0
+      },
+      "meta": {
+        "baseSource": "tag",
+        "damageTagCount": 2,
+        "confidence": 0.7
+      }
+    },
+    {
+      "apiName": "TFT16_Veigar",
+      "name": "베이가",
+      "cost": 4,
+      "role": "APCaster",
+      "rawTagDamage2": 93.0,
+      "fallbackBaseDamage2": 62.0,
+      "baseDamage2Used": 93.0,
+      "mechanismBonus2": 0.0,
+      "totalCastDamage2": 1116.0,
+      "singleTargetEquiv2": 558.0,
+      "targetCountUsed": 2.0,
+      "multipliers": {
+        "projectile": 12.0,
+        "repeat": 1.0,
+        "summon": 1.0,
+        "duration": 0.0,
+        "bonusAD": 0.0,
+        "decayingAS": 0.0,
+        "extraArrows": 0.0,
+        "descRepeatHint2": 12.0,
+        "descTargetHint2": 1.0
+      },
+      "meta": {
+        "baseSource": "tag",
+        "damageTagCount": 1,
+        "confidence": 0.7
+      }
+    },
+    {
+      "apiName": "TFT16_Lissandra",
+      "name": "리산드라",
+      "cost": 4,
+      "role": "APCaster",
+      "rawTagDamage2": 1100.0,
+      "fallbackBaseDamage2": 315.0,
+      "baseDamage2Used": 1100.0,
+      "mechanismBonus2": 0.0,
+      "totalCastDamage2": 1100.0,
+      "singleTargetEquiv2": 550.0,
+      "targetCountUsed": 2.0,
+      "multipliers": {
+        "projectile": 1.0,
+        "repeat": 1.0,
+        "summon": 1.0,
+        "duration": 0.0,
+        "bonusAD": 0.0,
+        "decayingAS": 0.0,
+        "extraArrows": 0.0,
+        "descRepeatHint2": 1.0,
+        "descTargetHint2": 2.0
+      },
+      "meta": {
+        "baseSource": "tag",
+        "damageTagCount": 2,
+        "confidence": 0.6
+      }
+    },
+    {
+      "apiName": "TFT16_Lux",
+      "name": "럭스",
+      "cost": 4,
+      "role": "APCaster",
+      "rawTagDamage2": 680.0,
+      "fallbackBaseDamage2": 330.0,
+      "baseDamage2Used": 680.0,
+      "mechanismBonus2": 0.0,
+      "totalCastDamage2": 680.0,
+      "singleTargetEquiv2": 340.0,
+      "targetCountUsed": 2.0,
+      "multipliers": {
+        "projectile": 1.0,
+        "repeat": 1.0,
+        "summon": 1.0,
+        "duration": 0.0,
+        "bonusAD": 0.0,
+        "decayingAS": 0.0,
+        "extraArrows": 0.0,
+        "descRepeatHint2": 1.0,
+        "descTargetHint2": 2.0
+      },
+      "meta": {
+        "baseSource": "tag",
+        "damageTagCount": 3,
+        "confidence": 0.6
+      }
+    },
+    {
+      "apiName": "TFT16_Nidalee",
+      "name": "니달리 ",
+      "cost": 4,
+      "role": "APFighter",
+      "rawTagDamage2": 650.0,
+      "fallbackBaseDamage2": 320.0,
+      "baseDamage2Used": 650.0,
+      "mechanismBonus2": 0.0,
+      "totalCastDamage2": 650.0,
+      "singleTargetEquiv2": 650.0,
+      "targetCountUsed": 1.0,
+      "multipliers": {
+        "projectile": 1.0,
+        "repeat": 1.0,
+        "summon": 1.0,
+        "duration": 0.0,
+        "bonusAD": 0.0,
+        "decayingAS": 0.0,
+        "extraArrows": 0.0,
+        "descRepeatHint2": 1.0,
+        "descTargetHint2": 1.0
+      },
+      "meta": {
+        "baseSource": "tag",
+        "damageTagCount": 2,
+        "confidence": 0.55
+      }
+    },
+    {
+      "apiName": "TFT16_Fizz",
+      "name": "피즈",
+      "cost": 4,
+      "role": "APReaper",
+      "rawTagDamage2": 190.0,
+      "fallbackBaseDamage2": 75.0,
+      "baseDamage2Used": 190.0,
+      "mechanismBonus2": 0.0,
+      "totalCastDamage2": 760.0,
+      "singleTargetEquiv2": 760.0,
+      "targetCountUsed": 1.0,
+      "multipliers": {
+        "projectile": 1.0,
+        "repeat": 4.0,
+        "summon": 1.0,
+        "duration": 0.0,
+        "bonusAD": 0.0,
+        "decayingAS": 0.0,
+        "extraArrows": 0.0,
+        "descRepeatHint2": 4.0,
+        "descTargetHint2": 1.0
+      },
+      "meta": {
+        "baseSource": "tag",
+        "damageTagCount": 2,
+        "confidence": 0.58
+      }
+    },
+    {
+      "apiName": "TFT16_Diana",
+      "name": "다이애나 ",
+      "cost": 4,
+      "role": "APReaper",
+      "rawTagDamage2": 400.0,
+      "fallbackBaseDamage2": 125.0,
+      "baseDamage2Used": 400.0,
+      "mechanismBonus2": 0.0,
+      "totalCastDamage2": 400.0,
+      "singleTargetEquiv2": 400.0,
+      "targetCountUsed": 1.0,
+      "multipliers": {
+        "projectile": 1.0,
+        "repeat": 1.0,
+        "summon": 1.0,
+        "duration": 0.0,
+        "bonusAD": 0.0,
+        "decayingAS": 0.0,
+        "extraArrows": 0.0,
+        "descRepeatHint2": 1.0,
+        "descTargetHint2": 1.0
+      },
+      "meta": {
+        "baseSource": "tag",
+        "damageTagCount": 2,
+        "confidence": 0.55
+      }
+    },
+    {
+      "apiName": "TFT16_Taric",
+      "name": "타릭",
+      "cost": 4,
+      "role": "APTank",
+      "rawTagDamage2": 300.0,
+      "fallbackBaseDamage2": 200.0,
+      "baseDamage2Used": 300.0,
+      "mechanismBonus2": 0.0,
+      "totalCastDamage2": 600.0,
+      "singleTargetEquiv2": 600.0,
+      "targetCountUsed": 1.0,
+      "multipliers": {
+        "projectile": 2.0,
+        "repeat": 1.0,
+        "summon": 1.0,
+        "duration": 0.0,
+        "bonusAD": 0.0,
+        "decayingAS": 0.0,
+        "extraArrows": 0.0,
+        "descRepeatHint2": 2.0,
+        "descTargetHint2": 1.0
+      },
+      "meta": {
+        "baseSource": "tag",
+        "damageTagCount": 1,
+        "confidence": 0.56
+      }
+    },
+    {
+      "apiName": "TFT16_RiftHerald",
+      "name": "협곡의 전령 ",
+      "cost": 4,
+      "role": "APTank",
+      "rawTagDamage2": 269.0,
+      "fallbackBaseDamage2": 100.0,
+      "baseDamage2Used": 269.0,
+      "mechanismBonus2": 0.0,
+      "totalCastDamage2": 269.0,
+      "singleTargetEquiv2": 269.0,
+      "targetCountUsed": 1.0,
+      "multipliers": {
+        "projectile": 1.0,
+        "repeat": 1.0,
+        "summon": 1.0,
+        "duration": 4.0,
+        "bonusAD": 0.0,
+        "decayingAS": 0.0,
+        "extraArrows": 0.0,
+        "descRepeatHint2": 1.0,
+        "descTargetHint2": 1.0
+      },
+      "meta": {
+        "baseSource": "tag",
+        "damageTagCount": 1,
+        "confidence": 0.55
+      }
+    },
+    {
+      "apiName": "TFT16_Swain",
+      "name": "스웨인",
+      "cost": 4,
+      "role": "APTank",
+      "rawTagDamage2": 180.0,
+      "fallbackBaseDamage2": 20.0,
+      "baseDamage2Used": 180.0,
+      "mechanismBonus2": 0.0,
+      "totalCastDamage2": 180.0,
+      "singleTargetEquiv2": 180.0,
+      "targetCountUsed": 1.0,
+      "multipliers": {
+        "projectile": 1.0,
+        "repeat": 1.0,
+        "summon": 1.0,
+        "duration": 0.0,
+        "bonusAD": 0.0,
+        "decayingAS": 0.0,
+        "extraArrows": 0.0,
+        "descRepeatHint2": 1.0,
+        "descTargetHint2": 1.0
+      },
+      "meta": {
+        "baseSource": "tag",
+        "damageTagCount": 2,
+        "confidence": 0.55
+      }
+    },
+    {
+      "apiName": "TFT16_Nasus",
+      "name": "나서스 ",
+      "cost": 4,
+      "role": "APTank",
+      "rawTagDamage2": 712.0,
+      "fallbackBaseDamage2": 0.0,
+      "baseDamage2Used": 712.0,
+      "mechanismBonus2": 0.0,
+      "totalCastDamage2": 712.0,
+      "singleTargetEquiv2": 178.0,
+      "targetCountUsed": 4.0,
+      "multipliers": {
+        "projectile": 1.0,
+        "repeat": 1.0,
+        "summon": 1.0,
+        "duration": 8.0,
+        "bonusAD": 0.0,
+        "decayingAS": 0.0,
+        "extraArrows": 0.0,
+        "descRepeatHint2": 1.0,
+        "descTargetHint2": 4.0
+      },
+      "meta": {
+        "baseSource": "tag",
+        "damageTagCount": 2,
+        "confidence": 0.6
+      }
+    },
+    {
+      "apiName": "TFT16_Braum",
+      "name": "브라움",
+      "cost": 4,
+      "role": "APTank",
+      "rawTagDamage2": 43.0,
+      "fallbackBaseDamage2": 15.0,
+      "baseDamage2Used": 43.0,
+      "mechanismBonus2": 0.0,
+      "totalCastDamage2": 43.0,
+      "singleTargetEquiv2": 43.0,
+      "targetCountUsed": 1.0,
+      "multipliers": {
+        "projectile": 1.0,
+        "repeat": 1.0,
+        "summon": 1.0,
+        "duration": 4.0,
+        "bonusAD": 0.0,
+        "decayingAS": 0.0,
+        "extraArrows": 0.0,
+        "descRepeatHint2": 1.0,
+        "descTargetHint2": 1.0
+      },
+      "meta": {
+        "baseSource": "tag",
+        "damageTagCount": 1,
+        "confidence": 0.55
+      }
+    },
+    {
+      "apiName": "TFT16_Singed",
+      "name": "신지드",
+      "cost": 4,
+      "role": "APTank",
+      "rawTagDamage2": 18.0,
+      "fallbackBaseDamage2": 0.0,
+      "baseDamage2Used": 18.0,
+      "mechanismBonus2": 0.0,
+      "totalCastDamage2": 18.0,
+      "singleTargetEquiv2": 18.0,
+      "targetCountUsed": 1.0,
+      "multipliers": {
+        "projectile": 1.0,
+        "repeat": 1.0,
+        "summon": 1.0,
+        "duration": 0.0,
+        "bonusAD": 0.0,
+        "decayingAS": 0.0,
+        "extraArrows": 0.0,
+        "descRepeatHint2": 1.0,
+        "descTargetHint2": 1.0
+      },
+      "meta": {
+        "baseSource": "tag",
+        "damageTagCount": 1,
+        "confidence": 0.55
+      }
+    },
+    {
+      "apiName": "TFT16_Yone",
+      "name": "요네",
+      "cost": 4,
+      "role": "HFighter",
+      "rawTagDamage2": 1530.0,
+      "fallbackBaseDamage2": 0.0,
+      "baseDamage2Used": 1530.0,
+      "mechanismBonus2": 0.0,
+      "totalCastDamage2": 1530.0,
+      "singleTargetEquiv2": 1530.0,
+      "targetCountUsed": 1.0,
+      "multipliers": {
+        "projectile": 1.0,
+        "repeat": 1.0,
+        "summon": 1.0,
+        "duration": 0.0,
+        "bonusAD": 0.0,
+        "decayingAS": 0.0,
+        "extraArrows": 0.0,
+        "descRepeatHint2": 1.0,
+        "descTargetHint2": 1.0
+      },
+      "meta": {
+        "baseSource": "tag",
+        "damageTagCount": 6,
+        "confidence": 0.55
+      }
+    },
+    {
+      "apiName": "TFT16_Kindred",
+      "name": "킨드레드",
+      "cost": 5,
+      "role": "ADCarry",
+      "rawTagDamage2": 38.0,
+      "fallbackBaseDamage2": 25.0,
+      "baseDamage2Used": 38.0,
+      "mechanismBonus2": 68.4,
+      "totalCastDamage2": 106.4,
+      "singleTargetEquiv2": 106.4,
+      "targetCountUsed": 1.0,
+      "multipliers": {
+        "projectile": 1.0,
+        "repeat": 1.0,
+        "summon": 1.0,
+        "duration": 2.5,
+        "bonusAD": 0.0,
+        "decayingAS": 0.0,
+        "extraArrows": 1.0,
+        "descRepeatHint2": 1.0,
+        "descTargetHint2": 1.0
+      },
+      "meta": {
+        "baseSource": "tag",
+        "damageTagCount": 1,
+        "confidence": 0.6
+      }
+    },
+    {
+      "apiName": "TFT16_Lucian",
+      "name": "루시안과 세나",
+      "cost": 5,
+      "role": "ADCaster",
+      "rawTagDamage2": 132.0,
+      "fallbackBaseDamage2": 75.0,
+      "baseDamage2Used": 132.0,
+      "mechanismBonus2": 0.0,
+      "totalCastDamage2": 132.0,
+      "singleTargetEquiv2": 132.0,
+      "targetCountUsed": 1.0,
+      "multipliers": {
+        "projectile": 1.0,
+        "repeat": 1.0,
+        "summon": 1.0,
+        "duration": 3.0,
+        "bonusAD": 0.0,
+        "decayingAS": 0.0,
+        "extraArrows": 0.0,
+        "descRepeatHint2": 1.0,
+        "descTargetHint2": 1.0
+      },
+      "meta": {
+        "baseSource": "tag",
+        "damageTagCount": 1,
+        "confidence": 0.55
+      }
+    },
+    {
+      "apiName": "TFT16_Volibear",
+      "name": "볼리베어 ",
+      "cost": 5,
+      "role": "ADFighter",
+      "rawTagDamage2": 806.0,
+      "fallbackBaseDamage2": 0.0,
+      "baseDamage2Used": 806.0,
+      "mechanismBonus2": 0.0,
+      "totalCastDamage2": 4030.0,
+      "singleTargetEquiv2": 4030.0,
+      "targetCountUsed": 1.0,
+      "multipliers": {
+        "projectile": 5.0,
+        "repeat": 1.0,
+        "summon": 1.0,
+        "duration": 0.0,
+        "bonusAD": 0.0,
+        "decayingAS": 0.0,
+        "extraArrows": 0.0,
+        "descRepeatHint2": 5.0,
+        "descTargetHint2": 1.0
+      },
+      "meta": {
+        "baseSource": "tag",
+        "damageTagCount": 3,
+        "confidence": 0.59
+      }
+    },
+    {
+      "apiName": "TFT16_Aatrox",
+      "name": "아트록스 ",
+      "cost": 5,
+      "role": "ADFighter",
+      "rawTagDamage2": 798.0,
+      "fallbackBaseDamage2": 95.0,
+      "baseDamage2Used": 798.0,
+      "mechanismBonus2": 0.0,
+      "totalCastDamage2": 798.0,
+      "singleTargetEquiv2": 798.0,
+      "targetCountUsed": 1.0,
+      "multipliers": {
+        "projectile": 1.0,
+        "repeat": 1.0,
+        "summon": 1.0,
+        "duration": 0.0,
+        "bonusAD": 0.0,
+        "decayingAS": 0.0,
+        "extraArrows": 0.0,
+        "descRepeatHint2": 1.0,
+        "descTargetHint2": 1.0
+      },
+      "meta": {
+        "baseSource": "tag",
+        "damageTagCount": 3,
+        "confidence": 0.55
+      }
+    },
+    {
+      "apiName": "TFT16_THex",
+      "name": "T-헥스",
+      "cost": 5,
+      "role": "ADFighter",
+      "rawTagDamage2": 611.0,
+      "fallbackBaseDamage2": 360.0,
+      "baseDamage2Used": 611.0,
+      "mechanismBonus2": 0.0,
+      "totalCastDamage2": 2444.0,
+      "singleTargetEquiv2": 611.0,
+      "targetCountUsed": 4.0,
+      "multipliers": {
+        "projectile": 4.0,
+        "repeat": 1.0,
+        "summon": 1.0,
+        "duration": 0.0,
+        "bonusAD": 0.0,
+        "decayingAS": 0.0,
+        "extraArrows": 0.0,
+        "descRepeatHint2": 4.0,
+        "descTargetHint2": 4.0
+      },
+      "meta": {
+        "baseSource": "tag",
+        "damageTagCount": 2,
+        "confidence": 0.63
+      }
+    },
+    {
+      "apiName": "TFT16_Shyvana",
+      "name": "쉬바나",
+      "cost": 5,
+      "role": "ADFighter",
+      "rawTagDamage2": 455.0,
+      "fallbackBaseDamage2": 0.0,
+      "baseDamage2Used": 455.0,
+      "mechanismBonus2": 0.0,
+      "totalCastDamage2": 455.0,
+      "singleTargetEquiv2": 455.0,
+      "targetCountUsed": 1.0,
+      "multipliers": {
+        "projectile": 1.0,
+        "repeat": 1.0,
+        "summon": 1.0,
+        "duration": 0.0,
+        "bonusAD": 0.0,
+        "decayingAS": 0.0,
+        "extraArrows": 0.0,
+        "descRepeatHint2": 1.0,
+        "descTargetHint2": 1.0
+      },
+      "meta": {
+        "baseSource": "tag",
+        "damageTagCount": 2,
+        "confidence": 0.55
+      }
+    },
+    {
+      "apiName": "TFT16_Ziggs",
+      "name": "직스 ",
+      "cost": 5,
+      "role": "APCarry",
+      "rawTagDamage2": 1045.0,
+      "fallbackBaseDamage2": 0.0,
+      "baseDamage2Used": 1045.0,
+      "mechanismBonus2": 0.0,
+      "totalCastDamage2": 1045.0,
+      "singleTargetEquiv2": 1045.0,
+      "targetCountUsed": 1.0,
+      "multipliers": {
+        "projectile": 1.0,
+        "repeat": 1.0,
+        "summon": 1.0,
+        "duration": 0.0,
+        "bonusAD": 0.0,
+        "decayingAS": 0.0,
+        "extraArrows": 0.0,
+        "descRepeatHint2": 1.0,
+        "descTargetHint2": 1.0
+      },
+      "meta": {
+        "baseSource": "tag",
+        "damageTagCount": 3,
+        "confidence": 0.55
+      }
+    },
+    {
+      "apiName": "TFT16_Azir",
+      "name": "아지르",
+      "cost": 5,
+      "role": "APCarry",
+      "rawTagDamage2": 255.0,
+      "fallbackBaseDamage2": 100.0,
+      "baseDamage2Used": 255.0,
+      "mechanismBonus2": 0.0,
+      "totalCastDamage2": 765.0,
+      "singleTargetEquiv2": 765.0,
+      "targetCountUsed": 1.0,
+      "multipliers": {
+        "projectile": 3.0,
+        "repeat": 1.0,
+        "summon": 1.0,
+        "duration": 90.0,
+        "bonusAD": 0.0,
+        "decayingAS": 0.0,
+        "extraArrows": 0.0,
+        "descRepeatHint2": 3.0,
+        "descTargetHint2": 1.0
+      },
+      "meta": {
+        "baseSource": "tag",
+        "damageTagCount": 2,
+        "confidence": 0.57
+      }
+    },
+    {
+      "apiName": "TFT16_Mel",
+      "name": "멜 ",
+      "cost": 5,
+      "role": "APCaster",
+      "rawTagDamage2": 2200.0,
+      "fallbackBaseDamage2": 65.0,
+      "baseDamage2Used": 2200.0,
+      "mechanismBonus2": 0.0,
+      "totalCastDamage2": 4400.0,
+      "singleTargetEquiv2": 4400.0,
+      "targetCountUsed": 1.0,
+      "multipliers": {
+        "projectile": 2.0,
+        "repeat": 1.0,
+        "summon": 1.0,
+        "duration": 0.0,
+        "bonusAD": 0.0,
+        "decayingAS": 0.0,
+        "extraArrows": 0.0,
+        "descRepeatHint2": 2.0,
+        "descTargetHint2": 1.0
+      },
+      "meta": {
+        "baseSource": "tag",
+        "damageTagCount": 3,
+        "confidence": 0.56
+      }
+    },
+    {
+      "apiName": "TFT16_Annie",
+      "name": "애니",
+      "cost": 5,
+      "role": "APCaster",
+      "rawTagDamage2": 2610.0,
+      "fallbackBaseDamage2": 1500.0,
+      "baseDamage2Used": 2610.0,
+      "mechanismBonus2": 0.0,
+      "totalCastDamage2": 2610.0,
+      "singleTargetEquiv2": 2610.0,
+      "targetCountUsed": 1.0,
+      "multipliers": {
+        "projectile": 1.0,
+        "repeat": 1.0,
+        "summon": 1.0,
+        "duration": 0.0,
+        "bonusAD": 0.0,
+        "decayingAS": 0.0,
+        "extraArrows": 0.0,
+        "descRepeatHint2": 1.0,
+        "descTargetHint2": 1.0
+      },
+      "meta": {
+        "baseSource": "tag",
+        "damageTagCount": 2,
+        "confidence": 0.55
+      }
+    },
+    {
+      "apiName": "TFT16_Xerath",
+      "name": "제라스 ",
+      "cost": 5,
+      "role": "APCaster",
+      "rawTagDamage2": 650.0,
+      "fallbackBaseDamage2": 390.0,
+      "baseDamage2Used": 650.0,
+      "mechanismBonus2": 0.0,
+      "totalCastDamage2": 6500.0,
+      "singleTargetEquiv2": 1625.0,
+      "targetCountUsed": 4.0,
+      "multipliers": {
+        "projectile": 10.0,
+        "repeat": 1.0,
+        "summon": 1.0,
+        "duration": 0.0,
+        "bonusAD": 0.0,
+        "decayingAS": 0.0,
+        "extraArrows": 0.0,
+        "descRepeatHint2": 10.0,
+        "descTargetHint2": 4.0
+      },
+      "meta": {
+        "baseSource": "tag",
+        "damageTagCount": 1,
+        "confidence": 0.69
+      }
+    },
+    {
+      "apiName": "TFT16_Zilean",
+      "name": "질리언",
+      "cost": 5,
+      "role": "APCaster",
+      "rawTagDamage2": 360.0,
+      "fallbackBaseDamage2": 90.0,
+      "baseDamage2Used": 360.0,
+      "mechanismBonus2": 0.0,
+      "totalCastDamage2": 360.0,
+      "singleTargetEquiv2": 360.0,
+      "targetCountUsed": 1.0,
+      "multipliers": {
+        "projectile": 1.0,
+        "repeat": 1.0,
+        "summon": 1.0,
+        "duration": 0.0,
+        "bonusAD": 0.0,
+        "decayingAS": 0.0,
+        "extraArrows": 0.0,
+        "descRepeatHint2": 1.0,
+        "descTargetHint2": 1.0
+      },
+      "meta": {
+        "baseSource": "tag",
+        "damageTagCount": 2,
+        "confidence": 0.55
+      }
+    },
+    {
+      "apiName": "TFT16_Sett",
+      "name": "세트",
+      "cost": 5,
+      "role": "APFighter",
+      "rawTagDamage2": 359.0,
+      "fallbackBaseDamage2": 220.0,
+      "baseDamage2Used": 359.0,
+      "mechanismBonus2": 0.0,
+      "totalCastDamage2": 359.0,
+      "singleTargetEquiv2": 359.0,
+      "targetCountUsed": 1.0,
+      "multipliers": {
+        "projectile": 1.0,
+        "repeat": 1.0,
+        "summon": 1.0,
+        "duration": 0.0,
+        "bonusAD": 0.0,
+        "decayingAS": 0.0,
+        "extraArrows": 0.0,
+        "descRepeatHint2": 1.0,
+        "descTargetHint2": 1.0
+      },
+      "meta": {
+        "baseSource": "tag",
+        "damageTagCount": 2,
+        "confidence": 0.55
+      }
+    },
+    {
+      "apiName": "TFT16_Thresh",
+      "name": "쓰레쉬 ",
+      "cost": 5,
+      "role": "APFighter",
+      "rawTagDamage2": 200.0,
+      "fallbackBaseDamage2": 100.0,
+      "baseDamage2Used": 200.0,
+      "mechanismBonus2": 0.0,
+      "totalCastDamage2": 200.0,
+      "singleTargetEquiv2": 200.0,
+      "targetCountUsed": 1.0,
+      "multipliers": {
+        "projectile": 1.0,
+        "repeat": 1.0,
+        "summon": 1.0,
+        "duration": 0.0,
+        "bonusAD": 0.0,
+        "decayingAS": 0.0,
+        "extraArrows": 0.0,
+        "descRepeatHint2": 1.0,
+        "descTargetHint2": 1.0
+      },
+      "meta": {
+        "baseSource": "tag",
+        "damageTagCount": 2,
+        "confidence": 0.55
+      }
+    },
+    {
+      "apiName": "TFT16_Fiddlesticks",
+      "name": "피들스틱",
+      "cost": 5,
+      "role": "APReaper",
+      "rawTagDamage2": 150.0,
+      "fallbackBaseDamage2": 0.0,
+      "baseDamage2Used": 150.0,
+      "mechanismBonus2": 0.0,
+      "totalCastDamage2": 150.0,
+      "singleTargetEquiv2": 75.0,
+      "targetCountUsed": 2.0,
+      "multipliers": {
+        "projectile": 1.0,
+        "repeat": 1.0,
+        "summon": 1.0,
+        "duration": 0.0,
+        "bonusAD": 0.0,
+        "decayingAS": 0.0,
+        "extraArrows": 0.0,
+        "descRepeatHint2": 1.0,
+        "descTargetHint2": 2.0
+      },
+      "meta": {
+        "baseSource": "tag",
+        "damageTagCount": 1,
+        "confidence": 0.6
+      }
+    },
+    {
+      "apiName": "TFT16_TahmKench",
+      "name": "탐 켄치",
+      "cost": 5,
+      "role": "APTank",
+      "rawTagDamage2": 3300.0,
+      "fallbackBaseDamage2": 1200.0,
+      "baseDamage2Used": 3300.0,
+      "mechanismBonus2": 0.0,
+      "totalCastDamage2": 3300.0,
+      "singleTargetEquiv2": 3300.0,
+      "targetCountUsed": 1.0,
+      "multipliers": {
+        "projectile": 1.0,
+        "repeat": 1.0,
+        "summon": 1.0,
+        "duration": 0.0,
+        "bonusAD": 0.0,
+        "decayingAS": 0.0,
+        "extraArrows": 0.0,
+        "descRepeatHint2": 1.0,
+        "descTargetHint2": 1.0
+      },
+      "meta": {
+        "baseSource": "tag",
+        "damageTagCount": 2,
+        "confidence": 0.55
+      }
+    },
+    {
+      "apiName": "TFT16_Galio",
+      "name": "갈리오",
+      "cost": 5,
+      "role": "APTank",
+      "rawTagDamage2": 712.0,
+      "fallbackBaseDamage2": 0.0,
+      "baseDamage2Used": 712.0,
+      "mechanismBonus2": 0.0,
+      "totalCastDamage2": 2136.0,
+      "singleTargetEquiv2": 2136.0,
+      "targetCountUsed": 1.0,
+      "multipliers": {
+        "projectile": 1.0,
+        "repeat": 3.0,
+        "summon": 1.0,
+        "duration": 0.0,
+        "bonusAD": 0.0,
+        "decayingAS": 0.0,
+        "extraArrows": 0.0,
+        "descRepeatHint2": 3.0,
+        "descTargetHint2": 1.0
+      },
+      "meta": {
+        "baseSource": "tag",
+        "damageTagCount": 2,
+        "confidence": 0.57
+      }
+    },
+    {
+      "apiName": "TFT16_Ornn",
+      "name": "오른",
+      "cost": 5,
+      "role": "APTank",
+      "rawTagDamage2": 375.0,
+      "fallbackBaseDamage2": 100.0,
+      "baseDamage2Used": 375.0,
+      "mechanismBonus2": 0.0,
+      "totalCastDamage2": 375.0,
+      "singleTargetEquiv2": 375.0,
+      "targetCountUsed": 1.0,
+      "multipliers": {
+        "projectile": 1.0,
+        "repeat": 1.0,
+        "summon": 1.0,
+        "duration": 0.0,
+        "bonusAD": 0.0,
+        "decayingAS": 0.0,
+        "extraArrows": 0.0,
+        "descRepeatHint2": 1.0,
+        "descTargetHint2": 1.0
+      },
+      "meta": {
+        "baseSource": "tag",
+        "damageTagCount": 2,
+        "confidence": 0.55
+      }
+    },
+    {
+      "apiName": "TFT16_Zaahen",
+      "name": "자헨",
+      "cost": 7,
+      "role": "ADFighter",
+      "rawTagDamage2": 561.0,
+      "fallbackBaseDamage2": 90.0,
+      "baseDamage2Used": 561.0,
+      "mechanismBonus2": 0.0,
+      "totalCastDamage2": 12342.0,
+      "singleTargetEquiv2": 12342.0,
+      "targetCountUsed": 1.0,
+      "multipliers": {
+        "projectile": 22.0,
+        "repeat": 1.0,
+        "summon": 1.0,
+        "duration": 0.0,
+        "bonusAD": 0.0,
+        "decayingAS": 0.0,
+        "extraArrows": 0.0,
+        "descRepeatHint2": 22.0,
+        "descTargetHint2": 1.0
+      },
+      "meta": {
+        "baseSource": "tag",
+        "damageTagCount": 3,
+        "confidence": 0.65
+      }
+    },
+    {
+      "apiName": "TFT16_Brock",
+      "name": "브록",
+      "cost": 7,
+      "role": "ADFighter",
+      "rawTagDamage2": 670.0,
+      "fallbackBaseDamage2": 0.0,
+      "baseDamage2Used": 670.0,
+      "mechanismBonus2": 0.0,
+      "totalCastDamage2": 8040.0,
+      "singleTargetEquiv2": 8040.0,
+      "targetCountUsed": 1.0,
+      "multipliers": {
+        "projectile": 12.0,
+        "repeat": 1.0,
+        "summon": 1.0,
+        "duration": 0.0,
+        "bonusAD": 0.0,
+        "decayingAS": 0.0,
+        "extraArrows": 0.0,
+        "descRepeatHint2": 12.0,
+        "descTargetHint2": 1.0
+      },
+      "meta": {
+        "baseSource": "tag",
+        "damageTagCount": 2,
+        "confidence": 0.65
+      }
+    },
+    {
+      "apiName": "TFT16_BaronNashor",
+      "name": "내셔 남작",
+      "cost": 7,
+      "role": "ADFighter",
+      "rawTagDamage2": 609.0,
+      "fallbackBaseDamage2": 250.0,
+      "baseDamage2Used": 609.0,
+      "mechanismBonus2": 0.0,
+      "totalCastDamage2": 6090.0,
+      "singleTargetEquiv2": 6090.0,
+      "targetCountUsed": 1.0,
+      "multipliers": {
+        "projectile": 10.0,
+        "repeat": 1.0,
+        "summon": 1.0,
+        "duration": 0.0,
+        "bonusAD": 0.0,
+        "decayingAS": 0.0,
+        "extraArrows": 0.0,
+        "descRepeatHint2": 10.0,
+        "descTargetHint2": 1.0
+      },
+      "meta": {
+        "baseSource": "tag",
+        "damageTagCount": 2,
+        "confidence": 0.64
+      }
+    },
+    {
+      "apiName": "TFT16_AurelionSol",
+      "name": "아우렐리온 솔",
+      "cost": 7,
+      "role": "APCaster",
+      "rawTagDamage2": 2525.0,
+      "fallbackBaseDamage2": 525.0,
+      "baseDamage2Used": 2525.0,
+      "mechanismBonus2": 0.0,
+      "totalCastDamage2": 2525.0,
+      "singleTargetEquiv2": 2525.0,
+      "targetCountUsed": 1.0,
+      "multipliers": {
+        "projectile": 1.0,
+        "repeat": 1.0,
+        "summon": 1.0,
+        "duration": 0.0,
+        "bonusAD": 0.0,
+        "decayingAS": 0.0,
+        "extraArrows": 0.0,
+        "descRepeatHint2": 1.0,
+        "descTargetHint2": 1.0
+      },
+      "meta": {
+        "baseSource": "tag",
+        "damageTagCount": 5,
+        "confidence": 0.55
+      }
+    },
+    {
+      "apiName": "TFT16_Ryze",
+      "name": "라이즈 ",
+      "cost": 7,
+      "role": "APCaster",
+      "rawTagDamage2": 563.0,
+      "fallbackBaseDamage2": 235.0,
+      "baseDamage2Used": 563.0,
+      "mechanismBonus2": 0.0,
+      "totalCastDamage2": 1689.0,
+      "singleTargetEquiv2": 844.5,
+      "targetCountUsed": 2.0,
+      "multipliers": {
+        "projectile": 3.0,
+        "repeat": 1.0,
+        "summon": 1.0,
+        "duration": 0.0,
+        "bonusAD": 0.0,
+        "decayingAS": 0.0,
+        "extraArrows": 0.0,
+        "descRepeatHint2": 3.0,
+        "descTargetHint2": 2.0
+      },
+      "meta": {
+        "baseSource": "tag",
+        "damageTagCount": 3,
+        "confidence": 0.62
+      }
+    },
+    {
+      "apiName": "TFT16_Sylas",
+      "name": "사일러스 ",
+      "cost": 7,
+      "role": "APFighter",
+      "rawTagDamage2": 1875.0,
+      "fallbackBaseDamage2": 0.0,
+      "baseDamage2Used": 1875.0,
+      "mechanismBonus2": 0.0,
+      "totalCastDamage2": 1875.0,
+      "singleTargetEquiv2": 1875.0,
+      "targetCountUsed": 1.0,
+      "multipliers": {
+        "projectile": 1.0,
+        "repeat": 1.0,
+        "summon": 1.0,
+        "duration": 0.0,
+        "bonusAD": 0.0,
+        "decayingAS": 0.0,
+        "extraArrows": 0.0,
+        "descRepeatHint2": 1.0,
+        "descTargetHint2": 1.0
+      },
+      "meta": {
+        "baseSource": "tag",
+        "damageTagCount": 3,
+        "confidence": 0.55
+      }
+    }
+  ]
+}

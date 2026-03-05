@@ -1,0 +1,3423 @@
+{
+  "summary": {
+    "totalTokens": 486,
+    "resolvedTokens": 486,
+    "unresolvedTokens": 0,
+    "resolvedRate": 100.0,
+    "bySource": {
+      "drop_prefix": 3,
+      "exact": 8,
+      "override": 471,
+      "semantic_single": 1,
+      "strip_formula_suffix": 3
+    },
+    "byConfidence": {
+      "high": 485,
+      "medium": 1
+    }
+  },
+  "diagnostics": [
+    {
+      "apiName": "TFT16_Aatrox",
+      "token": "FirstCastModifiedDamage",
+      "variable": "APDamage + ADDamage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Aatrox",
+      "token": "SecondCastModifiedDamage",
+      "variable": "SecondCastPercentDamage*(APDamage + ADDamage)",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Aatrox",
+      "token": "SecondCastStunDuration",
+      "variable": "SecondCastStunDuration",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Aatrox",
+      "token": "SunderDuration",
+      "variable": "SunderDuration",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Aatrox",
+      "token": "ThirdCastExecute*100",
+      "variable": "ThirdCastExecute",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Aatrox",
+      "token": "ThirdCastModifiedDamage",
+      "variable": "ThirdCastPercentDamage*(APDamage + ADDamage)",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Ahri",
+      "token": "ModifiedDamage",
+      "variable": "Damage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Ahri",
+      "token": "NormalNumBolts",
+      "variable": "NormalNumBolts",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Ahri",
+      "token": "NumNearbyEnemies",
+      "variable": "NumNearbyEnemies",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Ahri",
+      "token": "SpecialCastNumBolts",
+      "variable": "SpecialCastNumBolts",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Ambessa",
+      "token": "DamageFalloff*100",
+      "variable": "DamageFalloff",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Ambessa",
+      "token": "ModifiedDamage",
+      "variable": "SlamDamageMultiplier*(APDamage + ADDamage)",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Ambessa",
+      "token": "TankDamageMult*100",
+      "variable": "TankDamageMult",
+      "source": "strip_formula_suffix",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Ambessa",
+      "token": "TotalDamage",
+      "variable": "APDamage + ADDamage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Anivia",
+      "token": "ModifiedDamage",
+      "variable": "Damage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Annie",
+      "token": "DamageDuration",
+      "variable": "DamageDuration",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Annie",
+      "token": "ManaCostReduction",
+      "variable": "ManaCostReduction",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Annie",
+      "token": "ModifiedDamage",
+      "variable": "Damage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Annie",
+      "token": "ModifiedSecondaryDamage",
+      "variable": "SingleTargetDamage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_AnnieTibbers",
+      "token": "AttackSpeed*100",
+      "variable": "AttackSpeed",
+      "source": "strip_formula_suffix",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_AnnieTibbers",
+      "token": "Duration",
+      "variable": "Duration",
+      "source": "exact",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_AnnieTibbers",
+      "token": "ModifiedHeal",
+      "variable": "HealPercentHealth*hp",
+      "source": "semantic_single",
+      "confidence": "medium"
+    },
+    {
+      "apiName": "TFT16_AnnieTibbers",
+      "token": "ModifiedShield",
+      "variable": "Shield",
+      "source": "drop_prefix",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Aphelios",
+      "token": "AttackSpeed*100",
+      "variable": "AttackSpeed",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Aphelios",
+      "token": "ModifiedDamage",
+      "variable": "SeverumADDamage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Aphelios",
+      "token": "ModifiedNumAttacks",
+      "variable": "NumAttacks",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Aphelios",
+      "token": "NumTargets",
+      "variable": "NumTargets",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Aphelios",
+      "token": "Omnivamp*100",
+      "variable": "Omnivamp",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Aphelios",
+      "token": "SunderDuration",
+      "variable": "SunderDuration",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Aphelios",
+      "token": "SunderRatio*100",
+      "variable": "SunderRatio",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Ashe",
+      "token": "Duration",
+      "variable": "Duration",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Ashe",
+      "token": "ModifiedDamage",
+      "variable": "AOEPercent*(APDamage + ADDamage)",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Ashe",
+      "token": "SmallArrowDamageFinal",
+      "variable": "SmallArrowDamage*damage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Ashe",
+      "token": "TFTUnitProperty.:TFT16_Ashe_CurrentArrows",
+      "variable": "0",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Ashe",
+      "token": "TotalDamage",
+      "variable": "APDamage + ADDamage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Ashe",
+      "token": "TrueDamageHealthBreakpoint*100",
+      "variable": "TrueDamageHealthBreakpoint",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Ashe",
+      "token": "TryndASPerArrow*100",
+      "variable": "TryndASPerArrow",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Atakhan",
+      "token": "CleaveHexRange",
+      "variable": "CleaveHexRange",
+      "source": "exact",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Atakhan",
+      "token": "ModifiedCleaveDamage",
+      "variable": "CleaveDamage",
+      "source": "drop_prefix",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Atakhan",
+      "token": "NumAttacksToCleave",
+      "variable": "NumAttacksToCleave",
+      "source": "exact",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Atakhan",
+      "token": "Omnivamp*100",
+      "variable": "Omnivamp",
+      "source": "strip_formula_suffix",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_AurelionSol",
+      "token": "InitialHexRadius",
+      "variable": "InitialHexRadius",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_AurelionSol",
+      "token": "ModifiedDamage",
+      "variable": "Damage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_AurelionSol",
+      "token": "ModifiedThreshold1Damage",
+      "variable": "Threshold1Damage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_AurelionSol",
+      "token": "ModifiedThreshold7Damage",
+      "variable": "Threshold7Damage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_AurelionSol",
+      "token": "StardustPerDamage",
+      "variable": "StardustPerDamage",
+      "source": "exact",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_AurelionSol",
+      "token": "StardustThreshold1",
+      "variable": "StardustThreshold1",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_AurelionSol",
+      "token": "StardustThreshold2",
+      "variable": "StardustThreshold2",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_AurelionSol",
+      "token": "StardustThreshold3",
+      "variable": "StardustThreshold3",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_AurelionSol",
+      "token": "StardustThreshold4",
+      "variable": "StardustThreshold4",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_AurelionSol",
+      "token": "StardustThreshold5",
+      "variable": "StardustThreshold5",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_AurelionSol",
+      "token": "StardustThreshold6",
+      "variable": "StardustThreshold6",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_AurelionSol",
+      "token": "StardustThreshold7",
+      "variable": "StardustThreshold7",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_AurelionSol",
+      "token": "StardustThreshold8",
+      "variable": "StardustThreshold8",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_AurelionSol",
+      "token": "TFTUnitProperty.:TFT16_AurelionSol_Stardust",
+      "variable": "0",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_AurelionSol",
+      "token": "Threshold1Radius",
+      "variable": "Threshold1Radius",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_AurelionSol",
+      "token": "Threshold2DamageIncrease*100",
+      "variable": "Threshold2DamageIncrease",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_AurelionSol",
+      "token": "Threshold3Radius",
+      "variable": "Threshold3Radius",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_AurelionSol",
+      "token": "Threshold4KnockupDuration",
+      "variable": "Threshold4KnockupDuration",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_AurelionSol",
+      "token": "Threshold5Radius",
+      "variable": "Threshold5Radius",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_AurelionSol",
+      "token": "Threshold6BonusDamagePercent*100",
+      "variable": "Threshold6BonusDamagePercent",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Azir",
+      "token": "MaxSummons",
+      "variable": "MaxSummons",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Azir",
+      "token": "ModifiedDamage",
+      "variable": "BaseMagicDamage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Azir",
+      "token": "ModifiedSecondaryDamage",
+      "variable": "MaxSummonsDamage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Bard",
+      "token": "ModifiedDamage",
+      "variable": "Damage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Bard",
+      "token": "NumMissilesBase",
+      "variable": "NumMissilesBase",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Bard",
+      "token": "TFT16_Bard_Num3Stars",
+      "variable": "0",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_BaronNashor",
+      "token": "ModifiedAcidDamage",
+      "variable": "AcidPercentDamage*(APDamage + ADDamage)",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_BaronNashor",
+      "token": "NumAcidToShoot",
+      "variable": "NumAcidToShoot",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_BaronNashor",
+      "token": "TentacleKnockupDuration",
+      "variable": "TentacleKnockupDuration",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_BaronNashor",
+      "token": "TentacleRefreshSeconds",
+      "variable": "TentacleRefreshSeconds",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_BaronNashor",
+      "token": "TotalDamage",
+      "variable": "APDamage + ADDamage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_BelVeth",
+      "token": "ASDuration",
+      "variable": "ASDuration",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_BelVeth",
+      "token": "AttackSpeedOnTakedown*100",
+      "variable": "AttackSpeedOnTakedown",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_BelVeth",
+      "token": "ModifiedAttackSpeed",
+      "variable": "AttackSpeedOnTransform*100%",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_BelVeth",
+      "token": "ModifiedDamage",
+      "variable": "ADDamage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_BelVeth",
+      "token": "PercentMaxHealthGain*100",
+      "variable": "PercentMaxHealthGain",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_BelVeth",
+      "token": "TrueDamageBase",
+      "variable": "TrueDamageBase",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_BelVeth",
+      "token": "TrueDamagePerStack",
+      "variable": "TrueDamagePerStack",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Blitzcrank",
+      "token": "Duration",
+      "variable": "Duration",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Blitzcrank",
+      "token": "HexRadius",
+      "variable": "HexRadius",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Blitzcrank",
+      "token": "ModifiedDamage",
+      "variable": "MRDamageRatio*magicResist",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Blitzcrank",
+      "token": "ModifiedShield",
+      "variable": "Shield",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Braum",
+      "token": "ChillDuration",
+      "variable": "ChillDuration",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Braum",
+      "token": "Duration",
+      "variable": "Duration",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Braum",
+      "token": "ModifiedDamage",
+      "variable": "APDamage + ArmorDamage*armor",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Braum",
+      "token": "ModifiedDurability",
+      "variable": "DamageReduction*100%",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Briar",
+      "token": "BonusAD*100",
+      "variable": "BonusAD",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Briar",
+      "token": "Duration",
+      "variable": "Duration",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Briar",
+      "token": "HexSearchRadius",
+      "variable": "HexSearchRadius",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Briar",
+      "token": "ModifiedAttackSpeed",
+      "variable": "DecayingAttackSpeed*100%",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Brock",
+      "token": "EffectReductionMinimum*100",
+      "variable": "EffectReductionMinimum",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Brock",
+      "token": "EffectReductionPerHex*100",
+      "variable": "EffectReductionPerHex",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Brock",
+      "token": "ModifiedRockDamage",
+      "variable": "RockDamageAD + RockDamageAP",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Brock",
+      "token": "ModifiedSlamDamage",
+      "variable": "SlamDamageBase + SlamDamageHealth*hp",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Brock",
+      "token": "NumRocks",
+      "variable": "NumRocks",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Brock",
+      "token": "PassivePercentAoE*100",
+      "variable": "PassivePercentAoE",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Brock",
+      "token": "StunDuration",
+      "variable": "StunDuration",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Caitlyn",
+      "token": "TotalDamage",
+      "variable": "ADDamage + APDamage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_ChoGath",
+      "token": "KnockupDuration",
+      "variable": "KnockupDuration",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_ChoGath",
+      "token": "ModifiedHeal",
+      "variable": "Heal",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_ChoGath",
+      "token": "TotalDamage",
+      "variable": "PercentMaximumHealthDamage*hp + APDamage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Darius",
+      "token": "BleedDuration",
+      "variable": "BleedDuration",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Darius",
+      "token": "ExecutePercentPerHemorrhage*100",
+      "variable": "ExecutePercentPerHemorrhage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Darius",
+      "token": "ModifiedDamage",
+      "variable": "ADDamage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Darius",
+      "token": "ModifiedSecondaryDamage",
+      "variable": "PhysicalDamagePerSecond",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Darius",
+      "token": "SecondaryExecutePercentPerHemorrhage*100",
+      "variable": "SecondaryExecutePercentPerHemorrhage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Darius",
+      "token": "TotalHealing",
+      "variable": "PercentMaximumHealthHealing*hp + APHealing",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Diana",
+      "token": "HexLimit",
+      "variable": "HexLimit",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Diana",
+      "token": "ModifiedDamage",
+      "variable": "TargetDamage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Diana",
+      "token": "ModifiedSecondaryDamage",
+      "variable": "SecondaryDamage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Diana",
+      "token": "ModifiedShield",
+      "variable": "Shield",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Diana",
+      "token": "MoonlightDamageReduction*100",
+      "variable": "MoonlightDamageReduction",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_DrMundo",
+      "token": "Duration",
+      "variable": "Duration",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_DrMundo",
+      "token": "TotalDamage",
+      "variable": "ADDamage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_DrMundo",
+      "token": "TotalHealing",
+      "variable": "PercentHealthHealingPerSecond*hp + APHealPerSecond",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Draven",
+      "token": "GoldAmount",
+      "variable": "GoldAmount",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Draven",
+      "token": "ModifiedDamage",
+      "variable": "ADDamage + BaseDamage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Draven",
+      "token": "TFTUnitProperty.:TFT16_DravenGoldGenerated",
+      "variable": "0",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Draven",
+      "token": "TFTUnitProperty.:TFT16_DravenTakedownsRemaining",
+      "variable": "9",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Draven",
+      "token": "TotalTakedown",
+      "variable": "TotalTakedown",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Ekko",
+      "token": "BonusMagicDamage",
+      "variable": "BaseBonusMagicDamage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Ekko",
+      "token": "DamageRatio*100",
+      "variable": "DamageRatio",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Ekko",
+      "token": "Duration",
+      "variable": "Duration",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Ekko",
+      "token": "HexRange",
+      "variable": "HexRange",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Ekko",
+      "token": "MagicDamage",
+      "variable": "BaseMagicDamage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Fiddlesticks",
+      "token": "AOERadius",
+      "variable": "AOERadius",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Fiddlesticks",
+      "token": "FearDuration",
+      "variable": "FearDuration",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Fiddlesticks",
+      "token": "ManaLossPerSecond",
+      "variable": "ManaLossPerSecond",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Fiddlesticks",
+      "token": "ModifiedDamagePerSecond",
+      "variable": "DamagePerSecond",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Fiddlesticks",
+      "token": "NearestBonusDamage*100",
+      "variable": "NearestBonusDamage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Fiddlesticks",
+      "token": "NearestEnemies",
+      "variable": "NearestEnemies",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Fiddlesticks",
+      "token": "SlotSearchRadius",
+      "variable": "SlotSearchRadius",
+      "source": "exact",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Fizz",
+      "token": "ASBoost*100",
+      "variable": "ASBoost",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Fizz",
+      "token": "HexRange",
+      "variable": "HexRange",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Fizz",
+      "token": "ModifiedAttackDamage",
+      "variable": "DamageOnHit",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Fizz",
+      "token": "ModifiedDamage",
+      "variable": "Damage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Fizz",
+      "token": "NumAttacks",
+      "variable": "NumAttacks",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Galio",
+      "token": "BonusPassiveDamage",
+      "variable": "PassiveMRRatio*magicResist",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Galio",
+      "token": "ModifiedActiveDamage",
+      "variable": "ActiveMRDamage*magicResist",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Galio",
+      "token": "ModifiedShield",
+      "variable": "Shield",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Galio",
+      "token": "NumAttacks",
+      "variable": "NumAttacks",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Galio",
+      "token": "ShieldDuration",
+      "variable": "ShieldDuration",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Gangplank",
+      "token": "ArmorReduction",
+      "variable": "ArmorReduction",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Gangplank",
+      "token": "CritArmorReduction",
+      "variable": "CritArmorReduction",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Gangplank",
+      "token": "FalloffDamage*100",
+      "variable": "FalloffDamage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Gangplank",
+      "token": "TotalDamage",
+      "variable": "ADDamage + APDamage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Garen",
+      "token": "ArmorMRReduction",
+      "variable": "ArmorMRReduction",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Garen",
+      "token": "Durability*100",
+      "variable": "Durability",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Garen",
+      "token": "ModifiedDamage",
+      "variable": "ADDamage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Garen",
+      "token": "ModifiedHeal",
+      "variable": "PercentHealthHeal*hp + APHeal",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Garen",
+      "token": "SpinDuration",
+      "variable": "SpinDuration",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Graves",
+      "token": "AttackDamageMultiplier*100",
+      "variable": "AttackDamageMultiplier",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Graves",
+      "token": "TotalDamage",
+      "variable": "ADDamage + APDamage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Gwen",
+      "token": "ModifiedCastSnipTimes",
+      "variable": "SnipCount",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Gwen",
+      "token": "ModifiedDamage",
+      "variable": "Damage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Gwen",
+      "token": "ModifiedSecondaryDamage",
+      "variable": "SecondaryMagicDamage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Illaoi",
+      "token": "ModifiedDamage",
+      "variable": "Damage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Illaoi",
+      "token": "ModifiedHeal",
+      "variable": "APHeal + PercentHealthHeal*hp",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_JarvanIV",
+      "token": "AttackSpeedDuration",
+      "variable": "AttackSpeedDuration",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_JarvanIV",
+      "token": "ModifiedAttackSpeed",
+      "variable": "AttackSpeed*100%",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_JarvanIV",
+      "token": "ModifiedShield",
+      "variable": "Shield",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_JarvanIV",
+      "token": "ShieldDuration",
+      "variable": "ShieldDuration",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Jhin",
+      "token": "FourthShotDamageMult*100",
+      "variable": "FourthShotDamageMult",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Jhin",
+      "token": "SpellFixedAS",
+      "variable": "SpellFixedAS",
+      "source": "exact",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Jhin",
+      "token": "TotalDamage",
+      "variable": "ADDamage + APDamage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Jinx",
+      "token": "NumAttacks",
+      "variable": "NumAttacks",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Jinx",
+      "token": "NumMissiles",
+      "variable": "NumMissiles",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Jinx",
+      "token": "TotalDamage",
+      "variable": "ADDamage + APDamage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Kaisa",
+      "token": "NumMissiles",
+      "variable": "NumMissiles",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Kaisa",
+      "token": "NumTargets",
+      "variable": "NumTargets",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Kaisa",
+      "token": "TotalDamage",
+      "variable": "APDamage + ADDamage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Kalista",
+      "token": "ArmorReduction",
+      "variable": "ArmorReduction",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Kalista",
+      "token": "NumberOfEnemies",
+      "variable": "NumberOfEnemies",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Kalista",
+      "token": "TotalDamage",
+      "variable": "ADDamage + APDamage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Kalista",
+      "token": "TotalNumberOfSpears",
+      "variable": "BaseSpears",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Kennen",
+      "token": "BoltLimit",
+      "variable": "BoltLimit",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Kennen",
+      "token": "DuplicateStunReduction*100",
+      "variable": "DuplicateStunReduction",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Kennen",
+      "token": "Duration",
+      "variable": "Duration",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Kennen",
+      "token": "MaxStuns",
+      "variable": "MaxStuns",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Kennen",
+      "token": "ModifiedDamage",
+      "variable": "Damage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Kennen",
+      "token": "ModifiedShield",
+      "variable": "Shield",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Kennen",
+      "token": "NumBolts",
+      "variable": "NumBolts",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Kennen",
+      "token": "StunDuration",
+      "variable": "StunDuration",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Kindred",
+      "token": "Duration",
+      "variable": "Duration",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Kindred",
+      "token": "HexRadius",
+      "variable": "HexRadius",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Kindred",
+      "token": "ModifiedDamage",
+      "variable": "ADDamage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Kindred",
+      "token": "ModifiedHealPercentage",
+      "variable": "HealPercentage*100%",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Kindred",
+      "token": "ModifiedShieldAmount",
+      "variable": "ShieldAmount",
+      "source": "drop_prefix",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Kobuko",
+      "token": "ASDuration",
+      "variable": "ASDuration",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Kobuko",
+      "token": "ModifiedHeal",
+      "variable": "YuumiHeal",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Kobuko",
+      "token": "ModifiedSelfHeal",
+      "variable": "SelfHealHealthPercent*hp + SelfHealAP",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Kobuko",
+      "token": "SelfHealDuration",
+      "variable": "SelfHealDuration",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Kobuko",
+      "token": "YuumiAS",
+      "variable": "YuumiAS",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Kobuko",
+      "token": "YuumiCadence",
+      "variable": "YuumiCadence",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_KogMaw",
+      "token": "ArmorReduction",
+      "variable": "ArmorReduction",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_KogMaw",
+      "token": "ModifiedDamage",
+      "variable": "Damage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_KogMaw",
+      "token": "PercentToSecondaryEnemies*100",
+      "variable": "PercentToSecondaryEnemies",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Leblanc",
+      "token": "ModifiedDamage",
+      "variable": "Damage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Leblanc",
+      "token": "ModifiedNumTargets",
+      "variable": "NumTargets",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Leblanc",
+      "token": "ModifiedSecondaryDamage",
+      "variable": "SecondaryDamage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Leblanc",
+      "token": "NumTargets",
+      "variable": "NumTargets",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Leblanc",
+      "token": "StunDuration",
+      "variable": "StunDuration",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Leona",
+      "token": "DianaAP",
+      "variable": "DianaAP",
+      "source": "exact",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Leona",
+      "token": "IgniteDuration",
+      "variable": "IgniteDuration",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Leona",
+      "token": "ModifiedDamage",
+      "variable": "Damage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Leona",
+      "token": "ModifiedDamageReduction",
+      "variable": "FlatDR",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Leona",
+      "token": "NumEnemies",
+      "variable": "NumEnemies",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Leona",
+      "token": "StunDuration",
+      "variable": "StunDuration",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Lissandra",
+      "token": "DamageAmpChilledTargets*100",
+      "variable": "DamageAmpChilledTargets",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Lissandra",
+      "token": "ModifiedDamage",
+      "variable": "TargetDamage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Lissandra",
+      "token": "ModifiedSecondaryDamage",
+      "variable": "SecondaryDamage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Lissandra",
+      "token": "NumOverkillEnemies",
+      "variable": "NumOverkillEnemies",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Lissandra",
+      "token": "StunDuration",
+      "variable": "StunDuration",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Loris",
+      "token": "KnockupDuration",
+      "variable": "KnockupDuration",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Loris",
+      "token": "ModifiedDamage",
+      "variable": "Damage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Loris",
+      "token": "ModifiedShield",
+      "variable": "Shield",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Loris",
+      "token": "ShieldDuration",
+      "variable": "ShieldDuration",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Lucian",
+      "token": "TotalDamage",
+      "variable": "APDamage + ADDamage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Lucian",
+      "token": "TotalNumShots",
+      "variable": "NumShots",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Lulu",
+      "token": "ModifiedDamage",
+      "variable": "Damage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Lulu",
+      "token": "ModifiedSecondaryDamage",
+      "variable": "SecondaryDamage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Lulu",
+      "token": "StunDuration",
+      "variable": "StunDuration",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Lux",
+      "token": "ModifiedDamage",
+      "variable": "PrimaryDamage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Lux",
+      "token": "ModifiedDamage_Q",
+      "variable": "QDamage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Lux",
+      "token": "ModifiedSecondaryDamage",
+      "variable": "SecondaryDamage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Lux",
+      "token": "NumQTargets",
+      "variable": "NumQTargets",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Lux",
+      "token": "StunDuration",
+      "variable": "StunDuration",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Malzahar",
+      "token": "ModifiedDamage",
+      "variable": "Damage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Malzahar",
+      "token": "NumAttacks",
+      "variable": "NumAttacks",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Malzahar",
+      "token": "NumMinions",
+      "variable": "NumMinions",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Mel",
+      "token": "FinalExplosionHexRadius",
+      "variable": "FinalExplosionHexRadius",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Mel",
+      "token": "ManaAmount",
+      "variable": "ManaAmount",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Mel",
+      "token": "ManaDrainPerSecond",
+      "variable": "ManaDrainPerSecond",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Mel",
+      "token": "ModifiedDamage",
+      "variable": "PassiveDamage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Mel",
+      "token": "ModifiedSecondaryDamage",
+      "variable": "ExplosionDamage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Mel",
+      "token": "ModifiedTargetDamage",
+      "variable": "TargetDamage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Mel",
+      "token": "NumOfOrbs",
+      "variable": "NumOfOrbs",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Mel",
+      "token": "TFTUnitProperty.:TFT16_Mel_ManaSpent",
+      "variable": "0",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Milio",
+      "token": "HexRange",
+      "variable": "HexRange",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Milio",
+      "token": "ModifiedAOEDamage",
+      "variable": "MagicDamageAOE",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Milio",
+      "token": "ModifiedDamage",
+      "variable": "MagicDamage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Milio",
+      "token": "NumBounces",
+      "variable": "NumBounces",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_MissFortune",
+      "token": "AutoRicochetMutliplier*100",
+      "variable": "AutoRicochetMutliplier",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_MissFortune",
+      "token": "BaseNumWaves",
+      "variable": "BaseNumWaves",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_MissFortune",
+      "token": "ModifiedSecondaryDamage",
+      "variable": "PercentDamageOfSecondaryWaves*(APDamage + ADDamage)",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_MissFortune",
+      "token": "NumCaststoGainExtraWave",
+      "variable": "NumCaststoGainExtraWave",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_MissFortune",
+      "token": "TotalDamage",
+      "variable": "APDamage + ADDamage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Nasus",
+      "token": "Duration",
+      "variable": "Duration",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Nasus",
+      "token": "ModifiedDamagePerSecond",
+      "variable": "PercentHealthDamagePerSecond*hp",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Nasus",
+      "token": "ModifiedHealthSteal",
+      "variable": "HealthSteal",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Nasus",
+      "token": "NumEnemies",
+      "variable": "NumEnemies",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Nasus",
+      "token": "Resists",
+      "variable": "Resists",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Nautilus",
+      "token": "ModifiedDamage",
+      "variable": "MRDamageRatio*magicResist",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Nautilus",
+      "token": "ModifiedShield",
+      "variable": "APShield + PercentHealthShield*hp",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Nautilus",
+      "token": "PassiveTimer",
+      "variable": "PassiveTimer",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Nautilus",
+      "token": "ShieldDuration",
+      "variable": "ShieldDuration",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Neeko",
+      "token": "ChillDuration",
+      "variable": "ChillDuration",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Neeko",
+      "token": "ModifiedDamage",
+      "variable": "Damage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Neeko",
+      "token": "ModifiedShield",
+      "variable": "Shield",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Neeko",
+      "token": "ShieldDuration",
+      "variable": "ShieldDuration",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Nidalee",
+      "token": "DamageReductionPerCast*100",
+      "variable": "DamageReductionPerCast",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Nidalee",
+      "token": "FighterDamageMult*100",
+      "variable": "FighterDamageMult",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Nidalee",
+      "token": "ModifiedDamage",
+      "variable": "TargetDamage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Nidalee",
+      "token": "ModifiedSecondaryDamage",
+      "variable": "SecondaryDamage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Nidalee",
+      "token": "TankDamageMult*100",
+      "variable": "TankDamageMult",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Orianna",
+      "token": "ModifiedDamage",
+      "variable": "TargetDamage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Orianna",
+      "token": "ModifiedSecondaryDamage",
+      "variable": "ExplosionDamage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Orianna",
+      "token": "ModifiedShield",
+      "variable": "Shield",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Orianna",
+      "token": "ShieldDuration",
+      "variable": "ShieldDuration",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Ornn",
+      "token": "ModifiedDamage",
+      "variable": "Damage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Ornn",
+      "token": "ModifiedSecondaryDamage",
+      "variable": "SecondaryDamage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Ornn",
+      "token": "SlowDuration",
+      "variable": "SlowDuration",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Poppy",
+      "token": "AllyShieldAmount*100",
+      "variable": "AllyShieldAmount",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Poppy",
+      "token": "ModifiedDamage",
+      "variable": "PrimaryDamage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Poppy",
+      "token": "ModifiedShield",
+      "variable": "ShieldAmt",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Poppy",
+      "token": "NumShieldedAllies",
+      "variable": "NumShieldedAllies",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Poppy",
+      "token": "ShieldDuration",
+      "variable": "ShieldDuration",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Qiyana",
+      "token": "HexDistance",
+      "variable": "HexDistance",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Qiyana",
+      "token": "TotalDamage",
+      "variable": "ADDamage + APDamage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_RekSai",
+      "token": "EnemySearchDistance",
+      "variable": "EnemySearchDistance",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_RekSai",
+      "token": "ModifiedSecondaryDamage",
+      "variable": "SpellAttackDamage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_RekSai",
+      "token": "NumAttacks",
+      "variable": "NumAttacks",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_RekSai",
+      "token": "TotalDamage",
+      "variable": "APDamage + ADDamage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Renekton",
+      "token": "BaseSlashTimes",
+      "variable": "BaseSlashTimes",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Renekton",
+      "token": "DashRange",
+      "variable": "DashRange",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Renekton",
+      "token": "ModifiedDashDamage",
+      "variable": "DashADDamage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Renekton",
+      "token": "ModifiedSlashDamage",
+      "variable": "SlashADDamage + SlashAPDamage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Renekton",
+      "token": "NumIncreasePerCastBreakpoint",
+      "variable": "NumIncreasePerCastBreakpoint",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_RiftHerald",
+      "token": "BonusHealth",
+      "variable": "BonusHealth",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_RiftHerald",
+      "token": "DurabilityPerEnemy*100",
+      "variable": "DurabilityPerEnemy",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_RiftHerald",
+      "token": "Duration",
+      "variable": "Duration",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_RiftHerald",
+      "token": "HexRange",
+      "variable": "HexRange",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_RiftHerald",
+      "token": "ModifiedDamage",
+      "variable": "APDamage + PercentHealthDamage*hp",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_RiftHerald",
+      "token": "ModifiedDurability",
+      "variable": "BonusDurability*100%",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Rumble",
+      "token": "Duration",
+      "variable": "Duration",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Rumble",
+      "token": "ModifiedShield",
+      "variable": "APShield",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Rumble",
+      "token": "TotalDamage",
+      "variable": "PercentArmorDamage*armor",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Ryze",
+      "token": "BilgewaterExplosionPercent*100",
+      "variable": "BilgewaterExplosionPercent",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Ryze",
+      "token": "ExplorerProcRate",
+      "variable": "ExplorerProcRate",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Ryze",
+      "token": "FreljordChillDuration",
+      "variable": "FreljordChillDuration",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Ryze",
+      "token": "IoniaDamageReduction*100",
+      "variable": "IoniaDamageReduction",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Ryze",
+      "token": "ModifiedDamage",
+      "variable": "Damage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Ryze",
+      "token": "ModifiedDemaciaExecuteThreshold",
+      "variable": "DemaciaExecuteThreshold*100%",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Ryze",
+      "token": "ModifiedFreljordTrueDamage",
+      "variable": "FreljordTrueDamagePercentHealth*hp",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Ryze",
+      "token": "ModifiedShadowIslesBonusDamage",
+      "variable": "ShadowIslesBasePercentage*100%",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Ryze",
+      "token": "ModifiedZaunTicks",
+      "variable": "ZaunBaseTicks",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Ryze",
+      "token": "NoxusPercentDamageReduction*100",
+      "variable": "NoxusPercentDamageReduction",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Ryze",
+      "token": "PiltoverOverchargePercentBonus*100",
+      "variable": "PiltoverOverchargePercentBonus",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Ryze",
+      "token": "ShurimaKnockUpDuration",
+      "variable": "ShurimaKnockUpDuration",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Ryze",
+      "token": "SplitPercentDamage*100",
+      "variable": "SplitPercentDamage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Ryze",
+      "token": "TargonHealPercent*100",
+      "variable": "TargonHealPercent",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Ryze",
+      "token": "VoidResistIgnore*100",
+      "variable": "VoidResistIgnore",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Ryze",
+      "token": "YordleDamageReductionDuration",
+      "variable": "YordleDamageReductionDuration",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Ryze",
+      "token": "YordleDamageReductionPercent*100",
+      "variable": "YordleDamageReductionPercent",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Ryze",
+      "token": "ZaunDamage",
+      "variable": "ZaunDamage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Ryze",
+      "token": "ZaunPoisonDuration",
+      "variable": "ZaunPoisonDuration",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Sejuani",
+      "token": "ChillDuration",
+      "variable": "ChillDuration",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Sejuani",
+      "token": "ModifiedDamage",
+      "variable": "Damage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Sejuani",
+      "token": "ModifiedShield",
+      "variable": "Shield",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Sejuani",
+      "token": "ShieldDuration",
+      "variable": "ShieldDuration",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Sejuani",
+      "token": "StunDuration",
+      "variable": "StunDuration",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Seraphine",
+      "token": "BigCastDamageFalloff*100",
+      "variable": "BigCastDamageFalloff",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Seraphine",
+      "token": "CastBreakpoint",
+      "variable": "CastBreakpoint",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Seraphine",
+      "token": "CrystalsPerCast",
+      "variable": "CrystalsPerCast",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Seraphine",
+      "token": "ModifiedBigCastDamage",
+      "variable": "BigCastDamage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Seraphine",
+      "token": "ModifiedBigCastHeal",
+      "variable": "BigCastHeal",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Seraphine",
+      "token": "ModifiedDamagePerCrystal",
+      "variable": "DamagePerCrystal",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Sett",
+      "token": "AoERadius",
+      "variable": "AoERadius",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Sett",
+      "token": "ModifiedDamage",
+      "variable": "FlatAPDamage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Sett",
+      "token": "ModifiedPercentOfTargetMaxHealth",
+      "variable": "PercentOfTargetMaxHealth*100%",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Sett",
+      "token": "PercentAoEDamage*100",
+      "variable": "PercentAoEDamage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Shen",
+      "token": "Duration",
+      "variable": "Duration",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Shen",
+      "token": "ModifiedShield",
+      "variable": "Shield",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Shyvana",
+      "token": "ModifiedDivebombDamage",
+      "variable": "DivebombADDamage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Shyvana",
+      "token": "ModifiedFireDamagePerSecond",
+      "variable": "FireDamageAPPerSecond + FireDamagetADDamagePerSecond",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Shyvana",
+      "token": "SpellDuration",
+      "variable": "SpellDuration",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Shyvana",
+      "token": "TransformDurability*100",
+      "variable": "TransformDurability",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Shyvana",
+      "token": "TransformHealth",
+      "variable": "TransformHealth",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Singed",
+      "token": "ArmorMR",
+      "variable": "ArmorMR",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Singed",
+      "token": "ModifiedDamagePerSecond",
+      "variable": "DamagePerSecond",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Singed",
+      "token": "ModifiedHealPerSecond",
+      "variable": "HealPerSecond",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Singed",
+      "token": "ModifiedManaPerSec",
+      "variable": "ManaPercentAS",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Singed",
+      "token": "PoisonCloudDuration",
+      "variable": "PoisonCloudDuration",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Singed",
+      "token": "SpellDuration",
+      "variable": "SpellDuration",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Sion",
+      "token": "HealthPerTakedown",
+      "variable": "HealthPerTakedown",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Sion",
+      "token": "ModifiedDamage",
+      "variable": "DamagePercentHealth*hp",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Sion",
+      "token": "ModifiedShield",
+      "variable": "PercentHealthShield*hp + APShield",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Sion",
+      "token": "ShieldDuration",
+      "variable": "ShieldDuration",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Sion",
+      "token": "TFTUnitProperty.:TFT16_Sion_BonusHealth",
+      "variable": "0",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Skarner",
+      "token": "ArmorForAllies",
+      "variable": "ArmorForAllies",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Skarner",
+      "token": "ImpaleDuration",
+      "variable": "ImpaleDuration",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Skarner",
+      "token": "ModifiedDamage",
+      "variable": "DamagePercentArmor*armor",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Skarner",
+      "token": "ModifiedShield",
+      "variable": "ShieldAmount",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Skarner",
+      "token": "ShieldDuration",
+      "variable": "ShieldDuration",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Sona",
+      "token": "ModifiedDamage",
+      "variable": "Damage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Sona",
+      "token": "ModifiedHeal",
+      "variable": "HealAmount",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Sona",
+      "token": "NumEnemies",
+      "variable": "NumEnemies",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Swain",
+      "token": "ModifiedDamage",
+      "variable": "PassiveDamage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Swain",
+      "token": "ModifiedHandDamage",
+      "variable": "ActiveDamage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Swain",
+      "token": "StunDuration",
+      "variable": "StunDuration",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Swain",
+      "token": "TotalHealing",
+      "variable": "PercentMaximumHealthHealing*hp + APHealing",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Sylas",
+      "token": "GarenExecute*100",
+      "variable": "GarenExecute",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Sylas",
+      "token": "JarvanStunDuration",
+      "variable": "JarvanStunDuration",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Sylas",
+      "token": "ModifiedGarenDamage",
+      "variable": "GarenDamage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Sylas",
+      "token": "ModifiedJarvanDamage",
+      "variable": "JarvanDamage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Sylas",
+      "token": "ModifiedLuxDamage",
+      "variable": "LuxDamage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Sylas",
+      "token": "ModifiedShield",
+      "variable": "LuxShield",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Sylas",
+      "token": "ShieldDuration",
+      "variable": "ShieldDuration",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_THex",
+      "token": "LaserFalloffCap*100",
+      "variable": "LaserFalloffCap",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_THex",
+      "token": "LaserFalloffPerTarget*100",
+      "variable": "LaserFalloffPerTarget",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_THex",
+      "token": "ManaCostPerSecond",
+      "variable": "ManaCostPerSecond",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_THex",
+      "token": "ModifiedLaserDamagePerSecond",
+      "variable": "ADDamage + APDamage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_THex",
+      "token": "ModifiedMissileDamage",
+      "variable": "MissileDamageMult*(ADDamage + APDamage)",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_THex",
+      "token": "ModifiedMissilesPerSecond",
+      "variable": "MissilesPerSecond",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_THex",
+      "token": "ModifiedShield",
+      "variable": "BaseShield + PercentHealthShield*hp",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_THex",
+      "token": "NumBullets",
+      "variable": "NumBullets",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_THex",
+      "token": "RocketNumClosestEnemies",
+      "variable": "RocketNumClosestEnemies",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_TahmKench",
+      "token": "BellyDuration",
+      "variable": "BellyDuration",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_TahmKench",
+      "token": "DamageReduction*100",
+      "variable": "DamageReduction",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_TahmKench",
+      "token": "ModifiedDamage",
+      "variable": "Damage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_TahmKench",
+      "token": "ReducedModifiedDamage",
+      "variable": "ReducedDamageToCC",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Taric",
+      "token": "InvunerabilityDuration",
+      "variable": "InvunerabilityDuration",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Taric",
+      "token": "InvunerabilityHealthThreshold*100",
+      "variable": "InvunerabilityHealthThreshold",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Taric",
+      "token": "MRForAllies",
+      "variable": "MRForAllies",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Taric",
+      "token": "ModifiedAllyShield",
+      "variable": "AllyShield",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Taric",
+      "token": "ModifiedDamage",
+      "variable": "BonusDamage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Taric",
+      "token": "ModifiedShield",
+      "variable": "TaricShield",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Taric",
+      "token": "NumAlliesToShield",
+      "variable": "NumAlliesToShield",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Taric",
+      "token": "NumEmpoweredAttacks",
+      "variable": "NumEmpoweredAttacks",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Taric",
+      "token": "PassiveHeal",
+      "variable": "PassiveHeal",
+      "source": "exact",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Taric",
+      "token": "ShieldDuration",
+      "variable": "ShieldDuration",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Teemo",
+      "token": "DOTDuration",
+      "variable": "DOtDuration",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Teemo",
+      "token": "ModifiedDamage",
+      "variable": "PrimaryDamage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Teemo",
+      "token": "ModifiedDamagePerSecond",
+      "variable": "DamagePerSecond",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Thresh",
+      "token": "HealthDrainPercentHeal*100",
+      "variable": "HealthDrainPercentHeal",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Thresh",
+      "token": "MinEnemiesInTheBox",
+      "variable": "MinEnemiesInTheBox",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Thresh",
+      "token": "ModifiedDamage",
+      "variable": "TheBoxDamage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Thresh",
+      "token": "ModifiedHealthDrain",
+      "variable": "APPassiveDamage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Thresh",
+      "token": "TheBoxDuration",
+      "variable": "TheBoxDuration",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Tristana",
+      "token": "HexKnockback",
+      "variable": "HexKnockback",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Tristana",
+      "token": "KnockbackRadius",
+      "variable": "KnockbackRadius",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Tristana",
+      "token": "TotalDamage",
+      "variable": "ADDamage + APDamage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Tryndamere",
+      "token": "ArmorIgnore*100",
+      "variable": "ArmorIgnore",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Tryndamere",
+      "token": "AttackSpeed_MustMatchTFT16_Tryndamere_PassiveAS*100",
+      "variable": "AttackSpeed_MustMatchTFT16_Tryndamere_PassiveAS",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Tryndamere",
+      "token": "Duration",
+      "variable": "Duration",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Tryndamere",
+      "token": "ModifiedDamage",
+      "variable": "ADDamage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Tryndamere",
+      "token": "ModifiedDurability",
+      "variable": "DR*100%",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Tryndamere",
+      "token": "TFTUnitProperty.:TFT16_Tryndamere_PassiveAS*100",
+      "variable": "10",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Tryndamere",
+      "token": "TryndASBoostFromAshe*100",
+      "variable": "TryndASBoostFromAshe",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_TwistedFate",
+      "token": "FalloffDamage*100",
+      "variable": "FalloffDamage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_TwistedFate",
+      "token": "ModifiedBonusAPDamage",
+      "variable": "BonusAPDamage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_TwistedFate",
+      "token": "ModifiedDamage",
+      "variable": "BaseDamage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_TwistedFate",
+      "token": "NumAttacks",
+      "variable": "NumAttacks",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Vayne",
+      "token": "TotalDamage",
+      "variable": "APDamage + ADDamage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Veigar",
+      "token": "APPerKill",
+      "variable": "APPerKill",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Veigar",
+      "token": "IncreasedAPRatio*100",
+      "variable": "IncreasedAPRatio",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Veigar",
+      "token": "ModifiedDamage",
+      "variable": "Damage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Veigar",
+      "token": "NumMeteors",
+      "variable": "NumMeteors",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Veigar",
+      "token": "TFTUnitProperty.:TFT16_Unit_VeigarBonusAP",
+      "variable": "0",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Vi",
+      "token": "HexRange",
+      "variable": "HexRange",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Vi",
+      "token": "KnockupDuration",
+      "variable": "KnockupDuration",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Vi",
+      "token": "ModifiedDamage",
+      "variable": "ADDamage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Vi",
+      "token": "ModifiedSecondaryDamage",
+      "variable": "SecondaryADDamage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Vi",
+      "token": "ModifiedShield",
+      "variable": "Shield",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Vi",
+      "token": "ShieldDuration",
+      "variable": "ShieldDuration",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Vi",
+      "token": "ThirdCastHexRange",
+      "variable": "ThirdCastHexRange",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Viego",
+      "token": "ModifiedAttackSpeed",
+      "variable": "BaseAttackSpeed",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Viego",
+      "token": "ModifiedDamage",
+      "variable": "ADDamage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Viego",
+      "token": "ModifiedStackingDamage",
+      "variable": "StackingDamage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Volibear",
+      "token": "BoltCadence",
+      "variable": "BoltCadence",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Volibear",
+      "token": "CastsToTransform",
+      "variable": "CastsToTransform",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Volibear",
+      "token": "ModifiedBiteDamage",
+      "variable": "BiteDamageBase + BiteDamageHealth*hp",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Volibear",
+      "token": "ModifiedBoltDamage",
+      "variable": "StormbringerBoltHealth*hp + StormbringerBoltBase",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Volibear",
+      "token": "ModifiedSlamDamage",
+      "variable": "SlamDamageMultiplier*(BiteDamageBase + BiteDamageHealth*hp)",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Volibear",
+      "token": "PercentDamageIncrease*100",
+      "variable": "PercentDamageIncrease",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Volibear",
+      "token": "StormbringerAS*100",
+      "variable": "StormbringerAS",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Volibear",
+      "token": "StormbringerBonusHealth",
+      "variable": "StormbringerBonusHealth",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Warwick",
+      "token": "AllyBuffDuration",
+      "variable": "AllyBuffDuration",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Warwick",
+      "token": "AttackSpeed*100",
+      "variable": "AttackSpeed",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Warwick",
+      "token": "ModifiedDamage",
+      "variable": "ADDamage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Warwick",
+      "token": "ModifiedTakedownAttackSpeed",
+      "variable": "AllyAttackSpeed*100%",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Warwick",
+      "token": "Omnivamp*100",
+      "variable": "Omnivamp",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Wukong",
+      "token": "ModifiedCloneHealth",
+      "variable": "SummonMaxHealthPercent*hp + SummonFlatHealth",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Wukong",
+      "token": "ModifiedDamage",
+      "variable": "ADDamage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Wukong",
+      "token": "ModifiedDefenses",
+      "variable": "Resists",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Xerath",
+      "token": "ModifiedDamage",
+      "variable": "Damage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Xerath",
+      "token": "NumberOfBlasts",
+      "variable": "NumberOfBlasts",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Xerath",
+      "token": "SpellRangeInEnemies",
+      "variable": "SpellRangeInEnemies",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_XinZhao",
+      "token": "ModifiedDamage",
+      "variable": "ADDamage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_XinZhao",
+      "token": "ModifiedHeal",
+      "variable": "Heal",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_XinZhao",
+      "token": "StunDuration",
+      "variable": "StunDuration",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Yasuo",
+      "token": "TotalDamage",
+      "variable": "ADDamage + APDamage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Yasuo",
+      "token": "YasuoADPercent*100",
+      "variable": "YasuoADPercent",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Yone",
+      "token": "KnockupDuration",
+      "variable": "KnockupDuration",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Yone",
+      "token": "ModifiedBasicAttackADDamage",
+      "variable": "BasicAttackADDamage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Yone",
+      "token": "ModifiedBasicAttackAPDamage",
+      "variable": "BasicAttackAPDamage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Yone",
+      "token": "ModifiedPerTargetDamage",
+      "variable": "PerTargetADDamage + PerTargetAPDamage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Yone",
+      "token": "ModifiedStrikeDamage",
+      "variable": "StrikeADDamage + StrikeAPDamage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Yone",
+      "token": "TooltipHexRange",
+      "variable": "TooltipHexRange",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Yorick",
+      "token": "DebuffDuration",
+      "variable": "DebuffDuration",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Yorick",
+      "token": "ManaCostRaise",
+      "variable": "ManaCostRaise",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Yorick",
+      "token": "ModifiedDamage",
+      "variable": "PercentHealthDamage*hp + FlatDamage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Yorick",
+      "token": "ModifiedHeal",
+      "variable": "APHeal",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Yunara",
+      "token": "BonusCritDamage*100",
+      "variable": "BonusCritDamage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Yunara",
+      "token": "BuffDuration",
+      "variable": "BuffDuration",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Yunara",
+      "token": "DamageReductionPerEnemyHit*100",
+      "variable": "DamageReductionPerEnemyHit",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Yunara",
+      "token": "ModifiedAttackSpeed",
+      "variable": "AttackSpeed*100%",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Yunara",
+      "token": "ModifiedDamage",
+      "variable": "ADDamage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Zaahen",
+      "token": "CastsToUlt",
+      "variable": "CastsToUlt",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Zaahen",
+      "token": "ModifiedBigAOEDamage",
+      "variable": "BigAOEDamageMultiplier*(ADDamage + APDamage)",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Zaahen",
+      "token": "ModifiedDamage",
+      "variable": "AOEDamageMultiplier*(ADDamage + APDamage)",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Zaahen",
+      "token": "TotalDamage",
+      "variable": "ADDamage + APDamage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Ziggs",
+      "token": "BABounceNumber",
+      "variable": "BABounceNumber",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Ziggs",
+      "token": "BombAOERange",
+      "variable": "BombAOERange",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Ziggs",
+      "token": "ModifiedBasicAttackDamage",
+      "variable": "BAPercentAP",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Ziggs",
+      "token": "ModifiedMaxDamage",
+      "variable": "MaxAOEDamage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Ziggs",
+      "token": "ModifiedMinDamage",
+      "variable": "MinAOEDamage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Zilean",
+      "token": "ManaOnKill",
+      "variable": "ManaOnKill",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Zilean",
+      "token": "MaxDurationBeforeKill",
+      "variable": "MaxDurationBeforeKill",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Zilean",
+      "token": "ModifiedDamage",
+      "variable": "MagicDamage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Zilean",
+      "token": "ModifiedSecondaryDamage",
+      "variable": "ExplosionDamage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Zoe",
+      "token": "ModifiedDamage",
+      "variable": "Damage",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Zoe",
+      "token": "NumEnemies",
+      "variable": "NumEnemies",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Zoe",
+      "token": "ShredDuration",
+      "variable": "ShredDuration",
+      "source": "override",
+      "confidence": "high"
+    },
+    {
+      "apiName": "TFT16_Zoe",
+      "token": "SlowDuration",
+      "variable": "SlowDuration",
+      "source": "override",
+      "confidence": "high"
+    }
+  ]
+}
