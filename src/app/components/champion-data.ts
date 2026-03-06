@@ -39,8 +39,8 @@ type ResultPayload = {
 
 export type Role = string;
 
-const ROLE_AD = "AD 한글";
-const ROLE_AP = "AP 영어";
+const ROLE_AD = "AD 딜러";
+const ROLE_AP = "AP 딜러";
 const ROLE_TANK = "Tank";
 
 const TANK_DATA = tankScoringRaw as ResultPayload;

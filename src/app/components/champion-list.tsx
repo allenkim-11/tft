@@ -166,7 +166,7 @@ export function ChampionList() {
                 }}
               >
                 <span>{ROLE_ICONS[role] ?? "🏷️"}</span>
-                <span>{role}322222</span>
+                <span>{role}</span>
               </button>
             );
           })}
